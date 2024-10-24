@@ -2,9 +2,9 @@ name: Sync Repositories
 
 on:
   workflow_dispatch:
-#  push:
-#    branches:
-#      - preview
+  push:
+    branches:
+      - preview
 
 env:
   SOURCE_BRANCH_NAME: ${{ github.ref_name }}

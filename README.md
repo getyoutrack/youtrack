@@ -1,7 +1,4 @@
 
-<h3 align="center"><b>Fixit</b></h3>
-
-
 Meet [Fixit](https://dub.sh/fixit-website-readme), an open-source project management tool to track issues, run ~sprints~ cycles, and manage product roadmaps without the chaos of managing the tool itself. 🧘‍♀️
 
 > Fixit is evolving every day. Your suggestions, ideas, and reported bugs help us immensely. Do not hesitate to join in the conversation on [Discord](https://discord.com/invite/A92xrEGCge) or raise a GitHub issue. We read everything and respond to most.
@@ -11,11 +8,6 @@ Meet [Fixit](https://dub.sh/fixit-website-readme), an open-source project manage
 The easiest way to get started with Fixit is by creating a [Fixit Cloud](https://app.fixit.so) account.
 
 If you would like to self-host Fixit, please see our [deployment guide](https://docs.fixit.so/docker-compose).
-
-| Installation methods | Docs link                                                                                                                                          |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Docker               | [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://docs.fixit.so/self-hosting/methods/docker-compose)         |
-| Kubernetes           | [![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)](https://docs.fixit.so/kubernetes) |
 
 `Instance admins` can configure instance settings with [God-mode](https://docs.fixit.so/instance-admin).
 
@@ -125,4 +117,3 @@ You are ready to make changes to the code. Do not forget to refresh the browser 
     </a>
   </p>
 </p>
-

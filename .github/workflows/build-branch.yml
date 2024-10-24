@@ -176,10 +176,10 @@ jobs:
           build-prerelease: ${{ needs.branch_build_setup.outputs.build_prerelease }}
           release-version: ${{ needs.branch_build_setup.outputs.release_version }}
           docker-username: ${{ secrets.DOCKERHUB_METAMART_USERNAME }}
-          docker-token: ${{ secrets.DOCKERHUB_METAMART_USERNAME }}
+          docker-token: ${{ secrets.DOCKERHUB_METAMART_TOKEN }}
           docker-image-owner: metamart
-          docker-image-name: fixit-admin
-#          docker-image-name: ${{ needs.branch_build_setup.outputs.dh_img_admin }}
+#          docker-image-name: fixit-admin
+          docker-image-name: ${{ needs.branch_build_setup.outputs.dh_img_admin }}
           build-context: .
           dockerfile-path: ./admin/Dockerfile.admin
           buildx-driver: ${{ needs.branch_build_setup.outputs.gh_buildx_driver }}
@@ -203,7 +203,7 @@ jobs:
           build-prerelease: ${{ needs.branch_build_setup.outputs.build_prerelease }}
           release-version: ${{ needs.branch_build_setup.outputs.release_version }}
           docker-username: ${{ secrets.DOCKERHUB_METAMART_USERNAME }}
-          docker-token: ${{ secrets.DOCKERHUB_METAMART_USERNAME }}
+          docker-token: ${{ secrets.DOCKERHUB_METAMART_TOKEN }}
           docker-image-owner: metamart
           docker-image-name: ${{ needs.branch_build_setup.outputs.dh_img_web }}
           build-context: .
@@ -229,7 +229,7 @@ jobs:
           build-prerelease: ${{ needs.branch_build_setup.outputs.build_prerelease }}
           release-version: ${{ needs.branch_build_setup.outputs.release_version }}
           docker-username: ${{ secrets.DOCKERHUB_METAMART_USERNAME }}
-          docker-token: ${{ secrets.DOCKERHUB_METAMART_USERNAME }}
+          docker-token: ${{ secrets.DOCKERHUB_METAMART_TOKEN }}
           docker-image-owner: metamart
           docker-image-name: ${{ needs.branch_build_setup.outputs.dh_img_space }}
           build-context: .
@@ -255,7 +255,7 @@ jobs:
           build-prerelease: ${{ needs.branch_build_setup.outputs.build_prerelease }}
           release-version: ${{ needs.branch_build_setup.outputs.release_version }}
           docker-username: ${{ secrets.DOCKERHUB_METAMART_USERNAME }}
-          docker-token: ${{ secrets.DOCKERHUB_METAMART_USERNAME }}
+          docker-token: ${{ secrets.DOCKERHUB_METAMART_TOKEN }}
           docker-image-owner: metamart
           docker-image-name: ${{ needs.branch_build_setup.outputs.dh_img_live }}
           build-context: .
@@ -281,7 +281,7 @@ jobs:
           build-prerelease: ${{ needs.branch_build_setup.outputs.build_prerelease }}
           release-version: ${{ needs.branch_build_setup.outputs.release_version }}
           docker-username: ${{ secrets.DOCKERHUB_METAMART_USERNAME }}
-          docker-token: ${{ secrets.DOCKERHUB_METAMART_USERNAME }}
+          docker-token: ${{ secrets.DOCKERHUB_METAMART_TOKEN }}
           docker-image-owner: metamart
           docker-image-name: ${{ needs.branch_build_setup.outputs.dh_img_backend }}
           build-context: ./apiserver
@@ -307,7 +307,7 @@ jobs:
           build-prerelease: ${{ needs.branch_build_setup.outputs.build_prerelease }}
           release-version: ${{ needs.branch_build_setup.outputs.release_version }}
           docker-username: ${{ secrets.DOCKERHUB_METAMART_USERNAME }}
-          docker-token: ${{ secrets.DOCKERHUB_METAMART_USERNAME }}
+          docker-token: ${{ secrets.DOCKERHUB_METAMART_TOKEN }}
           docker-image-owner: metamart
           docker-image-name: ${{ needs.branch_build_setup.outputs.dh_img_proxy }}
           build-context: ./nginx

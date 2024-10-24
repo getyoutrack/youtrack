@@ -4,9 +4,9 @@ import { observer } from "mobx-react";
 // components
 import { PageHead } from "@/components/core";
 // hooks
+import { WorkspaceActiveCyclesRoot } from "@/fixit-web/components/active-cycles";
 import { useWorkspace } from "@/hooks/store";
 // fixit web components
-import { WorkspaceActiveCyclesRoot } from "@/fixit-web/components/active-cycles";
 
 const WorkspaceActiveCyclesPage = observer(() => {
   const { currentWorkspace } = useWorkspace();

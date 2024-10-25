@@ -48,7 +48,7 @@ jobs:
             echo "BUILDX_DRIVER=cloud" >> $GITHUB_OUTPUT
             echo "BUILDX_VERSION=lab:latest" >> $GITHUB_OUTPUT
             echo "BUILDX_PLATFORMS=linux/amd64,linux/arm64" >> $GITHUB_OUTPUT
-            echo "BUILDX_ENDPOINT=youtrack/youtrack-dev" >> $GITHUB_OUTPUT
+            echo "BUILDX_ENDPOINT=digitranshq/digitrans-dev" >> $GITHUB_OUTPUT
 
             echo "AIO_BASE_TAG=latest" >> $GITHUB_OUTPUT
           else

@@ -1,5 +1,5 @@
-// fixit web constants
-import { EEstimateSystem } from "@/fixit-web/constants/estimates";
+// youtrack web constants
+import { EEstimateSystem } from "@/youtrack-web/constants/estimates";
 
 export const isEstimatePointValuesRepeated = (
   estimatePoints: string[],

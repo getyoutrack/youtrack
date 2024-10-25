@@ -6,9 +6,9 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { Layers, Lock } from "lucide-react";
 // types
-import { IIssueDisplayFilterOptions, IIssueDisplayProperties, IIssueFilterOptions } from "@fixit/types";
+import { IIssueDisplayFilterOptions, IIssueDisplayProperties, IIssueFilterOptions } from "@youtrack/types";
 // ui
-import { Breadcrumbs, Button, CustomMenu, Tooltip, Header } from "@fixit/ui";
+import { Breadcrumbs, Button, CustomMenu, Tooltip, Header } from "@youtrack/ui";
 // components
 import { BreadcrumbLink, Logo } from "@/components/common";
 import { DisplayFiltersSelection, FiltersDropdown, FilterSelection, LayoutSelection } from "@/components/issues";
@@ -36,7 +36,7 @@ import {
   useProjectView,
   useUserPermissions,
 } from "@/hooks/store";
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 export const ProjectViewIssuesHeader: React.FC = observer(() => {
   // router

@@ -13,7 +13,7 @@ import {
   TInboxIssuePaginationInfo,
   TInboxIssueSortingOrderByQueryParam,
   TInboxForm,
-} from "@fixit/types";
+} from "@youtrack/types";
 // helpers
 import { EInboxIssueCurrentTab, EInboxIssueStatus, EPastDurationFilters, getCustomDates } from "@/helpers/inbox.helper";
 // services

@@ -1,10 +1,10 @@
 "use client";
 
 import { useRef, useEffect } from "react";
-// fixit editor
-import { IMentionSuggestion } from "@fixit/editor";
-// fixit types
-import { IUser, IUserLite } from "@fixit/types";
+// youtrack editor
+import { IMentionSuggestion } from "@youtrack/editor";
+// youtrack types
+import { IUser, IUserLite } from "@youtrack/types";
 // helpers
 import { getFileURL } from "@/helpers/file.helper";
 // hooks

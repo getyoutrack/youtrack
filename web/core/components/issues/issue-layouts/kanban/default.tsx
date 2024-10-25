@@ -11,9 +11,9 @@ import {
   TIssueKanbanFilters,
   TIssueGroupByOptions,
   TIssueOrderByOptions,
-} from "@fixit/types";
+} from "@youtrack/types";
 // constants
-import { ContentWrapper } from "@fixit/ui";
+import { ContentWrapper } from "@youtrack/ui";
 // components
 import RenderIfVisible from "@/components/core/render-if-visible-HOC";
 import { KanbanColumnLoader } from "@/components/ui";

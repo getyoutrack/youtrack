@@ -1,6 +1,6 @@
 import { X } from "lucide-react";
-// fixit types
-import { TPageVersion } from "@fixit/types";
+// youtrack types
+import { TPageVersion } from "@youtrack/types";
 // components
 import { PageVersionsSidebarList } from "@/components/pages";
 

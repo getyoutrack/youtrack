@@ -1,7 +1,7 @@
 import clone from "lodash/clone";
 import set from "lodash/set";
 import { makeObservable, observable, runInAction, action } from "mobx";
-import { TIssue, TInboxIssue, TInboxIssueStatus, TInboxDuplicateIssueDetails } from "@fixit/types";
+import { TIssue, TInboxIssue, TInboxIssueStatus, TInboxDuplicateIssueDetails } from "@youtrack/types";
 // helpers
 import { EInboxIssueStatus } from "@/helpers/inbox.helper";
 // services

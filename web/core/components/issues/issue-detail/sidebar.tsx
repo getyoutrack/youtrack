@@ -4,7 +4,7 @@ import React from "react";
 import { observer } from "mobx-react";
 import { CalendarCheck2, CalendarClock, LayoutPanelTop, Signal, Tag, Triangle, UserCircle2, Users } from "lucide-react";
 // ui
-import { ContrastIcon, DiceIcon, DoubleCircleIcon } from "@fixit/ui";
+import { ContrastIcon, DiceIcon, DoubleCircleIcon } from "@youtrack/ui";
 // components
 import {
   DateDropdown,
@@ -21,9 +21,9 @@ import { getDate, renderFormattedPayloadDate } from "@/helpers/date-time.helper"
 import { shouldHighlightIssueDueDate } from "@/helpers/issue.helper";
 // hooks
 import { useProjectEstimates, useIssueDetail, useProject, useProjectState, useMember } from "@/hooks/store";
-// fixit web components
-import { IssueAdditionalPropertyValuesUpdate } from "@/fixit-web/components/issue-types/values";
-import { IssueWorklogProperty } from "@/fixit-web/components/issues";
+// youtrack web components
+import { IssueAdditionalPropertyValuesUpdate } from "@/youtrack-web/components/issue-types/values";
+import { IssueWorklogProperty } from "@/youtrack-web/components/issues";
 // components
 import type { TIssueOperations } from "./root";
 

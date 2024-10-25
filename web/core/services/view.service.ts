@@ -1,4 +1,4 @@
-import { IProjectView } from "@fixit/types";
+import { IProjectView } from "@youtrack/types";
 import { APIService } from "@/services/api.service";
 // types
 // helpers

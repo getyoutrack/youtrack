@@ -3,12 +3,12 @@
 import { Dispatch, FC, SetStateAction, useCallback, useState } from "react";
 import { observer } from "mobx-react";
 import { Plus } from "lucide-react";
-import { TEstimatePointsObject, TEstimateSystemKeys, TEstimateTypeError } from "@fixit/types";
-import { Button, Sortable } from "@fixit/ui";
+import { TEstimatePointsObject, TEstimateSystemKeys, TEstimateTypeError } from "@youtrack/types";
+import { Button, Sortable } from "@youtrack/ui";
 // components
 import { EstimatePointCreate, EstimatePointItemPreview } from "@/components/estimates/points";
-// fixit web constants
-import { estimateCount } from "@/fixit-web/constants/estimates";
+// youtrack web constants
+import { estimateCount } from "@/youtrack-web/constants/estimates";
 
 type TEstimatePointCreateRoot = {
   workspaceSlug: string;

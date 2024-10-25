@@ -2,8 +2,8 @@
 
 import { FC } from "react";
 // ui
-import { IIssueLabel } from "@fixit/types";
-import { Tooltip } from "@fixit/ui";
+import { IIssueLabel } from "@youtrack/types";
+import { Tooltip } from "@youtrack/ui";
 // types
 import { usePlatformOS } from "@/hooks/use-platform-os";
 // hooks

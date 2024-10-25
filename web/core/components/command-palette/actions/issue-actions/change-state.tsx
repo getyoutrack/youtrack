@@ -5,8 +5,8 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // hooks
 import { Check } from "lucide-react";
-import { TIssue } from "@fixit/types";
-import { Spinner, StateGroupIcon } from "@fixit/ui";
+import { TIssue } from "@youtrack/types";
+import { Spinner, StateGroupIcon } from "@youtrack/ui";
 import { EIssuesStoreType } from "@/constants/issue";
 import { useProjectState, useIssues } from "@/hooks/store";
 // ui

@@ -3,16 +3,16 @@
 import React, { FC } from "react";
 import { observer } from "mobx-react";
 import { X, Pencil, Trash, Link as LinkIcon } from "lucide-react";
-import { TIssue, TIssueRelationTypes } from "@fixit/types";
-import { ControlLink, CustomMenu, Tooltip } from "@fixit/ui";
+import { TIssue, TIssueRelationTypes } from "@youtrack/types";
+import { ControlLink, CustomMenu, Tooltip } from "@youtrack/ui";
 // components
 import { RelationIssueProperty } from "@/components/issues/relations";
 // hooks
 import { useIssueDetail, useProject, useProjectState } from "@/hooks/store";
 import useIssuePeekOverviewRedirection from "@/hooks/use-issue-peek-overview-redirection";
 import { usePlatformOS } from "@/hooks/use-platform-os";
-// fixit web components
-import { IssueIdentifier } from "@/fixit-web/components/issues";
+// youtrack web components
+import { IssueIdentifier } from "@/youtrack-web/components/issues";
 // types
 import { TRelationIssueOperations } from "../issue-detail-widgets/relations/helper";
 

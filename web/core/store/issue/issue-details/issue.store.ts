@@ -1,7 +1,7 @@
 import { makeObservable, observable } from "mobx";
 import { computedFn } from "mobx-utils";
 // types
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 // local
 import { persistence } from "@/local-db/storage.sqlite";
 // services

@@ -2,10 +2,10 @@ import { useEffect, useRef } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { Controller, SubmitHandler, useForm } from "react-hook-form";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
-// fixit ui
-import { FavoriteFolderIcon, Input, setToast, TOAST_TYPE } from "@fixit/ui";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
+// youtrack ui
+import { FavoriteFolderIcon, Input, setToast, TOAST_TYPE } from "@youtrack/ui";
 // hooks
 import { useFavorite } from "@/hooks/store/use-favorite";
 

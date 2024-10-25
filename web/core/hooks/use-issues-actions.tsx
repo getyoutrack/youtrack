@@ -11,7 +11,7 @@ import {
   TIssuesResponse,
   TLoader,
   TProfileViews,
-} from "@fixit/types";
+} from "@youtrack/types";
 import { EIssueFilterType, EIssuesStoreType } from "@/constants/issue";
 import { EDraftIssuePaginationType } from "@/constants/workspace-drafts";
 import { useIssues } from "./store";

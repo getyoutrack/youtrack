@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect } from "react";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
 
 /**
  * Custom hook for dynamic dropdown position calculation.

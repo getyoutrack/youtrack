@@ -5,7 +5,7 @@ import { addDays } from "date-fns";
 import { observer } from "mobx-react";
 import { Plus } from "lucide-react";
 // ui
-import { Tooltip } from "@fixit/ui";
+import { Tooltip } from "@youtrack/ui";
 // helpers
 import { renderFormattedDate, renderFormattedPayloadDate } from "@/helpers/date-time.helper";
 // types

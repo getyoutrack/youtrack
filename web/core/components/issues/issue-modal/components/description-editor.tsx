@@ -5,12 +5,12 @@ import { observer } from "mobx-react";
 import { Control, Controller } from "react-hook-form";
 import { Sparkle } from "lucide-react";
 // editor
-import { EditorRefApi } from "@fixit/editor";
+import { EditorRefApi } from "@youtrack/editor";
 // types
-import { TIssue } from "@fixit/types";
-import { EFileAssetType } from "@fixit/types/src/enums";
+import { TIssue } from "@youtrack/types";
+import { EFileAssetType } from "@youtrack/types/src/enums";
 // ui
-import { Loader, setToast, TOAST_TYPE } from "@fixit/ui";
+import { Loader, setToast, TOAST_TYPE } from "@youtrack/ui";
 // components
 import { GptAssistantPopover } from "@/components/core";
 import { RichTextEditor } from "@/components/editor";

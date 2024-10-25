@@ -1,4 +1,4 @@
-import { TStateGroups } from "@fixit/types";
+import { TStateGroups } from "@youtrack/types";
 
 export const STATE_GROUPS: {
   [key in TStateGroups]: {

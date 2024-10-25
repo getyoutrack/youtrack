@@ -1,7 +1,7 @@
-// fixit helpers
-import { sanitizeHTML } from "@fixit/helpers";
-// fixit ui
-import { TEmojiLogoProps } from "@fixit/ui";
+// youtrack helpers
+import { sanitizeHTML } from "@youtrack/helpers";
+// youtrack ui
+import { TEmojiLogoProps } from "@youtrack/ui";
 // types
 import {
   EAttributeNames,

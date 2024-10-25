@@ -2,9 +2,9 @@ import React from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // types
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 // helpers
-import { Row } from "@fixit/ui";
+import { Row } from "@youtrack/ui";
 import { cn } from "@/helpers/common.helper";
 // hooks
 import { useAppRouter } from "@/hooks/use-app-router";

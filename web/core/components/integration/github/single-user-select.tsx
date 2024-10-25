@@ -2,16 +2,16 @@
 
 import { useParams } from "next/navigation";
 import useSWR from "swr";
-// fixit types
-import { IGithubRepoCollaborator } from "@fixit/types";
-// fixit ui
-import { Avatar, CustomSelect, CustomSearchSelect, Input } from "@fixit/ui";
+// youtrack types
+import { IGithubRepoCollaborator } from "@youtrack/types";
+// youtrack ui
+import { Avatar, CustomSelect, CustomSearchSelect, Input } from "@youtrack/ui";
 // constants
 import { WORKSPACE_MEMBERS } from "@/constants/fetch-keys";
 // helpers
 import { getFileURL } from "@/helpers/file.helper";
-// fixit web services
-import { WorkspaceService } from "@/fixit-web/services";
+// youtrack web services
+import { WorkspaceService } from "@/youtrack-web/services";
 // types
 import { IUserDetails } from "./root";
 

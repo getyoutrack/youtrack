@@ -4,7 +4,7 @@ import { forwardRef, useEffect, useImperativeHandle, useLayoutEffect, useRef, us
 import { Editor } from "@tiptap/react";
 import { v4 as uuidv4 } from "uuid";
 // ui
-import { Avatar } from "@fixit/ui";
+import { Avatar } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common";
 // types

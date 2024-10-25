@@ -2,7 +2,7 @@ import { observer } from "mobx-react";
 // icons
 import { X } from "lucide-react";
 // types
-import { TProjectAppliedDisplayFilterKeys } from "@fixit/types";
+import { TProjectAppliedDisplayFilterKeys } from "@youtrack/types";
 // constants
 import { PROJECT_DISPLAY_FILTER_OPTIONS } from "@/constants/project";
 

@@ -1,8 +1,8 @@
 "use client";
 import { useMemo } from "react";
 import { usePathname } from "next/navigation";
-import { TIssue } from "@fixit/types";
-import { TOAST_TYPE, setToast } from "@fixit/ui";
+import { TIssue } from "@youtrack/types";
+import { TOAST_TYPE, setToast } from "@youtrack/ui";
 // helper
 import { copyTextToClipboard } from "@/helpers/string.helper";
 // hooks

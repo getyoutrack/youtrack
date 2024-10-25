@@ -1,5 +1,5 @@
 import { AlertCircle } from "lucide-react";
-import { TIssueOrderByOptions } from "@fixit/types";
+import { TIssueOrderByOptions } from "@youtrack/types";
 import { ISSUE_ORDER_BY_OPTIONS } from "@/constants/issue";
 import { cn } from "@/helpers/common.helper";
 

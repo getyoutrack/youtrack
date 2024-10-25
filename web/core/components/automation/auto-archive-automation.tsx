@@ -4,16 +4,16 @@ import React, { useState } from "react";
 import { observer } from "mobx-react";
 import { ArchiveRestore } from "lucide-react";
 // types
-import { IProject } from "@fixit/types";
+import { IProject } from "@youtrack/types";
 // ui
-import { CustomSelect, Loader, ToggleSwitch } from "@fixit/ui";
+import { CustomSelect, Loader, ToggleSwitch } from "@youtrack/ui";
 // component
 import { SelectMonthModal } from "@/components/automation";
 // constants
 import { PROJECT_AUTOMATION_MONTHS } from "@/constants/project";
 // hooks
 import { useProject, useUserPermissions } from "@/hooks/store";
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 type Props = {
   handleChange: (formData: Partial<IProject>) => Promise<void>;
@@ -55,7 +55,7 @@ export const AutoArchiveAutomation: React.FC<Props> = observer((props) => {
             <div className="">
               <h4 className="text-sm font-medium">Auto-archive closed issues</h4>
               <p className="text-sm tracking-tight text-custom-text-200">
-                Fixit will auto archive issues that have been completed or canceled.
+                Youtrack will auto archive issues that have been completed or canceled.
               </p>
             </div>
           </div>

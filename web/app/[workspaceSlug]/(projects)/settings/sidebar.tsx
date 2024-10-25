@@ -8,11 +8,11 @@ import { useParams, usePathname } from "next/navigation";
 import { SidebarNavItem } from "@/components/sidebar";
 // hooks
 import { useUserPermissions } from "@/hooks/store";
-// fixit web constants
-import { EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
-import { WORKSPACE_SETTINGS_LINKS } from "@/fixit-web/constants/workspace";
-// fixit web helpers
-import { shouldRenderSettingLink } from "@/fixit-web/helpers/workspace.helper";
+// youtrack web constants
+import { EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
+import { WORKSPACE_SETTINGS_LINKS } from "@/youtrack-web/constants/workspace";
+// youtrack web helpers
+import { shouldRenderSettingLink } from "@/youtrack-web/helpers/workspace.helper";
 
 export const WorkspaceSettingsSidebar = observer(() => {
   // router

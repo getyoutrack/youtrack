@@ -5,16 +5,16 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // ui
 import { Settings } from "lucide-react";
-import { Breadcrumbs, CustomMenu, Header } from "@fixit/ui";
+import { Breadcrumbs, CustomMenu, Header } from "@youtrack/ui";
 // components
 import { BreadcrumbLink, Logo } from "@/components/common";
 // constants
 // hooks
 import { useProject, useUserPermissions } from "@/hooks/store";
 import { useAppRouter } from "@/hooks/use-app-router";
-// fixit web constants
-import { PROJECT_SETTINGS_LINKS } from "@/fixit-web/constants/project";
-import { EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+// youtrack web constants
+import { PROJECT_SETTINGS_LINKS } from "@/youtrack-web/constants/project";
+import { EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 export const ProjectSettingHeader: FC = observer(() => {
   // router

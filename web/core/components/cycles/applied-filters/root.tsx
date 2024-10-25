@@ -1,12 +1,12 @@
 import { observer } from "mobx-react";
 import { X } from "lucide-react";
-import { TCycleFilters } from "@fixit/types";
+import { TCycleFilters } from "@youtrack/types";
 // hooks
-import { Tag } from "@fixit/ui";
+import { Tag } from "@youtrack/ui";
 import { AppliedDateFilters, AppliedStatusFilters } from "@/components/cycles";
 import { replaceUnderscoreIfSnakeCase } from "@/helpers/string.helper";
 import { useUserPermissions } from "@/hooks/store";
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 // components
 // helpers

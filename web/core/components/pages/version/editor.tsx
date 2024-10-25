@@ -1,18 +1,18 @@
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
-// fixit editor
-import { DocumentReadOnlyEditorWithRef, TDisplayConfig } from "@fixit/editor";
-// fixit types
-import { IUserLite, TPageVersion } from "@fixit/types";
-// fixit ui
-import { Loader } from "@fixit/ui";
+// youtrack editor
+import { DocumentReadOnlyEditorWithRef, TDisplayConfig } from "@youtrack/editor";
+// youtrack types
+import { IUserLite, TPageVersion } from "@youtrack/types";
+// youtrack ui
+import { Loader } from "@youtrack/ui";
 // helpers
 import { getReadOnlyEditorFileHandlers } from "@/helpers/editor.helper";
 // hooks
 import { useMember, useMention, useUser } from "@/hooks/store";
 import { usePageFilters } from "@/hooks/use-page-filters";
-// fixit web hooks
-import { useIssueEmbed } from "@/fixit-web/hooks/use-issue-embed";
+// youtrack web hooks
+import { useIssueEmbed } from "@/youtrack-web/hooks/use-issue-embed";
 
 export type TVersionEditorProps = {
   activeVersion: string | null;

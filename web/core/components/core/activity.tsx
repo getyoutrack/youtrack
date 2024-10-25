@@ -20,8 +20,8 @@ import {
   MessageSquareIcon,
   UsersIcon,
 } from "lucide-react";
-import { IIssueActivity } from "@fixit/types";
-import { Tooltip, BlockedIcon, BlockerIcon, RelatedIcon, LayersIcon, DiceIcon, Intake } from "@fixit/ui";
+import { IIssueActivity } from "@youtrack/types";
+import { Tooltip, BlockedIcon, BlockerIcon, RelatedIcon, LayersIcon, DiceIcon, Intake } from "@youtrack/ui";
 // helpers
 import { renderFormattedDate } from "@/helpers/date-time.helper";
 import { capitalizeFirstLetter } from "@/helpers/string.helper";

@@ -3,7 +3,7 @@
 import { observer } from "mobx-react";
 import { useParams, useSearchParams } from "next/navigation";
 // types
-import { TPageNavigationTabs } from "@fixit/types";
+import { TPageNavigationTabs } from "@youtrack/types";
 // components
 import { PageHead } from "@/components/core";
 import { EmptyState } from "@/components/empty-state";

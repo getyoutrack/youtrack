@@ -1,4 +1,4 @@
-import type { TIssue, IIssueFilterOptions } from "@fixit/types";
+import type { TIssue, IIssueFilterOptions } from "@youtrack/types";
 
 export type TCycleGroups = "current" | "upcoming" | "completed" | "draft";
 

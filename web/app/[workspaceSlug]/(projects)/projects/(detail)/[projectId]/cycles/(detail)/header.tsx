@@ -7,9 +7,9 @@ import { useParams } from "next/navigation";
 // icons
 import { ArrowRight, PanelRight } from "lucide-react";
 // types
-import { IIssueDisplayFilterOptions, IIssueDisplayProperties, IIssueFilterOptions } from "@fixit/types";
+import { IIssueDisplayFilterOptions, IIssueDisplayProperties, IIssueFilterOptions } from "@youtrack/types";
 // ui
-import { Breadcrumbs, Button, ContrastIcon, CustomMenu, Tooltip, Header } from "@fixit/ui";
+import { Breadcrumbs, Button, ContrastIcon, CustomMenu, Tooltip, Header } from "@youtrack/ui";
 // components
 import { ProjectAnalyticsModal } from "@/components/analytics";
 import { BreadcrumbLink, Logo } from "@/components/common";
@@ -40,7 +40,7 @@ import {
 import { useAppRouter } from "@/hooks/use-app-router";
 import useLocalStorage from "@/hooks/use-local-storage";
 import { usePlatformOS } from "@/hooks/use-platform-os";
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 const CycleDropdownOption: React.FC<{ cycleId: string }> = ({ cycleId }) => {
   // router

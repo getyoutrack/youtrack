@@ -2,9 +2,9 @@
 
 import React, { useState } from "react";
 import { observer } from "mobx-react";
-import { TModuleStatus } from "@fixit/types";
+import { TModuleStatus } from "@youtrack/types";
 // components
-import { ModuleStatusIcon } from "@fixit/ui";
+import { ModuleStatusIcon } from "@youtrack/ui";
 import { FilterHeader, FilterOption } from "@/components/issues";
 // ui
 // types

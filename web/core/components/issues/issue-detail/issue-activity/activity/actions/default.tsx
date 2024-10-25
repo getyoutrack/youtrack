@@ -3,7 +3,7 @@
 import { FC } from "react";
 import { observer } from "mobx-react";
 // hooks
-import { LayersIcon } from "@fixit/ui";
+import { LayersIcon } from "@youtrack/ui";
 import { useIssueDetail } from "@/hooks/store";
 // components
 import { IssueActivityBlockComponent } from "./";

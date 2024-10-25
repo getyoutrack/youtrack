@@ -3,9 +3,9 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 import { Search, X } from "lucide-react";
-import { TModuleDisplayFilters, TModuleFilters } from "@fixit/types";
+import { TModuleDisplayFilters, TModuleFilters } from "@youtrack/types";
 // components
-import { TModuleStatus } from "@fixit/ui";
+import { TModuleStatus } from "@youtrack/ui";
 import { FilterOption } from "@/components/issues";
 import { FilterLead, FilterMembers, FilterStartDate, FilterStatus, FilterTargetDate } from "@/components/modules";
 import { usePlatformOS } from "@/hooks/use-platform-os";

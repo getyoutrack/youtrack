@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import { observer } from "mobx-react";
 import Link from "next/link";
 // types
-import { TIssuesByPriorityWidgetFilters, TIssuesByPriorityWidgetResponse } from "@fixit/types";
+import { TIssuesByPriorityWidgetFilters, TIssuesByPriorityWidgetResponse } from "@youtrack/types";
 // components
-import { Card } from "@fixit/ui";
+import { Card } from "@youtrack/ui";
 import {
   DurationFilterDropdown,
   IssuesByPriorityEmptyState,

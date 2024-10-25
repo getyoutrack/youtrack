@@ -3,12 +3,12 @@
 import { FC, RefObject } from "react";
 import { observer } from "mobx-react";
 // editor
-import { EditorRefApi } from "@fixit/editor";
+import { EditorRefApi } from "@youtrack/editor";
 // types
-import { TIssue } from "@fixit/types";
-import { EFileAssetType } from "@fixit/types/src/enums";
+import { TIssue } from "@youtrack/types";
+import { EFileAssetType } from "@youtrack/types/src/enums";
 // ui
-import { Loader } from "@fixit/ui";
+import { Loader } from "@youtrack/ui";
 // components
 import { RichTextEditor } from "@/components/editor/rich-text-editor/rich-text-editor";
 // constants

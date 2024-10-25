@@ -2,9 +2,9 @@ import { FC, useState } from "react";
 import { observer } from "mobx-react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 // types
-import { IWorkspace } from "@fixit/types";
+import { IWorkspace } from "@youtrack/types";
 // ui
-import { Button, Collapsible } from "@fixit/ui";
+import { Button, Collapsible } from "@youtrack/ui";
 // components
 import { DeleteWorkspaceModal } from "@/components/workspace";
 

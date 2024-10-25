@@ -1,13 +1,13 @@
 {
-  "name": "Fixit",
-  "short_name": "Fixit",
-  "description": "Fixit helps you plan your issues, cycles, and product modules.",
+  "name": "Youtrack",
+  "short_name": "Youtrack",
+  "description": "Youtrack helps you plan your issues, cycles, and product modules.",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#f9fafb",
   "theme_color": "#3f76ff",
   "icons": [
-    { "src": "/fixit-logos/fixit-mobile-pwa.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/fixit-logos/fixit-mobile-pwa.png", "sizes": "512x512", "type": "image/png" }
+    { "src": "/youtrack-logos/youtrack-mobile-pwa.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/youtrack-logos/youtrack-mobile-pwa.png", "sizes": "512x512", "type": "image/png" }
   ]
 }

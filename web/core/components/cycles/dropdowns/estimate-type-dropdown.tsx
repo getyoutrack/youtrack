@@ -1,6 +1,6 @@
 import React from "react";
-import { TCycleEstimateType } from "@fixit/types";
-import { CustomSelect } from "@fixit/ui";
+import { TCycleEstimateType } from "@youtrack/types";
+import { CustomSelect } from "@youtrack/ui";
 import { useCycle, useProjectEstimates } from "@/hooks/store";
 import { cycleEstimateOptions } from "../analytics-sidebar";
 

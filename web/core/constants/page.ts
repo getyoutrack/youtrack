@@ -1,6 +1,6 @@
 import { Globe2, Lock, LucideIcon } from "lucide-react";
 // types
-import { TPageFiltersSortKey, TPageFiltersSortBy } from "@fixit/types";
+import { TPageFiltersSortKey, TPageFiltersSortBy } from "@youtrack/types";
 
 export enum EPageAccess {
   PUBLIC = 0,

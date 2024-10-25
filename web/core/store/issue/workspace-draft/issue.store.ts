@@ -17,7 +17,7 @@ import {
   ViewFlags,
   TIssue,
   TBulkOperationsPayload,
-} from "@fixit/types";
+} from "@youtrack/types";
 // constants
 import { EDraftIssuePaginationType } from "@/constants/workspace-drafts";
 // helpers

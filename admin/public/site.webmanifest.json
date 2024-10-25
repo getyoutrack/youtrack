@@ -1,7 +1,7 @@
 {
-  "name": "Fixit God Mode",
-  "short_name": "Fixit God Mode",
-  "description": "Fixit helps you plan your issues, cycles, and product modules.",
+  "name": "Youtrack God Mode",
+  "short_name": "Youtrack God Mode",
+  "description": "Youtrack helps you plan your issues, cycles, and product modules.",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#f9fafb",

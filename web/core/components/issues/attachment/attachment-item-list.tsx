@@ -3,10 +3,10 @@ import { observer } from "mobx-react";
 import { FileRejection, useDropzone } from "react-dropzone";
 import { UploadCloud } from "lucide-react";
 // hooks
-import { TOAST_TYPE, setToast } from "@fixit/ui";
+import { TOAST_TYPE, setToast } from "@youtrack/ui";
 import { useIssueDetail } from "@/hooks/store";
-// fixit web hooks
-import { useFileSize } from "@/fixit-web/hooks/use-file-size";
+// youtrack web hooks
+import { useFileSize } from "@/youtrack-web/hooks/use-file-size";
 // components
 import { IssueAttachmentsListItem } from "./attachment-list-item";
 // types

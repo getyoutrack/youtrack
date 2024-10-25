@@ -1,5 +1,5 @@
 import isEmpty from "lodash/isEmpty";
-import { EIssueGroupByToServerOptions, EServerGroupByToFilterOptions } from "@fixit/constants";
+import { EIssueGroupByToServerOptions, EServerGroupByToFilterOptions } from "@youtrack/constants";
 // types
 import {
   IIssueDisplayFilterOptions,
@@ -11,7 +11,7 @@ import {
   TIssueKanbanFilters,
   TIssueParams,
   TStaticViewTypes,
-} from "@fixit/types";
+} from "@youtrack/types";
 // constants
 import { EIssueFilterType, EIssueLayoutTypes, EIssuesStoreType } from "@/constants/issue";
 // helpers

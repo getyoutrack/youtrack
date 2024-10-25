@@ -9,9 +9,9 @@ import { usePopper } from "react-popper";
 import { Check, Search } from "lucide-react";
 import { Combobox } from "@headlessui/react";
 // icon
-import { TCycleGroups } from "@fixit/types";
+import { TCycleGroups } from "@youtrack/types";
 // ui
-import { ContrastIcon, CycleGroupIcon } from "@fixit/ui";
+import { ContrastIcon, CycleGroupIcon } from "@youtrack/ui";
 // store hooks
 import { useCycle } from "@/hooks/store";
 import { usePlatformOS } from "@/hooks/use-platform-os";

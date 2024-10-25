@@ -1,7 +1,7 @@
 "use client";
 
 import { FC } from "react";
-import { TIssueActivityComment } from "@fixit/types";
+import { TIssueActivityComment } from "@youtrack/types";
 
 type TIssueActivityWorklog = {
   workspaceSlug: string;

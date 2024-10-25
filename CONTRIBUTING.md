@@ -1,19 +1,19 @@
-# Contributing to Fixit
+# Contributing to Youtrack
 
-Thank you for showing an interest in contributing to Fixit! All kinds of contributions are valuable to us. In this guide, we will cover how you can quickly onboard and make your first contribution.
+Thank you for showing an interest in contributing to Youtrack! All kinds of contributions are valuable to us. In this guide, we will cover how you can quickly onboard and make your first contribution.
 
 ## Submitting an issue
 
-Before submitting a new issue, please search the [issues](https://github.com/meta-mart/fixit/issues) tab. Maybe an issue or discussion already exists and might inform you of workarounds. Otherwise, you can give new information.
+Before submitting a new issue, please search the [issues](https://github.com/getyoutrack/youtrack/issues) tab. Maybe an issue or discussion already exists and might inform you of workarounds. Otherwise, you can give new information.
 
-While we want to fix all the [issues](https://github.com/meta-mart/fixit/issues), before fixing a bug we need to be able to reproduce and confirm it. Please provide us with a minimal reproduction scenario using a repository or [Gist](https://gist.github.com/). Having a live, reproducible scenario gives us the information without asking questions back & forth with additional questions like:
+While we want to fix all the [issues](https://github.com/getyoutrack/youtrack/issues), before fixing a bug we need to be able to reproduce and confirm it. Please provide us with a minimal reproduction scenario using a repository or [Gist](https://gist.github.com/). Having a live, reproducible scenario gives us the information without asking questions back & forth with additional questions like:
 
 - 3rd-party libraries being used and their versions
 - a use-case that fails
 
-Without said minimal reproduction, we won't be able to investigate all [issues](https://github.com/meta-mart/fixit/issues), and the issue might not be resolved.
+Without said minimal reproduction, we won't be able to investigate all [issues](https://github.com/getyoutrack/youtrack/issues), and the issue might not be resolved.
 
-You can open a new issue with this [issue form](https://github.com/meta-mart/fixit/issues/new).
+You can open a new issue with this [issue form](https://github.com/getyoutrack/youtrack/issues/new).
 
 ## Projects setup and Architecture
 
@@ -33,7 +33,7 @@ The backend is a django project which is kept inside apiserver
 1. Clone the repo
 
 ```bash
-git clone https://github.com/meta-mart/fixit.git [folder-name]
+git clone https://github.com/getyoutrack/youtrack.git [folder-name]
 cd [folder-name]
 chmod +x setup.sh
 ```

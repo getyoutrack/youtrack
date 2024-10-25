@@ -1,5 +1,5 @@
 // components
-import { TWidgetKeys } from "@fixit/types";
+import { TWidgetKeys } from "@youtrack/types";
 import { AssignedIssuesWidgetLoader } from "./assigned-issues";
 import { IssuesByPriorityWidgetLoader } from "./issues-by-priority";
 import { IssuesByStateGroupWidgetLoader } from "./issues-by-state-group";

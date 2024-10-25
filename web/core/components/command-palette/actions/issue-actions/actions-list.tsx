@@ -4,9 +4,9 @@ import { Command } from "cmdk";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { LinkIcon, Signal, Trash2, UserMinus2, UserPlus2, Users } from "lucide-react";
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 // hooks
-import { DoubleCircleIcon, TOAST_TYPE, setToast } from "@fixit/ui";
+import { DoubleCircleIcon, TOAST_TYPE, setToast } from "@youtrack/ui";
 // constants
 import { EIssuesStoreType } from "@/constants/issue";
 // helpers

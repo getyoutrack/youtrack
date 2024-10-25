@@ -3,7 +3,7 @@ import sortBy from "lodash/sortBy";
 import { action, computed, makeObservable, observable, runInAction } from "mobx";
 import { computedFn } from "mobx-utils";
 // types
-import { IIssueLabel, IIssueLabelTree } from "@fixit/types";
+import { IIssueLabel, IIssueLabelTree } from "@youtrack/types";
 // helpers
 import { buildTree } from "@/helpers/array.helper";
 // services

@@ -4,9 +4,9 @@ import React from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // types
-import { IWorkspaceView } from "@fixit/types";
+import { IWorkspaceView } from "@youtrack/types";
 // ui
-import { EModalPosition, EModalWidth, ModalCore, TOAST_TYPE, setToast } from "@fixit/ui";
+import { EModalPosition, EModalWidth, ModalCore, TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { WorkspaceViewForm } from "@/components/workspace";
 // constants

@@ -2,8 +2,8 @@ import React, { useRef, useState } from "react";
 import { usePopper } from "react-popper";
 import { Listbox } from "@headlessui/react";
 import { Check, ChevronDown } from "lucide-react";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
 // hooks
 import { useDropdownKeyDown } from "../hooks/use-dropdown-key-down";
 // helpers

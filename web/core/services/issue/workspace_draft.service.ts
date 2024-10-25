@@ -1,4 +1,4 @@
-import { TIssue, TWorkspaceDraftIssue, TWorkspaceDraftPaginationInfo } from "@fixit/types";
+import { TIssue, TWorkspaceDraftIssue, TWorkspaceDraftPaginationInfo } from "@youtrack/types";
 // helpers
 import { API_BASE_URL } from "@/helpers/common.helper";
 // services

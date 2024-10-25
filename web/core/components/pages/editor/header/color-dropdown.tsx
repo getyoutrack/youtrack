@@ -3,8 +3,8 @@
 import { memo } from "react";
 import { ALargeSmall, Ban } from "lucide-react";
 import { Popover } from "@headlessui/react";
-// fixit editor
-import { COLORS_LIST, TColorEditorCommands } from "@fixit/editor";
+// youtrack editor
+import { COLORS_LIST, TColorEditorCommands } from "@youtrack/editor";
 // helpers
 import { cn } from "@/helpers/common.helper";
 

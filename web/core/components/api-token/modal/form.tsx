@@ -5,9 +5,9 @@ import { add } from "date-fns";
 import { Controller, useForm } from "react-hook-form";
 import { Calendar } from "lucide-react";
 // types
-import { IApiToken } from "@fixit/types";
+import { IApiToken } from "@youtrack/types";
 // ui
-import { Button, CustomSelect, Input, TextArea, ToggleSwitch, TOAST_TYPE, setToast } from "@fixit/ui";
+import { Button, CustomSelect, Input, TextArea, ToggleSwitch, TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { DateDropdown } from "@/components/dropdowns";
 // helpers

@@ -1,7 +1,7 @@
 "use client";
 
 // ui
-import { Loader } from "@fixit/ui";
+import { Loader } from "@youtrack/ui";
 // components
 import { ChartDataType, IBlockUpdateData, IGanttBlock } from "@/components/gantt-chart";
 import { GanttDnDHOC } from "../gantt-dnd-HOC";

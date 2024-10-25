@@ -1,6 +1,6 @@
 import React from "react";
 // components
-import { ISearchIssueResponse } from "@fixit/types";
+import { ISearchIssueResponse } from "@youtrack/types";
 import { EmptyState } from "@/components/empty-state";
 // types
 import { EmptyStateType } from "@/constants/empty-state";

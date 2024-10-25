@@ -2,7 +2,7 @@
 
 import { FC } from "react";
 
-import { TEstimateTypeErrorObject } from "@fixit/types";
+import { TEstimateTypeErrorObject } from "@youtrack/types";
 
 type TEstimatePointDelete = {
   workspaceSlug: string;

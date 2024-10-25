@@ -58,7 +58,7 @@ RUN yarn turbo run build --filter=web --filter=space --filter=admin
 # *****************************************************************************
 # STAGE 3: Copy the project and start it
 # *****************************************************************************
-FROM meta-mart/fixit-aio-base:${BUILD_TYPE}-${BASE_TAG} AS runner
+FROM getyoutrack/youtrack-aio-base:${BUILD_TYPE}-${BASE_TAG} AS runner
 
 WORKDIR /app
 
@@ -77,7 +77,7 @@ RUN pip install -r ./api/requirements.txt --compile --no-cache-dir
 
 # Add in Django deps and generate Django's static files
 COPY apiserver/manage.py ./api/manage.py
-COPY apiserver/fixit ./api/fixit/
+COPY apiserver/youtrack ./api/youtrack/
 COPY apiserver/templates ./api/templates/
 COPY package.json ./api/package.json
 
@@ -156,12 +156,12 @@ ENV SECRET_KEY=60gp0byfz2dvffa45cxl20p1scy9xbpf6d8c5y0geejgkyp1b5
 # Gunicorn Workers
 ENV GUNICORN_WORKERS=1
 
-ENV POSTGRES_USER="fixit"
-ENV POSTGRES_PASSWORD="fixit"
-ENV POSTGRES_DB="fixit"
+ENV POSTGRES_USER="youtrack"
+ENV POSTGRES_PASSWORD="youtrack"
+ENV POSTGRES_DB="youtrack"
 ENV POSTGRES_HOST="localhost"
 ENV POSTGRES_PORT="5432"
-ENV DATABASE_URL="postgresql://fixit:fixit@localhost:5432/fixit"
+ENV DATABASE_URL="postgresql://youtrack:youtrack@localhost:5432/youtrack"
 
 ENV REDIS_HOST="localhost"
 ENV REDIS_PORT="6379"

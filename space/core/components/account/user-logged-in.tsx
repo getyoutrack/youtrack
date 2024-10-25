@@ -8,8 +8,8 @@ import { UserAvatar } from "@/components/issues";
 // hooks
 import { useUser } from "@/hooks/store";
 // assets
-import FixitBlackLogo from "@/public/fixit-logos/black-horizontal-with-blue-logo.png";
-import FixitWhiteLogo from "@/public/fixit-logos/white-horizontal-with-blue-logo.png";
+import YoutrackBlackLogo from "@/public/youtrack-logos/black-horizontal-with-blue-logo.png";
+import YoutrackWhiteLogo from "@/public/youtrack-logos/white-horizontal-with-blue-logo.png";
 import UserLoggedInImage from "@/public/user-logged-in.svg";
 
 export const UserLoggedIn = observer(() => {
@@ -18,7 +18,7 @@ export const UserLoggedIn = observer(() => {
   // next-themes
   const { resolvedTheme } = useTheme();
 
-  const logo = resolvedTheme === "dark" ? FixitWhiteLogo : FixitBlackLogo;
+  const logo = resolvedTheme === "dark" ? YoutrackWhiteLogo : YoutrackBlackLogo;
 
   if (!user) return null;
 
@@ -26,7 +26,7 @@ export const UserLoggedIn = observer(() => {
     <div className="flex flex-col h-screen w-screen">
       <div className="relative flex w-full items-center justify-between gap-4 border-b border-custom-border-200 px-6 py-5">
         <div className="h-[30px] w-[133px]">
-          <Image src={logo} alt="Fixit logo" />
+          <Image src={logo} alt="Youtrack logo" />
         </div>
         <UserAvatar />
       </div>

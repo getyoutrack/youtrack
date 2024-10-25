@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { observer } from "mobx-react";
 // ui
-import { AlertModalCore, TOAST_TYPE, setToast } from "@fixit/ui";
+import { AlertModalCore, TOAST_TYPE, setToast } from "@youtrack/ui";
 // constants
 import { PAGE_DELETED } from "@/constants/event-tracker";
 // hooks

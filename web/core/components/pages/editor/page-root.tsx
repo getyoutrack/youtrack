@@ -2,11 +2,11 @@ import { useEffect, useRef, useState } from "react";
 import { observer } from "mobx-react";
 import { useSearchParams } from "next/navigation";
 // editor
-import { EditorReadOnlyRefApi, EditorRefApi } from "@fixit/editor";
+import { EditorReadOnlyRefApi, EditorRefApi } from "@youtrack/editor";
 // types
-import { TPage } from "@fixit/types";
+import { TPage } from "@youtrack/types";
 // ui
-import { setToast, TOAST_TYPE } from "@fixit/ui";
+import { setToast, TOAST_TYPE } from "@youtrack/ui";
 // components
 import { PageEditorHeaderRoot, PageEditorBody, PageVersionsOverlay, PagesVersionEditor } from "@/components/pages";
 // hooks

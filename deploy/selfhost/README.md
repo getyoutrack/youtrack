@@ -44,9 +44,9 @@ After installation, you can verify the installation by opening a terminal (Comma
 
 ---
 
-## Installing Fixit
+## Installing Youtrack
 
-Installing fixit is a very easy and minimal step process.
+Installing youtrack is a very easy and minimal step process.
 
 ### Prerequisite
 
@@ -58,11 +58,11 @@ Installing fixit is a very easy and minimal step process.
 ### Downloading Latest Stable Release
 
 ```
-mkdir fixit-selfhost
+mkdir youtrack-selfhost
 
-cd fixit-selfhost
+cd youtrack-selfhost
 
-curl -fsSL -o setup.sh https://raw.githubusercontent.com/meta-mart/fixit/master/deploy/selfhost/install.sh
+curl -fsSL -o setup.sh https://raw.githubusercontent.com/getyoutrack/youtrack/master/deploy/selfhost/install.sh
 
 chmod +x setup.sh
 ```
@@ -71,7 +71,7 @@ chmod +x setup.sh
 
 ### Proceed with setup
 
-Above steps will set you ready to install and start fixit services.
+Above steps will set you ready to install and start youtrack services.
 
 Lets get started by running the `./setup.sh` command.
 
@@ -92,10 +92,10 @@ Action [2]: 1
 
 For the 1st time setup, type "1" as action input.
 
-This will create a create a folder `fixit-app` or `fixit-app-preview` (in case of preview deployment) and will download 2 files inside that
+This will create a create a folder `youtrack-app` or `youtrack-app-preview` (in case of preview deployment) and will download 2 files inside that
 
 - `docker-compose.yaml`
-- `fixit.env`
+- `youtrack.env`
 
 Again the `options [1-8]` will be popped up and this time hit `8` to exit.
 
@@ -108,9 +108,9 @@ Below are the most import keys you must refer to. _<span style="color: #fcba03">
 
 > `NGINX_PORT` - This is default set to `80`. Make sure the port you choose to use is not preoccupied. (e.g `NGINX_PORT=8080`)
 
-> `WEB_URL` - This is default set to `http://localhost`. Change this to the FQDN you plan to use along with NGINX_PORT (eg. `https://fixit.example.com:8080` or `http://[IP-ADDRESS]:8080`)
+> `WEB_URL` - This is default set to `http://localhost`. Change this to the FQDN you plan to use along with NGINX_PORT (eg. `https://youtrack.example.com:8080` or `http://[IP-ADDRESS]:8080`)
 
-> `CORS_ALLOWED_ORIGINS` - This is default set to `http://localhost`. Change this to the FQDN you plan to use along with NGINX_PORT (eg. `https://fixit.example.com:8080` or `http://[IP-ADDRESS]:8080`)
+> `CORS_ALLOWED_ORIGINS` - This is default set to `http://localhost`. Change this to the FQDN you plan to use along with NGINX_PORT (eg. `https://youtrack.example.com:8080` or `http://[IP-ADDRESS]:8080`)
 
 There are many other settings you can play with, but we suggest you configure `EMAIL SETTINGS` as it will enable you to invite your teammates onto the platform.
 
@@ -143,7 +143,7 @@ Be patient as it might take sometime based on download speed and system configur
 
 This is the confirmation that all images were downloaded and the services are up & running.
 
-You have successfully self hosted `Fixit` instance. Access the application by going to IP or domain you have configured it (e.g `https://fixit.example.com:8080` or `http://[IP-ADDRESS]:8080`)
+You have successfully self hosted `Youtrack` instance. Access the application by going to IP or domain you have configured it (e.g `https://youtrack.example.com:8080` or `http://[IP-ADDRESS]:8080`)
 
 ---
 
@@ -199,9 +199,9 @@ If all goes well, you must see something like this
 
 ---
 
-### Upgrading Fixit Version
+### Upgrading Youtrack Version
 
-It is always advised to keep Fixit up to date with the latest release.
+It is always advised to keep Youtrack up to date with the latest release.
 
 Lets again run the `./setup.sh` command. You will again be prompted with the below options. This time select `5` to upgrade the release.
 
@@ -219,7 +219,7 @@ Select a Action you want to perform:
 Action [2]: 5
 ```
 
-By choosing this, it will stop the services and then will download the latest `docker-compose.yaml` and `fixit.env`.
+By choosing this, it will stop the services and then will download the latest `docker-compose.yaml` and `youtrack.env`.
 
 You must expect the below message
 
@@ -227,9 +227,9 @@ You must expect the below message
 
 Once done, choose `8` to exit from prompt.
 
-> It is very important for you to validate the `fixit.env` for the new changes.
+> It is very important for you to validate the `youtrack.env` for the new changes.
 
-Once done with making changes in `fixit.env` file, jump on to `Start Server`
+Once done with making changes in `youtrack.env` file, jump on to `Start Server`
 
 ---
 
@@ -346,11 +346,11 @@ Action [2]: 7
 In response, you can find the backup folder
 
 ```bash
-Backing Up fixit-app_pgdata
-Backing Up fixit-app_redisdata
-Backing Up fixit-app_uploads
+Backing Up youtrack-app_pgdata
+Backing Up youtrack-app_redisdata
+Backing Up youtrack-app_uploads
 
-Backup completed successfully. Backup files are stored in /....../fixit-app/backup/20240502-1120
+Backup completed successfully. Backup files are stored in /....../youtrack-app/backup/20240502-1120
 ```
 
 ---
@@ -359,12 +359,12 @@ Backup completed successfully. Backup files are stored in /....../fixit-app/back
 
 When you want to restore the previously backed-up data, follow the instructions below.
 
-1. Make sure that Fixit-CE is installed, started, and then stopped. This ensures that the Docker volumes are created.
+1. Make sure that Youtrack-CE is installed, started, and then stopped. This ensures that the Docker volumes are created.
 
 1. Download the restore script using the command below. We suggest downloading it in the same folder as `setup.sh`.
 
    ```bash
-   curl -fsSL -o restore.sh https://raw.githubusercontent.com/meta-mart/fixit/master/deploy/selfhost/restore.sh
+   curl -fsSL -o restore.sh https://raw.githubusercontent.com/getyoutrack/youtrack/master/deploy/selfhost/restore.sh
    chmod +x restore.sh
    ```
 
@@ -374,7 +374,7 @@ When you want to restore the previously backed-up data, follow the instructions 
    ./restore.sh <path to backup folder containing *.tar.gz files>
    ```
 
-   As an example, for a backup folder `/opt/fixit-selfhost/fixit-app/backup/20240722-0914`, expect the response below:
+   As an example, for a backup folder `/opt/youtrack-selfhost/youtrack-app/backup/20240722-0914`, expect the response below:
 
    ```bash
    --------------------------------------------
@@ -387,23 +387,23 @@ When you want to restore the previously backed-up data, follow the instructions 
    --------------------------------------------
    Project management tool from the future
    --------------------------------------------
-   Found /opt/fixit-selfhost/fixit-app/backup/20240722-0914/pgdata.tar.gz
-   .....Restoring fixit-app_pgdata
-   .....Successfully restored volume fixit-app_pgdata from pgdata.tar.gz
+   Found /opt/youtrack-selfhost/youtrack-app/backup/20240722-0914/pgdata.tar.gz
+   .....Restoring youtrack-app_pgdata
+   .....Successfully restored volume youtrack-app_pgdata from pgdata.tar.gz
 
-   Found /opt/fixit-selfhost/fixit-app/backup/20240722-0914/redisdata.tar.gz
-   .....Restoring fixit-app_redisdata
-   .....Successfully restored volume fixit-app_redisdata from redisdata.tar.gz
+   Found /opt/youtrack-selfhost/youtrack-app/backup/20240722-0914/redisdata.tar.gz
+   .....Restoring youtrack-app_redisdata
+   .....Successfully restored volume youtrack-app_redisdata from redisdata.tar.gz
 
-   Found /opt/fixit-selfhost/fixit-app/backup/20240722-0914/uploads.tar.gz
-   .....Restoring fixit-app_uploads
-   .....Successfully restored volume fixit-app_uploads from uploads.tar.gz
+   Found /opt/youtrack-selfhost/youtrack-app/backup/20240722-0914/uploads.tar.gz
+   .....Restoring youtrack-app_uploads
+   .....Successfully restored volume youtrack-app_uploads from uploads.tar.gz
 
 
    Restore completed successfully.
    ```
 
-1. Start the Fixit instance using `./setup.sh start`.
+1. Start the Youtrack instance using `./setup.sh start`.
 
 ---
 
@@ -420,7 +420,7 @@ Begin with downloading the migration script using below command
 
 ```
 
-curl -fsSL -o migrate.sh https://raw.githubusercontent.com/meta-mart/fixit/master/deploy/selfhost/migration-0.13-0.14.sh
+curl -fsSL -o migrate.sh https://raw.githubusercontent.com/getyoutrack/youtrack/master/deploy/selfhost/migration-0.13-0.14.sh
 
 chmod +x migrate.sh
 
@@ -452,7 +452,7 @@ docker volume ls -q | grep -i "_redisdata"
 
 Given below list of REDIS volumes, identify the prefix of source and destination volumes leaving "_redisdata"
 ---------------------
-fixit-app_redisdata
+youtrack-app_redisdata
 v0132_redisdata
 
 Provide the Source Volume Prefix :
@@ -462,7 +462,7 @@ Provide the Source Volume Prefix :
 
 For every command you must see 2 records something like shown in above example of `redisdata`
 
-To move forward, you would need PREFIX of old setup and new setup. As per above example, `v0132` is the prefix of v0.13.2 and `fixit-app` is the prefix of v0.14.0 setup
+To move forward, you would need PREFIX of old setup and new setup. As per above example, `v0132` is the prefix of v0.13.2 and `youtrack-app` is the prefix of v0.14.0 setup
 
 **Back to original terminal window**, _Provide the Source Volume Prefix_ and hit ENTER.
 
@@ -470,7 +470,7 @@ Now you will be prompted to _Provide Destination Volume Prefix_. Provide the val
 
 ```
 Provide the Source Volume Prefix : v0132
-Provide the Destination Volume Prefix : fixit-app
+Provide the Destination Volume Prefix : youtrack-app
 ```
 
 In case the suffixes are wrong or the mentioned volumes are not found, you will receive the error shown below. The image below displays an error for source volumes.

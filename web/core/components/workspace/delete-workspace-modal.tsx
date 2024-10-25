@@ -6,9 +6,9 @@ import { Controller, useForm } from "react-hook-form";
 import { AlertTriangle } from "lucide-react";
 import { Dialog, Transition } from "@headlessui/react";
 // types
-import type { IWorkspace } from "@fixit/types";
+import type { IWorkspace } from "@youtrack/types";
 // ui
-import { Button, Input, TOAST_TYPE, setToast } from "@fixit/ui";
+import { Button, Input, TOAST_TYPE, setToast } from "@youtrack/ui";
 // constants
 import { WORKSPACE_DELETED } from "@/constants/event-tracker";
 // hooks

@@ -3,8 +3,8 @@
 import { FC, ReactNode } from "react";
 import { observer } from "mobx-react";
 import { Check, CheckCircle, Clock } from "lucide-react";
-import { TNotificationFilter } from "@fixit/types";
-import { ArchiveIcon, PopoverMenu } from "@fixit/ui";
+import { TNotificationFilter } from "@youtrack/types";
+import { ArchiveIcon, PopoverMenu } from "@youtrack/ui";
 // components
 import { NotificationMenuOptionItem } from "@/components/workspace-notifications";
 // constants

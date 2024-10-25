@@ -1,8 +1,8 @@
 "use client";
 
 // components
-import { IAppIntegration, IWorkspaceIntegration } from "@fixit/types";
-import { Button } from "@fixit/ui";
+import { IAppIntegration, IWorkspaceIntegration } from "@youtrack/types";
+import { Button } from "@youtrack/ui";
 import { GithubAuth, TIntegrationSteps } from "@/components/integration";
 // types
 

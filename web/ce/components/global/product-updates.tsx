@@ -2,7 +2,7 @@ import { FC } from "react";
 import { observer } from "mobx-react";
 import Link from "next/link";
 // ui
-import { CustomMenu } from "@fixit/ui";
+import { CustomMenu } from "@youtrack/ui";
 
 export type ProductUpdatesProps = {
   setIsChangeLogOpen: (isOpen: boolean) => void;
@@ -11,7 +11,7 @@ export type ProductUpdatesProps = {
 export const ProductUpdates: FC<ProductUpdatesProps> = observer(() => (
   <CustomMenu.MenuItem>
     <Link
-      href="https://go.fixit.so/p-changelog"
+      href="https://go.youtrack.so/p-changelog"
       target="_blank"
       className="flex w-full items-center justify-start text-xs hover:bg-custom-background-80"
     >

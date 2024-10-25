@@ -25,6 +25,6 @@ const Item: React.FC<ItemProps> = ({ height = "auto", width = "auto", className 
 
 Loader.Item = Item;
 
-Loader.displayName = "fixit-ui-loader";
+Loader.displayName = "youtrack-ui-loader";
 
 export { Loader };

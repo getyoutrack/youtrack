@@ -1,5 +1,5 @@
 // types
-import type { IProjectMember, IProjectMembership } from "@fixit/types";
+import type { IProjectMember, IProjectMembership } from "@youtrack/types";
 import { API_BASE_URL } from "@/helpers/common.helper";
 // services
 import { APIService } from "@/services/api.service";

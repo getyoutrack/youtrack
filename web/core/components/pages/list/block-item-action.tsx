@@ -4,7 +4,7 @@ import React, { FC } from "react";
 import { observer } from "mobx-react";
 import { Earth, Info, Lock, Minus } from "lucide-react";
 // ui
-import { Avatar, FavoriteStar, TOAST_TYPE, Tooltip, setToast } from "@fixit/ui";
+import { Avatar, FavoriteStar, TOAST_TYPE, Tooltip, setToast } from "@youtrack/ui";
 // components
 import { PageQuickActions } from "@/components/pages/dropdowns";
 // helpers

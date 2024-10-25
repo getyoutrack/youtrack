@@ -1,7 +1,7 @@
 import { observer } from "mobx-react";
-import { EditorReadOnlyRefApi, EditorRefApi } from "@fixit/editor";
+import { EditorReadOnlyRefApi, EditorRefApi } from "@youtrack/editor";
 // components
-import { Header, EHeaderVariant } from "@fixit/ui";
+import { Header, EHeaderVariant } from "@youtrack/ui";
 import { PageEditorMobileHeaderRoot, PageExtraOptions, PageSummaryPopover, PageToolbar } from "@/components/pages";
 // helpers
 import { cn } from "@/helpers/common.helper";

@@ -3,13 +3,13 @@
 import React from "react";
 import { observer } from "mobx-react";
 // types
-import type { TIssue } from "@fixit/types";
+import type { TIssue } from "@youtrack/types";
 // components
 import { CreateUpdateIssueModalBase } from "@/components/issues";
 // constants
 import { EIssuesStoreType } from "@/constants/issue";
-// fixit web providers
-import { IssueModalProvider } from "@/fixit-web/components/issues";
+// youtrack web providers
+import { IssueModalProvider } from "@/youtrack-web/components/issues";
 
 export interface IssuesModalProps {
   data?: Partial<TIssue>;

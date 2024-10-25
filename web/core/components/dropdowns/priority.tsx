@@ -6,9 +6,9 @@ import { usePopper } from "react-popper";
 import { Check, ChevronDown, Search, SignalHigh } from "lucide-react";
 import { Combobox } from "@headlessui/react";
 // types
-import { TIssuePriorities } from "@fixit/types";
+import { TIssuePriorities } from "@youtrack/types";
 // ui
-import { ComboDropDown, PriorityIcon, Tooltip } from "@fixit/ui";
+import { ComboDropDown, PriorityIcon, Tooltip } from "@youtrack/ui";
 // constants
 import { ISSUE_PRIORITIES } from "@/constants/issue";
 // helpers

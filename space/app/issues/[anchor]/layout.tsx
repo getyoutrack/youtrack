@@ -10,7 +10,7 @@ import { SomethingWentWrongError } from "@/components/issues/issue-layouts/error
 // hooks
 import { useIssueFilter, usePublish, usePublishList } from "@/hooks/store";
 // assets
-import fixitLogo from "@/public/fixit-logo.svg";
+import youtrackLogo from "@/public/youtrack-logo.svg";
 
 type Props = {
   children: React.ReactNode;
@@ -57,16 +57,16 @@ const IssuesLayout = observer((props: Props) => {
       </div>
       <div className="relative h-full w-full overflow-hidden bg-custom-background-90">{children}</div>
       <a
-        href="https://fixit.so"
+        href="https://youtrack.so"
         className="fixed bottom-2.5 right-5 !z-[999999] flex items-center gap-1 rounded border border-custom-border-200 bg-custom-background-100 px-2 py-1 shadow-custom-shadow-2xs"
         target="_blank"
         rel="noreferrer noopener"
       >
         <div className="relative grid h-6 w-6 place-items-center">
-          <Image src={fixitLogo} alt="Fixit logo" className="h-6 w-6" height="24" width="24" />
+          <Image src={youtrackLogo} alt="Youtrack logo" className="h-6 w-6" height="24" width="24" />
         </div>
         <div className="text-xs">
-          Powered by <span className="font-semibold">Fixit Publish</span>
+          Powered by <span className="font-semibold">Youtrack Publish</span>
         </div>
       </a>
     </div>

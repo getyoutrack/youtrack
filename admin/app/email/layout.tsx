@@ -7,7 +7,7 @@ interface EmailLayoutProps {
 }
 
 export const metadata: Metadata = {
-  title: "Email Settings - Fixit Web",
+  title: "Email Settings - Youtrack Web",
 };
 
 export default function EmailLayout({ children }: EmailLayoutProps) {

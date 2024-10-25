@@ -5,7 +5,7 @@ import { usePopper } from "react-popper";
 import { CalendarDays, X } from "lucide-react";
 import { Combobox } from "@headlessui/react";
 // ui
-import { ComboDropDown } from "@fixit/ui";
+import { ComboDropDown } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common.helper";
 import { renderFormattedDate, getDate } from "@/helpers/date-time.helper";

@@ -6,7 +6,7 @@ import { useTheme } from "next-themes";
 import { ArrowRightLeft } from "lucide-react";
 import { Dialog, Transition } from "@headlessui/react";
 // ui
-import { Button, TOAST_TYPE, setToast } from "@fixit/ui";
+import { Button, TOAST_TYPE, setToast } from "@youtrack/ui";
 // hooks
 import { useUser } from "@/hooks/store";
 import { useAppRouter } from "@/hooks/use-app-router";

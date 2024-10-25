@@ -9,9 +9,9 @@ import { attachInstruction } from "@atlaskit/pragmatic-drag-and-drop-hitbox/tree
 import { observer } from "mobx-react";
 import { createRoot } from "react-dom/client";
 // types
-import { IIssueLabel, InstructionType } from "@fixit/types";
+import { IIssueLabel, InstructionType } from "@youtrack/types";
 // ui
-import { DropIndicator } from "@fixit/ui";
+import { DropIndicator } from "@youtrack/ui";
 // components
 import { LabelName } from "./label-block/label-name";
 import { TargetData, getCanDrop, getInstructionFromPayload } from "./label-utils";

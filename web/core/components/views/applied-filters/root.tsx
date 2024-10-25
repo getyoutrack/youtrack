@@ -1,7 +1,7 @@
 import { X } from "lucide-react";
-import { TViewFilterProps } from "@fixit/types";
+import { TViewFilterProps } from "@youtrack/types";
 // components
-import { Tag } from "@fixit/ui";
+import { Tag } from "@youtrack/ui";
 import { AppliedDateFilters, AppliedMembersFilters } from "@/components/common/applied-filters";
 // constants
 import { EViewAccess } from "@/constants/views";

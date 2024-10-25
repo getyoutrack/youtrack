@@ -1,16 +1,16 @@
 import { ChangeEvent } from "react";
 import { Controller, useFormContext, UseFormSetValue } from "react-hook-form";
 import { Info } from "lucide-react";
-import { cn } from "@fixit/editor";
+import { cn } from "@youtrack/editor";
 // ui
-import { Input, TextArea, Tooltip } from "@fixit/ui";
+import { Input, TextArea, Tooltip } from "@youtrack/ui";
 // constants
 import { ETabIndices } from "@/constants/tab-indices";
 // helpers
 import { projectIdentifierSanitizer } from "@/helpers/project.helper";
 import { getTabIndex } from "@/helpers/tab-indices.helper";
-// fixit-web types
-import { TProject } from "@/fixit-web/types/projects";
+// youtrack-web types
+import { TProject } from "@/youtrack-web/types/projects";
 
 type Props = {
   setValue: UseFormSetValue<TProject>;

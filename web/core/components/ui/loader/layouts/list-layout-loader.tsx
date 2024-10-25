@@ -1,6 +1,6 @@
 import { Fragment, forwardRef } from "react";
-import { cn } from "@fixit/editor";
-import { Row } from "@fixit/ui";
+import { cn } from "@youtrack/editor";
+import { Row } from "@youtrack/ui";
 import { getRandomInt, getRandomLength } from "../utils";
 
 export const ListLoaderItemRow = forwardRef<

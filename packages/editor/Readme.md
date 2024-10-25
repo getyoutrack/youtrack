@@ -1,8 +1,8 @@
-# @fixit/editor
+# @youtrack/editor
 
 ## Description
 
-The `@fixit/editor` package serves as the foundation for our editor system. It provides the base functionality for our other editor packages, but it will not be used directly in any of the projects but only for extending other editors.
+The `@youtrack/editor` package serves as the foundation for our editor system. It provides the base functionality for our other editor packages, but it will not be used directly in any of the projects but only for extending other editors.
 
 ## Utilities
 
@@ -17,7 +17,7 @@ This allows for extensive customization and flexibility in the Editors created u
 
 ### Here's a detailed overview of what's exported
 
-1. useEditor - A hook that you can use to extend the Fixit editor.
+1. useEditor - A hook that you can use to extend the Youtrack editor.
 
    | Prop                      | Type                                                             | Description                                                                                                                                                             |
    | ------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

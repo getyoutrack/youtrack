@@ -2,8 +2,8 @@
 
 // components
 // ui
-import { IUserPriorityDistribution } from "@fixit/types";
-import { Loader } from "@fixit/ui";
+import { IUserPriorityDistribution } from "@youtrack/types";
+import { Loader } from "@youtrack/ui";
 // types
 import { PriorityDistributionContent } from "./main-content";
 

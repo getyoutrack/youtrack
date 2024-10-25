@@ -3,7 +3,7 @@
 import { FC } from "react";
 import Image from "next/image";
 import { useTheme } from "next-themes";
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 // public images
 import EstimateEmptyDarkImage from "@/public/empty-state/estimates/dark.svg";
 import EstimateEmptyLightImage from "@/public/empty-state/estimates/light.svg";

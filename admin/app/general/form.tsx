@@ -4,9 +4,9 @@ import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
 import { Telescope } from "lucide-react";
 // types
-import { IInstance, IInstanceAdmin } from "@fixit/types";
+import { IInstance, IInstanceAdmin } from "@youtrack/types";
 // ui
-import { Button, Input, TOAST_TYPE, ToggleSwitch, setToast } from "@fixit/ui";
+import { Button, Input, TOAST_TYPE, ToggleSwitch, setToast } from "@youtrack/ui";
 // components
 import { ControllerInput } from "@/components/common";
 import { useInstance } from "@/hooks/store";
@@ -117,12 +117,12 @@ export const GeneralConfigurationForm: FC<IGeneralConfigurationForm> = observer(
             </div>
             <div className="grow">
               <div className="text-sm font-medium text-custom-text-100 leading-5">
-                Allow Fixit to collect anonymous usage events
+                Allow Youtrack to collect anonymous usage events
               </div>
               <div className="text-xs font-normal text-custom-text-300 leading-5">
-                We collect usage events without any PII to analyse and improve Fixit.{" "}
+                We collect usage events without any PII to analyse and improve Youtrack.{" "}
                 <a
-                  href="https://docs.fixit.so/self-hosting/telemetry"
+                  href="https://docs.youtrack.so/self-hosting/telemetry"
                   target="_blank"
                   className="text-custom-primary-100 hover:underline"
                   rel="noreferrer"

@@ -4,10 +4,10 @@ import React, { FC, useEffect, useRef, useState } from "react";
 import { combine } from "@atlaskit/pragmatic-drag-and-drop/combine";
 import { draggable, dropTargetForElements } from "@atlaskit/pragmatic-drag-and-drop/element/adapter";
 import { observer } from "mobx-react";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
 // ui
-import { IFavorite } from "@fixit/types";
+import { IFavorite } from "@youtrack/types";
 // components
 import {
   FavoriteItemDragHandle,

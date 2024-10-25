@@ -57,20 +57,20 @@ function restoreData() {
     local BACKUP_FOLDER=${1:-$PWD}
 
     local dockerServiceStatus
-    dockerServiceStatus=$($COMPOSE_CMD ls --filter name=fixit-app --format=json | jq -r .[0].Status)
+    dockerServiceStatus=$($COMPOSE_CMD ls --filter name=youtrack-app --format=json | jq -r .[0].Status)
     local dockerServicePrefix
     dockerServicePrefix="running"
 
     if [[ $dockerServiceStatus == $dockerServicePrefix* ]]; then
-        echo "Fixit App is running. Please STOP the Fixit App before restoring data."
+        echo "Youtrack App is running. Please STOP the Youtrack App before restoring data."
         exit 1
     fi
 
     local volumes
-    volumes=$(docker volume ls -f "name=fixit-app" --format "{{.Name}}" | grep -E "_pgdata|_redisdata|_uploads")
+    volumes=$(docker volume ls -f "name=youtrack-app" --format "{{.Name}}" | grep -E "_pgdata|_redisdata|_uploads")
     # Check if there are any matching volumes
     if [ -z "$volumes" ]; then
-        echo ".....No volumes found starting with 'fixit-app'"
+        echo ".....No volumes found starting with 'youtrack-app'"
         exit 1
     fi
     
@@ -83,7 +83,7 @@ function restoreData() {
             restoreFileName="${restoreFileName%.tar.gz}"
 
             local restoreVolName
-            restoreVolName="fixit-app_${restoreFileName}"
+            restoreVolName="youtrack-app_${restoreFileName}"
             echo "Found $BACKUP_FILE"
 
             local docVol

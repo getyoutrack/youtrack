@@ -2,7 +2,7 @@
 
 import { FC } from "react";
 import { MoveRight } from "lucide-react";
-import { Tooltip } from "@fixit/ui";
+import { Tooltip } from "@youtrack/ui";
 // components
 import { EmptyState } from "@/components/common";
 // hooks

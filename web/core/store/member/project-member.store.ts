@@ -9,9 +9,9 @@ import {
   IProjectMemberLite,
   IProjectMembership,
   IUserLite,
-} from "@fixit/types";
-// fixit-web constants
-import { EUserPermissions } from "@/fixit-web/constants/user-permissions";
+} from "@youtrack/types";
+// youtrack-web constants
+import { EUserPermissions } from "@/youtrack-web/constants/user-permissions";
 // services
 import { ProjectMemberService } from "@/services/project";
 // store

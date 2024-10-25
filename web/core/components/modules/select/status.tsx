@@ -4,9 +4,9 @@ import React from "react";
 
 // react hook form
 import { Controller, FieldError, Control } from "react-hook-form";
-import type { IModule } from "@fixit/types";
+import type { IModule } from "@youtrack/types";
 // ui
-import { CustomSelect, DoubleCircleIcon, ModuleStatusIcon } from "@fixit/ui";
+import { CustomSelect, DoubleCircleIcon, ModuleStatusIcon } from "@youtrack/ui";
 // types
 import { MODULE_STATUS } from "@/constants/module";
 // constants

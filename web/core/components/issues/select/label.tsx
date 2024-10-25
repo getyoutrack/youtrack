@@ -4,8 +4,8 @@ import { useParams } from "next/navigation";
 import { usePopper } from "react-popper";
 import { Check, Component, Plus, Search, Tag } from "lucide-react";
 import { Combobox } from "@headlessui/react";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
 // components
 import { IssueLabelsList } from "@/components/ui";
 // helpers

@@ -3,7 +3,7 @@
 import React from "react";
 
 // ui
-import { Tooltip } from "@fixit/ui";
+import { Tooltip } from "@youtrack/ui";
 // types
 // constants
 import { EIssueLayoutTypes, ISSUE_LAYOUTS } from "@/constants/issue";

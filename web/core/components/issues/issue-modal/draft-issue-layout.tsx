@@ -5,9 +5,9 @@ import isEmpty from "lodash/isEmpty";
 import { observer } from "mobx-react";
 import { useParams, usePathname } from "next/navigation";
 // types
-import type { TIssue } from "@fixit/types";
+import type { TIssue } from "@youtrack/types";
 // ui
-import { TOAST_TYPE, setToast } from "@fixit/ui";
+import { TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { ConfirmIssueDiscard } from "@/components/issues";
 // helpers

@@ -3,10 +3,10 @@
 import { FC, useEffect, useState, useMemo, useCallback } from "react";
 import { observer } from "mobx-react";
 import { usePathname } from "next/navigation";
-// fixit types
-import { TIssue } from "@fixit/types";
-// fixit ui
-import { TOAST_TYPE, setPromiseToast, setToast } from "@fixit/ui";
+// youtrack types
+import { TIssue } from "@youtrack/types";
+// youtrack ui
+import { TOAST_TYPE, setPromiseToast, setToast } from "@youtrack/ui";
 // components
 import { IssueView, TIssueOperations } from "@/components/issues";
 // constants
@@ -15,8 +15,8 @@ import { EIssuesStoreType } from "@/constants/issue";
 // hooks
 import { useEventTracker, useIssueDetail, useIssues, useUserPermissions } from "@/hooks/store";
 import { useIssuesStore } from "@/hooks/use-issue-layout-store";
-// fixit web constants
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+// youtrack web constants
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 interface IIssuePeekOverview {
   embedIssue?: boolean;

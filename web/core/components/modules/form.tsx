@@ -2,9 +2,9 @@
 
 import { useEffect } from "react";
 import { Controller, useForm } from "react-hook-form";
-import { IModule } from "@fixit/types";
+import { IModule } from "@youtrack/types";
 // ui
-import { Button, Input, TextArea } from "@fixit/ui";
+import { Button, Input, TextArea } from "@youtrack/ui";
 // components
 import { DateRangeDropdown, ProjectDropdown, MemberDropdown } from "@/components/dropdowns";
 import { ModuleStatusSelect } from "@/components/modules";

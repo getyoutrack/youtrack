@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 import { Search, X } from "lucide-react";
-import { TCycleFilters, TCycleGroups } from "@fixit/types";
+import { TCycleFilters, TCycleGroups } from "@youtrack/types";
 // components
 import { FilterEndDate, FilterStartDate, FilterStatus } from "@/components/cycles";
 import { usePlatformOS } from "@/hooks/use-platform-os";

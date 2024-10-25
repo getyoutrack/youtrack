@@ -1,4 +1,4 @@
-import type { IFavorite } from "@fixit/types";
+import type { IFavorite } from "@youtrack/types";
 // helpers
 import { API_BASE_URL } from "@/helpers/common.helper";
 // services

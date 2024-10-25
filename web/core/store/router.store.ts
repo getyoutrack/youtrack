@@ -1,7 +1,7 @@
 import { ParsedUrlQuery } from "node:querystring";
 import { action, makeObservable, observable, computed, runInAction } from "mobx";
 
-import { TProfileViews } from "@fixit/types";
+import { TProfileViews } from "@youtrack/types";
 export interface IRouterStore {
   // observables
   query: ParsedUrlQuery;

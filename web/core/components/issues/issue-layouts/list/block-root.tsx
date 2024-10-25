@@ -5,12 +5,12 @@ import { combine } from "@atlaskit/pragmatic-drag-and-drop/combine";
 import { dropTargetForElements } from "@atlaskit/pragmatic-drag-and-drop/element/adapter";
 import { attachInstruction, extractInstruction } from "@atlaskit/pragmatic-drag-and-drop-hitbox/tree-item";
 import { observer } from "mobx-react";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
 // types
-import { IIssueDisplayProperties, TIssue, TIssueMap } from "@fixit/types";
+import { IIssueDisplayProperties, TIssue, TIssueMap } from "@youtrack/types";
 // components
-import { DropIndicator } from "@fixit/ui";
+import { DropIndicator } from "@youtrack/ui";
 import RenderIfVisible from "@/components/core/render-if-visible-HOC";
 import { IssueBlock } from "@/components/issues/issue-layouts/list";
 import { ListLoaderItemRow } from "@/components/ui";

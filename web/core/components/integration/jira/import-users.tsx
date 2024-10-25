@@ -4,16 +4,16 @@ import { FC } from "react";
 import { useParams } from "next/navigation";
 import { useFormContext, useFieldArray, Controller } from "react-hook-form";
 import useSWR from "swr";
-// fixit types
-import { IJiraImporterForm } from "@fixit/types";
-// fixit ui
-import { Avatar, CustomSelect, CustomSearchSelect, Input, ToggleSwitch } from "@fixit/ui";
+// youtrack types
+import { IJiraImporterForm } from "@youtrack/types";
+// youtrack ui
+import { Avatar, CustomSelect, CustomSearchSelect, Input, ToggleSwitch } from "@youtrack/ui";
 // constants
 import { WORKSPACE_MEMBERS } from "@/constants/fetch-keys";
 // helpers
 import { getFileURL } from "@/helpers/file.helper";
-// fixit web services
-import { WorkspaceService } from "@/fixit-web/services";
+// youtrack web services
+import { WorkspaceService } from "@/youtrack-web/services";
 
 const workspaceService = new WorkspaceService();
 

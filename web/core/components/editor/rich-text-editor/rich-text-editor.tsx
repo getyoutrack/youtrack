@@ -1,15 +1,15 @@
 import React, { forwardRef } from "react";
 // editor
-import { EditorRefApi, IRichTextEditor, RichTextEditorWithRef } from "@fixit/editor";
+import { EditorRefApi, IRichTextEditor, RichTextEditorWithRef } from "@youtrack/editor";
 // types
-import { IUserLite } from "@fixit/types";
+import { IUserLite } from "@youtrack/types";
 // helpers
 import { cn } from "@/helpers/common.helper";
 import { getEditorFileHandlers } from "@/helpers/editor.helper";
 // hooks
 import { useMember, useMention, useUser } from "@/hooks/store";
-// fixit web hooks
-import { useFileSize } from "@/fixit-web/hooks/use-file-size";
+// youtrack web hooks
+import { useFileSize } from "@/youtrack-web/hooks/use-file-size";
 
 interface RichTextEditorWrapperProps extends Omit<IRichTextEditor, "fileHandler" | "mentionHandler"> {
   workspaceSlug: string;

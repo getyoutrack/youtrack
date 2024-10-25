@@ -6,7 +6,7 @@ import Link from "next/link";
 import { ExternalLink, FileText, HelpCircle, MoveLeft } from "lucide-react";
 import { Transition } from "@headlessui/react";
 // ui
-import { DiscordIcon, GithubIcon, Tooltip } from "@fixit/ui";
+import { DiscordIcon, GithubIcon, Tooltip } from "@youtrack/ui";
 // helpers
 import { WEB_BASE_URL, cn } from "@/helpers/common.helper";
 // hooks
@@ -17,7 +17,7 @@ import packageJson from "package.json";
 const helpOptions = [
   {
     name: "Documentation",
-    href: "https://docs.fixit.so/",
+    href: "https://docs.youtrack.so/",
     Icon: FileText,
   },
   {
@@ -27,7 +27,7 @@ const helpOptions = [
   },
   {
     name: "Report a bug",
-    href: "https://github.com/meta-mart/fixit/issues/new/choose",
+    href: "https://github.com/getyoutrack/youtrack/issues/new/choose",
     Icon: GithubIcon,
   },
 ];
@@ -52,13 +52,13 @@ export const HelpSection: FC = observer(() => {
       )}
     >
       <div className={`flex items-center gap-1 ${isSidebarCollapsed ? "flex-col justify-center" : "w-full"}`}>
-        <Tooltip tooltipContent="Redirect to fixit" position="right" className="ml-4" disabled={!isSidebarCollapsed}>
+        <Tooltip tooltipContent="Redirect to youtrack" position="right" className="ml-4" disabled={!isSidebarCollapsed}>
           <a
             href={redirectionLink}
             className={`relative px-2 py-1.5 flex items-center gap-2 font-medium rounded border border-custom-primary-100/20 bg-custom-primary-100/10 text-xs text-custom-primary-200 whitespace-nowrap`}
           >
             <ExternalLink size={14} />
-            {!isSidebarCollapsed && "Redirect to fixit"}
+            {!isSidebarCollapsed && "Redirect to youtrack"}
           </a>
         </Tooltip>
         <Tooltip tooltipContent="Help" position={isSidebarCollapsed ? "right" : "top"} className="ml-4">

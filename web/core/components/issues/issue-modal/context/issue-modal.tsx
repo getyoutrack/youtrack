@@ -1,9 +1,9 @@
 import React, { createContext } from "react";
 import { UseFormWatch } from "react-hook-form";
 // types
-import { TIssue } from "@fixit/types";
-// fixit web types
-import { TIssuePropertyValueErrors, TIssuePropertyValues } from "@/fixit-web/types";
+import { TIssue } from "@youtrack/types";
+// youtrack web types
+import { TIssuePropertyValueErrors, TIssuePropertyValues } from "@/youtrack-web/types";
 
 export type TPropertyValuesValidationProps = {
   projectId: string | null;

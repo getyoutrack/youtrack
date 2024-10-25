@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 // ui
-import { Button, Tooltip } from "@fixit/ui";
+import { Button, Tooltip } from "@youtrack/ui";
 // hooks
 import { usePlatformOS } from "@/hooks/use-platform-os";
 // assets

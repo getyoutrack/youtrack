@@ -98,8 +98,8 @@ const nextConfig = {
 const sentryConfig = {
   // For all available options, see:
   // https://github.com/getsentry/sentry-webpack-plugin#options
-  org: process.env.SENTRY_ORG_ID || "fixit-hq",
-  project: process.env.SENTRY_PROJECT_ID || "fixit-web",
+  org: process.env.SENTRY_ORG_ID || "youtrack-hq",
+  project: process.env.SENTRY_PROJECT_ID || "youtrack-web",
   authToken: process.env.SENTRY_AUTH_TOKEN,
   // Only print logs for uploading source maps in CI
   silent: true,

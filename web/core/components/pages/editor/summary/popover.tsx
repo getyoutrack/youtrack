@@ -2,7 +2,7 @@ import { useState } from "react";
 import { usePopper } from "react-popper";
 import { List } from "lucide-react";
 // document editor
-import { EditorReadOnlyRefApi, EditorRefApi } from "@fixit/editor";
+import { EditorReadOnlyRefApi, EditorRefApi } from "@youtrack/editor";
 // helpers
 import { cn } from "@/helpers/common.helper";
 // components

@@ -4,7 +4,7 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { CalendarCheck2, Signal } from "lucide-react";
 // ui
-import { DoubleCircleIcon, StateGroupIcon, TOAST_TYPE, setToast } from "@fixit/ui";
+import { DoubleCircleIcon, StateGroupIcon, TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { Icon } from "@/components/ui";
 // constants

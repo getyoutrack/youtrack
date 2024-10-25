@@ -5,11 +5,11 @@ import update from "lodash/update";
 import { action, computed, makeObservable, observable, runInAction } from "mobx";
 import { computedFn } from "mobx-utils";
 // types
-import { IEstimate as IEstimateType, IEstimateFormData, TEstimateSystemKeys } from "@fixit/types";
-// fixit web services
-import estimateService from "@/fixit-web/services/project/estimate.service";
-// fixit web store
-import { IEstimate, Estimate } from "@/fixit-web/store/estimates/estimate";
+import { IEstimate as IEstimateType, IEstimateFormData, TEstimateSystemKeys } from "@youtrack/types";
+// youtrack web services
+import estimateService from "@/youtrack-web/services/project/estimate.service";
+// youtrack web store
+import { IEstimate, Estimate } from "@/youtrack-web/store/estimates/estimate";
 // store
 import { CoreRootStore } from "../root.store";
 

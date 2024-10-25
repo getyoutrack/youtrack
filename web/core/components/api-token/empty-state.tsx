@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 // ui
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 // assets
 import emptyApiTokens from "@/public/empty-state/api-token.svg";
 

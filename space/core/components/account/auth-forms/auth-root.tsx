@@ -3,7 +3,7 @@
 import React, { FC, useEffect, useState } from "react";
 import { observer } from "mobx-react";
 import { useSearchParams } from "next/navigation";
-import { IEmailCheckData } from "@fixit/types";
+import { IEmailCheckData } from "@youtrack/types";
 // components
 import {
   AuthHeader,

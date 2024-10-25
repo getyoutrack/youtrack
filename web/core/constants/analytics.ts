@@ -1,5 +1,5 @@
 // types
-import { TXAxisValues, TYAxisValues } from "@fixit/types";
+import { TXAxisValues, TYAxisValues } from "@youtrack/types";
 
 export const ANALYTICS_TABS = [
   { key: "scope_and_demand", title: "Scope and Demand" },

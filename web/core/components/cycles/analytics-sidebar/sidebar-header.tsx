@@ -5,9 +5,9 @@ import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
 import { ArchiveIcon, ArchiveRestoreIcon, ChevronRight, EllipsisIcon, LinkIcon, Trash2 } from "lucide-react";
 // types
-import { ICycle } from "@fixit/types";
+import { ICycle } from "@youtrack/types";
 // ui
-import { CustomMenu, setToast, TOAST_TYPE } from "@fixit/ui";
+import { CustomMenu, setToast, TOAST_TYPE } from "@youtrack/ui";
 // components
 import { DateRangeDropdown } from "@/components/dropdowns";
 // constants
@@ -19,8 +19,8 @@ import { copyUrlToClipboard } from "@/helpers/string.helper";
 // hooks
 import { useCycle, useEventTracker, useUserPermissions } from "@/hooks/store";
 import { useAppRouter } from "@/hooks/use-app-router";
-// fixit web constants
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+// youtrack web constants
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 // services
 import { CycleService } from "@/services/cycle.service";
 // local components

@@ -11,9 +11,9 @@ import {
   TIssueKanbanFilters,
   TIssueGroupByOptions,
   TIssueOrderByOptions,
-} from "@fixit/types";
+} from "@youtrack/types";
 // UI
-import { Row } from "@fixit/ui";
+import { Row } from "@youtrack/ui";
 // hooks
 import { useCycle, useLabel, useMember, useModule, useProject, useProjectState } from "@/hooks/store";
 import { useIssueStoreType } from "@/hooks/use-issue-layout-store";

@@ -3,9 +3,9 @@
 import { useCallback, useState } from "react";
 import { observer } from "mobx-react";
 // types
-import { IIssueDisplayFilterOptions, IIssueDisplayProperties, IIssueFilterOptions } from "@fixit/types";
+import { IIssueDisplayFilterOptions, IIssueDisplayProperties, IIssueFilterOptions } from "@youtrack/types";
 // ui
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 
 import { DisplayFiltersSelection, FiltersDropdown, FilterSelection, LayoutSelection } from "@/components/issues";
 // constants
@@ -19,8 +19,8 @@ import {
 import { isIssueFilterActive } from "@/helpers/filter.helper";
 // hooks
 import { useLabel, useProjectState, useMember, useIssues } from "@/hooks/store";
-// fixit web types
-import { TProject } from "@/fixit-web/types";
+// youtrack web types
+import { TProject } from "@/youtrack-web/types";
 // local components
 import { ProjectAnalyticsModal } from "../analytics";
 

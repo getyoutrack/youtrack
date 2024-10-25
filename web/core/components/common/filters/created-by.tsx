@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import sortBy from "lodash/sortBy";
 import { observer } from "mobx-react";
 // ui
-import { Avatar, Loader } from "@fixit/ui";
+import { Avatar, Loader } from "@youtrack/ui";
 // components
 import { FilterHeader, FilterOption } from "@/components/issues";
 // helpers

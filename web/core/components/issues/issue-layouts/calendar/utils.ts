@@ -1,4 +1,4 @@
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 
 export const handleDragDrop = async (
   issueId: string,

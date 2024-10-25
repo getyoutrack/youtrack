@@ -1,7 +1,7 @@
 import React from "react";
 import { observer } from "mobx-react";
 // types
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 // components
 import { MemberDropdown } from "@/components/dropdowns";
 

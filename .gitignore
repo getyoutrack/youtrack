@@ -81,7 +81,9 @@ tmp/
 ## packages
 dist
 .temp/
-deploy/selfhost/fixit-app/
+deploy/selfhost/youtrack-app/
 ## Storybook
 *storybook.log
 output.css
+
+archive/*

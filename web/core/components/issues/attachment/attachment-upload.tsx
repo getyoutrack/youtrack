@@ -1,8 +1,8 @@
 import { useCallback, useState } from "react";
 import { observer } from "mobx-react";
 import { useDropzone } from "react-dropzone";
-// fixit web hooks
-import { useFileSize } from "@/fixit-web/hooks/use-file-size";
+// youtrack web hooks
+import { useFileSize } from "@/youtrack-web/hooks/use-file-size";
 // types
 import { TAttachmentOperations } from "./root";
 

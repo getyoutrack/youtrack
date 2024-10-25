@@ -6,13 +6,13 @@ import {
   TGetBaseAuthenticationModeProps,
   TInstanceAuthenticationMethodKeys,
   TInstanceAuthenticationModes,
-} from "@fixit/types";
+} from "@youtrack/types";
 // components
 import { AuthenticationMethodCard } from "@/components/authentication";
 // helpers
 import { getBaseAuthenticationModes } from "@/helpers/authentication.helper";
-// fixit admin components
-import { UpgradeButton } from "@/fixit-admin/components/common";
+// youtrack admin components
+import { UpgradeButton } from "@/youtrack-admin/components/common";
 // images
 import OIDCLogo from "@/public/logos/oidc-logo.svg";
 import SAMLLogo from "@/public/logos/saml-logo.svg";

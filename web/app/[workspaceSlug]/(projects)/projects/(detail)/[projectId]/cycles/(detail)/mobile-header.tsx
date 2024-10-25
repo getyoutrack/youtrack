@@ -5,9 +5,9 @@ import { useParams } from "next/navigation";
 // icons
 import { Calendar, ChevronDown, Kanban, List } from "lucide-react";
 // types
-import { IIssueDisplayFilterOptions, IIssueDisplayProperties, IIssueFilterOptions } from "@fixit/types";
+import { IIssueDisplayFilterOptions, IIssueDisplayProperties, IIssueFilterOptions } from "@youtrack/types";
 // ui
-import { CustomMenu } from "@fixit/ui";
+import { CustomMenu } from "@youtrack/ui";
 // components
 import { ProjectAnalyticsModal } from "@/components/analytics";
 import { DisplayFiltersSelection, FilterSelection, FiltersDropdown } from "@/components/issues";

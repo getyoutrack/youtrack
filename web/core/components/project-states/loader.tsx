@@ -1,6 +1,6 @@
 "use client";
 
-import { Loader } from "@fixit/ui";
+import { Loader } from "@youtrack/ui";
 
 export const ProjectStateLoader = () => (
   <Loader className="space-y-5 md:w-2/3">

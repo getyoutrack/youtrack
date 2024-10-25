@@ -9,7 +9,7 @@ import { useSearchParams } from "next/navigation";
 import { useTheme } from "next-themes";
 import { Eye, EyeOff } from "lucide-react";
 // ui
-import { Button, Input, TOAST_TYPE, setToast } from "@fixit/ui";
+import { Button, Input, TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { PasswordStrengthMeter } from "@/components/account";
 // helpers
@@ -22,10 +22,10 @@ import { useAppRouter } from "@/hooks/use-app-router";
 import { AuthenticationWrapper } from "@/lib/wrappers";
 // services
 // images
-import FixitBackgroundPatternDark from "@/public/auth/background-pattern-dark.svg";
-import FixitBackgroundPattern from "@/public/auth/background-pattern.svg";
-import BlackHorizontalLogo from "@/public/fixit-logos/black-horizontal-with-blue-logo.png";
-import WhiteHorizontalLogo from "@/public/fixit-logos/white-horizontal-with-blue-logo.png";
+import YoutrackBackgroundPatternDark from "@/public/auth/background-pattern-dark.svg";
+import YoutrackBackgroundPattern from "@/public/auth/background-pattern.svg";
+import BlackHorizontalLogo from "@/public/youtrack-logos/black-horizontal-with-blue-logo.png";
+import WhiteHorizontalLogo from "@/public/youtrack-logos/white-horizontal-with-blue-logo.png";
 import { AuthService } from "@/services/auth.service";
 
 type TResetPasswordFormValues = {
@@ -112,16 +112,16 @@ const SetPasswordPage = observer(() => {
       <div className="relative w-screen h-screen overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src={resolvedTheme === "dark" ? FixitBackgroundPatternDark : FixitBackgroundPattern}
+            src={resolvedTheme === "dark" ? YoutrackBackgroundPatternDark : YoutrackBackgroundPattern}
             className="w-full h-full object-cover"
-            alt="Fixit background pattern"
+            alt="Youtrack background pattern"
           />
         </div>
         <div className="relative z-10 w-screen h-screen overflow-hidden overflow-y-auto flex flex-col">
           <div className="container min-w-full px-10 lg:px-20 xl:px-36 flex-shrink-0 relative flex items-center justify-between pb-4 transition-all">
             <div className="flex items-center gap-x-2 py-10">
               <Link href={`/`} className="h-[30px] w-[133px]">
-                <Image src={logo} alt="Fixit logo" />
+                <Image src={logo} alt="Youtrack logo" />
               </Link>
             </div>
           </div>

@@ -5,7 +5,7 @@ import type {
   TNotificationPaginatedInfoQueryParams,
   TNotification,
   TUnreadNotificationsCount,
-} from "@fixit/types";
+} from "@youtrack/types";
 // helpers
 import { API_BASE_URL } from "@/helpers/common.helper";
 // services

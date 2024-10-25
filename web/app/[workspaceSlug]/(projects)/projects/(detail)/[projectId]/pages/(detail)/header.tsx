@@ -5,9 +5,9 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { FileText } from "lucide-react";
 // types
-import { TLogoProps } from "@fixit/types";
+import { TLogoProps } from "@youtrack/types";
 // ui
-import { Breadcrumbs, EmojiIconPicker, EmojiIconPickerTypes, TOAST_TYPE, Tooltip, setToast, Header } from "@fixit/ui";
+import { Breadcrumbs, EmojiIconPicker, EmojiIconPickerTypes, TOAST_TYPE, Tooltip, setToast, Header } from "@youtrack/ui";
 // components
 import { BreadcrumbLink, Logo } from "@/components/common";
 import { PageEditInformationPopover } from "@/components/pages";
@@ -17,8 +17,8 @@ import { getPageName } from "@/helpers/page.helper";
 // hooks
 import { usePage, useProject, useUser, useUserPermissions } from "@/hooks/store";
 import { usePlatformOS } from "@/hooks/use-platform-os";
-// fixit web components
-import { PageDetailsHeaderExtraActions } from "@/fixit-web/components/pages";
+// youtrack web components
+import { PageDetailsHeaderExtraActions } from "@/youtrack-web/components/pages";
 import { EUserPermissions, EUserPermissionsLevel } from "ee/constants/user-permissions";
 
 export interface IPagesHeaderProps {

@@ -2,7 +2,7 @@
 
 import { observer } from "mobx-react";
 // ui
-import { Checkbox } from "@fixit/ui";
+import { Checkbox } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common.helper";
 // hooks

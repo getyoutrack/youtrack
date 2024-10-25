@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import { AdminLayout } from "@/layouts/admin-layout";
 
 export const metadata: Metadata = {
-  title: "Artificial Intelligence Settings - Fixit Web",
+  title: "Artificial Intelligence Settings - Youtrack Web",
 };
 
 export default function AILayout({ children }: { children: ReactNode }) {

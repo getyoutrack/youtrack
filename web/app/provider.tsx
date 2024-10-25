@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 import { useTheme, ThemeProvider } from "next-themes";
 import { SWRConfig } from "swr";
 // ui
-import { Toast } from "@fixit/ui";
+import { Toast } from "@youtrack/ui";
 // constants
 import { SWR_CONFIG } from "@/constants/swr-config";
 //helpers

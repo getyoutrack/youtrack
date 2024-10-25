@@ -4,9 +4,9 @@ import React, { useEffect, useState } from "react";
 import { observer } from "mobx-react";
 import { useForm } from "react-hook-form";
 // types
-import type { IModule } from "@fixit/types";
+import type { IModule } from "@youtrack/types";
 // ui
-import { EModalPosition, EModalWidth, ModalCore, TOAST_TYPE, setToast } from "@fixit/ui";
+import { EModalPosition, EModalWidth, ModalCore, TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { ModuleForm } from "@/components/modules";
 // constants

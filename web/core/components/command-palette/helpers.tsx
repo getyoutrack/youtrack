@@ -8,11 +8,11 @@ import {
   IWorkspacePageSearchResult,
   IWorkspaceProjectSearchResult,
   IWorkspaceSearchResult,
-} from "@fixit/types";
+} from "@youtrack/types";
 // ui
-import { ContrastIcon, DiceIcon } from "@fixit/ui";
-// fixit web components
-import { IssueIdentifier } from "@/fixit-web/components/issues";
+import { ContrastIcon, DiceIcon } from "@youtrack/ui";
+// youtrack web components
+import { IssueIdentifier } from "@/youtrack-web/components/issues";
 
 export const commandGroups: {
   [key: string]: {

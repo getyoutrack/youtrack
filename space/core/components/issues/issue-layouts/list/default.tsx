@@ -9,7 +9,7 @@ import {
   IGroupByColumn,
   TPaginationData,
   TLoader,
-} from "@fixit/types";
+} from "@youtrack/types";
 // hooks
 import { useMember, useModule, useStates, useLabel, useCycle } from "@/hooks/store";
 //

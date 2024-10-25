@@ -3,14 +3,14 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 // ui
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 // components
 import { PageHead } from "@/components/core";
 import { DownloadActivityButton, WorkspaceActivityListPage } from "@/components/profile";
 // hooks
 import { useUserPermissions } from "@/hooks/store";
-// fixit-web constants
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+// youtrack-web constants
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 const PER_PAGE = 100;
 

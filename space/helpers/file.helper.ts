@@ -1,5 +1,5 @@
-// fixit types
-import { TFileMetaDataLite, TFileSignedURLResponse } from "@fixit/types";
+// youtrack types
+import { TFileMetaDataLite, TFileSignedURLResponse } from "@youtrack/types";
 // helpers
 import { API_BASE_URL } from "@/helpers/common.helper";
 

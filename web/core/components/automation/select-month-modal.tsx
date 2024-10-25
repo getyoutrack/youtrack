@@ -6,9 +6,9 @@ import { useParams } from "next/navigation";
 import { Controller, useForm } from "react-hook-form";
 // headless ui
 import { Dialog, Transition } from "@headlessui/react";
-import type { IProject } from "@fixit/types";
+import type { IProject } from "@youtrack/types";
 // ui
-import { Button, Input } from "@fixit/ui";
+import { Button, Input } from "@youtrack/ui";
 // types
 
 // types

@@ -6,8 +6,8 @@ import { draggable, dropTargetForElements } from "@atlaskit/pragmatic-drag-and-d
 import { attachClosestEdge, extractClosestEdge } from "@atlaskit/pragmatic-drag-and-drop-hitbox/closest-edge";
 import { observer } from "mobx-react";
 import { GripVertical, Pencil } from "lucide-react";
-import { IState, TStateGroups } from "@fixit/types";
-import { DropIndicator, StateGroupIcon } from "@fixit/ui";
+import { IState, TStateGroups } from "@youtrack/types";
+import { DropIndicator, StateGroupIcon } from "@youtrack/ui";
 // components
 import { StateUpdate, StateDelete, StateMarksAsDefault } from "@/components/project-states";
 // helpers

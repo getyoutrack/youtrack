@@ -10,7 +10,7 @@ import type {
   IUserEmailNotificationSettings,
   TIssuesResponse,
   TUserProfile,
-} from "@fixit/types";
+} from "@youtrack/types";
 import { API_BASE_URL } from "@/helpers/common.helper";
 import { APIService } from "@/services/api.service";
 // types

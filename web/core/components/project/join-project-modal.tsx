@@ -4,9 +4,9 @@ import { useState, Fragment } from "react";
 
 import { Transition, Dialog } from "@headlessui/react";
 // types
-import type { IProject } from "@fixit/types";
+import type { IProject } from "@youtrack/types";
 // ui
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 // hooks
 import { useProject, useUserPermissions } from "@/hooks/store";
 import { useAppRouter } from "@/hooks/use-app-router";

@@ -1,4 +1,4 @@
-import { IIssueLabel, IIssueLabelTree } from "@fixit/types";
+import { IIssueLabel, IIssueLabelTree } from "@youtrack/types";
 
 export const groupBy = (array: any[], key: string) => {
   const innerKey = key.split("."); // split the key by dot

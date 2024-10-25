@@ -1,5 +1,5 @@
 import { Placement } from "@popperjs/core";
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 
 export interface IQuickActionProps {
   parentRef: React.RefObject<HTMLElement>;

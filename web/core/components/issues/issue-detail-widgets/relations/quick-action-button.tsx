@@ -2,8 +2,8 @@
 import React, { FC } from "react";
 import { observer } from "mobx-react";
 import { Plus } from "lucide-react";
-import { TIssueRelationTypes } from "@fixit/types";
-import { CustomMenu } from "@fixit/ui";
+import { TIssueRelationTypes } from "@youtrack/types";
+import { CustomMenu } from "@youtrack/ui";
 // hooks
 import { useIssueDetail } from "@/hooks/store";
 // helper

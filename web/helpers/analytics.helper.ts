@@ -1,6 +1,6 @@
 // nivo
 import { BarDatum } from "@nivo/bar";
-import { IAnalyticsData, IAnalyticsParams, IAnalyticsResponse, TStateGroups } from "@fixit/types";
+import { IAnalyticsData, IAnalyticsParams, IAnalyticsResponse, TStateGroups } from "@youtrack/types";
 // helpers
 import { DATE_KEYS } from "@/constants/analytics";
 import { MONTHS_LIST } from "@/constants/calendar";

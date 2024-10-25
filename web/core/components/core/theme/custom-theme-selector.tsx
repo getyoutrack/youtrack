@@ -3,9 +3,9 @@
 import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
 // types
-import { IUserTheme } from "@fixit/types";
+import { IUserTheme } from "@youtrack/types";
 // ui
-import { Button, InputColorPicker, setPromiseToast } from "@fixit/ui";
+import { Button, InputColorPicker, setPromiseToast } from "@youtrack/ui";
 // hooks
 import { useUserProfile } from "@/hooks/store";
 

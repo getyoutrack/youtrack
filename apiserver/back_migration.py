@@ -2,8 +2,8 @@
 import uuid
 import random
 from django.contrib.auth.hashers import make_password
-from fixit.db.models import ProjectIdentifier
-from fixit.db.models import (
+from youtrack.db.models import ProjectIdentifier
+from youtrack.db.models import (
     Issue,
     IssueComment,
     User,

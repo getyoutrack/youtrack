@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useParams } from "next/navigation";
 // hooks
 import { ClipboardList } from "lucide-react";
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 import { useProject, useUserPermissions } from "@/hooks/store";
 // ui
 // icons

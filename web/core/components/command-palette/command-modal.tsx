@@ -8,9 +8,9 @@ import useSWR from "swr";
 import { FolderPlus, Search, Settings } from "lucide-react";
 import { Dialog, Transition } from "@headlessui/react";
 // types
-import { IWorkspaceSearchResults } from "@fixit/types";
+import { IWorkspaceSearchResults } from "@youtrack/types";
 // ui
-import { LayersIcon, Loader, ToggleSwitch, Tooltip } from "@fixit/ui";
+import { LayersIcon, Loader, ToggleSwitch, Tooltip } from "@youtrack/ui";
 // components
 import {
   ChangeIssueAssignee,
@@ -35,10 +35,10 @@ import { useCommandPalette, useEventTracker, useProject, useUser, useUserPermiss
 import { useAppRouter } from "@/hooks/use-app-router";
 import useDebounce from "@/hooks/use-debounce";
 import { usePlatformOS } from "@/hooks/use-platform-os";
-// fixit web components
-import { IssueIdentifier } from "@/fixit-web/components/issues";
-// fixit web services
-import { WorkspaceService } from "@/fixit-web/services";
+// youtrack web components
+import { IssueIdentifier } from "@/youtrack-web/components/issues";
+// youtrack web services
+import { WorkspaceService } from "@/youtrack-web/services";
 // services
 import { IssueService } from "@/services/issue";
 import { EUserPermissions, EUserPermissionsLevel } from "ee/constants/user-permissions";

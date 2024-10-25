@@ -8,7 +8,7 @@ import { Dialog, Transition } from "@headlessui/react";
 // hooks
 // ui
 //icons
-import { ContrastIcon, TransferIcon, TOAST_TYPE, setToast } from "@fixit/ui";
+import { ContrastIcon, TransferIcon, TOAST_TYPE, setToast } from "@youtrack/ui";
 import { EIssuesStoreType } from "@/constants/issue";
 import { useCycle, useIssues } from "@/hooks/store";
 //icons

@@ -1,7 +1,7 @@
-// fixit types
-import { IDefaultAnalyticsUser } from "@fixit/types";
-// fixit ui
-import { Card } from "@fixit/ui";
+// youtrack types
+import { IDefaultAnalyticsUser } from "@youtrack/types";
+// youtrack ui
+import { Card } from "@youtrack/ui";
 // components
 import { BarGraph, ProfileEmptyState } from "@/components/ui";
 // helpers

@@ -16,8 +16,8 @@ import {
 // component
 import { Palette } from "lucide-react";
 import { Popover, Transition } from "@headlessui/react";
-import { IUserTheme } from "@fixit/types";
-import { Input } from "@fixit/ui";
+import { IUserTheme } from "@youtrack/types";
+import { Input } from "@youtrack/ui";
 // icons
 // types
 

@@ -1,6 +1,6 @@
 import { observer } from "mobx-react";
 // components
-import { Row } from "@fixit/ui";
+import { Row } from "@youtrack/ui";
 import { MultipleSelectEntityAction } from "@/components/core";
 import { useGanttChart } from "@/components/gantt-chart/hooks";
 import { IssueGanttSidebarBlock } from "@/components/issues";

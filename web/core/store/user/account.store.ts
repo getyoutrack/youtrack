@@ -1,7 +1,7 @@
 import set from "lodash/set";
 import { makeObservable, observable } from "mobx";
 // types
-import { IUserAccount } from "@fixit/types";
+import { IUserAccount } from "@youtrack/types";
 // services
 import { UserService } from "@/services/user.service";
 // store

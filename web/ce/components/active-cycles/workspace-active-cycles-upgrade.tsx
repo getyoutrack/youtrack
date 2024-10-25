@@ -4,7 +4,7 @@ import React from "react";
 import { observer } from "mobx-react";
 import Image from "next/image";
 // ui
-import { ContentWrapper, getButtonStyling } from "@fixit/ui";
+import { ContentWrapper, getButtonStyling } from "@youtrack/ui";
 // components
 import { ProIcon } from "@/components/common";
 // constants

@@ -3,7 +3,7 @@
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // ui
-import { Breadcrumbs, LayersIcon, Header } from "@fixit/ui";
+import { Breadcrumbs, LayersIcon, Header } from "@youtrack/ui";
 // components
 import { BreadcrumbLink, Logo } from "@/components/common";
 import { IssueDetailQuickActions } from "@/components/issues";

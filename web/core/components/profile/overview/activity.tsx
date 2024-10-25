@@ -4,7 +4,7 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import useSWR from "swr";
 // ui
-import { Loader, Card } from "@fixit/ui";
+import { Loader, Card } from "@youtrack/ui";
 // components
 import { ActivityMessage, IssueLink } from "@/components/core";
 import { ProfileEmptyState } from "@/components/ui";

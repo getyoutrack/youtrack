@@ -3,7 +3,7 @@
 import { observer } from "mobx-react";
 import { X } from "lucide-react";
 // hooks
-import { DiceIcon } from "@fixit/ui";
+import { DiceIcon } from "@youtrack/ui";
 import { useModule } from "@/hooks/store";
 // ui
 

@@ -31,6 +31,6 @@ const ContentWrapper = React.forwardRef<HTMLDivElement, ContentWrapperProps>((pr
   );
 });
 
-ContentWrapper.displayName = "fixit-ui-wrapper";
+ContentWrapper.displayName = "youtrack-ui-wrapper";
 
 export { ContentWrapper };

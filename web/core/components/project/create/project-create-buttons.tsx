@@ -1,7 +1,7 @@
 import { useFormContext } from "react-hook-form";
-import { IProject } from "@fixit/types";
+import { IProject } from "@youtrack/types";
 // ui
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 // constants
 import { ETabIndices } from "@/constants/tab-indices";
 // helpers

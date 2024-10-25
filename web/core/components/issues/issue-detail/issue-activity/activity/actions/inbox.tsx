@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { observer } from "mobx-react";
 // hooks
-import { Intake } from "@fixit/ui";
+import { Intake } from "@youtrack/ui";
 import { useIssueDetail } from "@/hooks/store";
 // components
 import { IssueActivityBlockComponent } from "./";

@@ -1,6 +1,6 @@
 // types
-import { IUserStateDistribution } from "@fixit/types";
-import { Card, ECardDirection, ECardSpacing } from "@fixit/ui";
+import { IUserStateDistribution } from "@youtrack/types";
+import { Card, ECardDirection, ECardSpacing } from "@youtrack/ui";
 import { STATE_GROUPS } from "@/constants/state";
 // constants
 

@@ -2,10 +2,10 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import useSWR from "swr";
 import { TriangleAlert } from "lucide-react";
-// fixit types
-import { TPageVersion } from "@fixit/types";
-// fixit ui
-import { Button, setToast, TOAST_TYPE } from "@fixit/ui";
+// youtrack types
+import { TPageVersion } from "@youtrack/types";
+// youtrack ui
+import { Button, setToast, TOAST_TYPE } from "@youtrack/ui";
 // components
 import { TVersionEditorProps } from "@/components/pages";
 // helpers

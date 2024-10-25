@@ -11,12 +11,12 @@ import {
   TDisplayConfig,
   TRealtimeConfig,
   TServerHandler,
-} from "@fixit/editor";
+} from "@youtrack/editor";
 // types
-import { IUserLite } from "@fixit/types";
-import { EFileAssetType } from "@fixit/types/src/enums";
+import { IUserLite } from "@youtrack/types";
+import { EFileAssetType } from "@youtrack/types/src/enums";
 // components
-import { Row } from "@fixit/ui";
+import { Row } from "@youtrack/ui";
 import { PageContentBrowser, PageContentLoader, PageEditorTitle } from "@/components/pages";
 // helpers
 import { cn, LIVE_BASE_PATH, LIVE_BASE_URL } from "@/helpers/common.helper";
@@ -25,12 +25,12 @@ import { generateRandomColor } from "@/helpers/string.helper";
 // hooks
 import { useMember, useMention, useUser, useWorkspace } from "@/hooks/store";
 import { usePageFilters } from "@/hooks/use-page-filters";
-// fixit web components
-import { EditorAIMenu } from "@/fixit-web/components/pages";
-// fixit web hooks
-import { useEditorFlagging } from "@/fixit-web/hooks/use-editor-flagging";
-import { useFileSize } from "@/fixit-web/hooks/use-file-size";
-import { useIssueEmbed } from "@/fixit-web/hooks/use-issue-embed";
+// youtrack web components
+import { EditorAIMenu } from "@/youtrack-web/components/pages";
+// youtrack web hooks
+import { useEditorFlagging } from "@/youtrack-web/hooks/use-editor-flagging";
+import { useFileSize } from "@/youtrack-web/hooks/use-file-size";
+import { useIssueEmbed } from "@/youtrack-web/hooks/use-issue-embed";
 // services
 import { FileService } from "@/services/file.service";
 // store

@@ -1,7 +1,7 @@
-// fixit helpers
-import { convertHexEmojiToDecimal } from "@fixit/helpers";
-// fixit ui
-import { EmojiIconPicker, EmojiIconPickerTypes, Logo, TEmojiLogoProps } from "@fixit/ui";
+// youtrack helpers
+import { convertHexEmojiToDecimal } from "@youtrack/helpers";
+// youtrack ui
+import { EmojiIconPicker, EmojiIconPickerTypes, Logo, TEmojiLogoProps } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common";
 // types

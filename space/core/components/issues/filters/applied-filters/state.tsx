@@ -3,7 +3,7 @@
 import { observer } from "mobx-react";
 import { X } from "lucide-react";
 // ui
-import { StateGroupIcon } from "@fixit/ui";
+import { StateGroupIcon } from "@youtrack/ui";
 // hooks
 import { useStates } from "@/hooks/store";
 

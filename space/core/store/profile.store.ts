@@ -1,7 +1,7 @@
 import set from "lodash/set";
 import { action, makeObservable, observable, runInAction } from "mobx";
 // types
-import { TUserProfile } from "@fixit/types";
+import { TUserProfile } from "@youtrack/types";
 // services
 import { UserService } from "@/services/user.service";
 // store

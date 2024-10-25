@@ -6,8 +6,8 @@ import { IssueParentDetail, TIssueOperations } from "@/components/issues";
 import { useIssueDetail, useUser } from "@/hooks/store";
 // hooks
 import useReloadConfirmations from "@/hooks/use-reload-confirmation";
-// fixit web components
-import { IssueTypeSwitcher } from "@/fixit-web/components/issues";
+// youtrack web components
+import { IssueTypeSwitcher } from "@/youtrack-web/components/issues";
 // local components
 import { IssueDescriptionInput } from "../description-input";
 import { IssueReaction } from "../issue-detail/reactions";

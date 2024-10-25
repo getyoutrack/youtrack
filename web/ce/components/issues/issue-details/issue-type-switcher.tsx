@@ -1,8 +1,8 @@
 import { observer } from "mobx-react";
 // store hooks
 import { useIssueDetail } from "@/hooks/store";
-// fixit web components
-import { IssueIdentifier } from "@/fixit-web/components/issues";
+// youtrack web components
+import { IssueIdentifier } from "@/youtrack-web/components/issues";
 
 export type TIssueTypeSwitcherProps = {
   issueId: string;

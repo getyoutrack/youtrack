@@ -3,18 +3,18 @@ import Link from "next/link";
 import { Controller, useForm } from "react-hook-form";
 import { Trash2 } from "lucide-react";
 import { Disclosure } from "@headlessui/react";
-// fixit types
-import { IUser, IWorkspaceMember } from "@fixit/types";
-// fixit ui
-import { CustomSelect, PopoverMenu, TOAST_TYPE, setToast } from "@fixit/ui";
+// youtrack types
+import { IUser, IWorkspaceMember } from "@youtrack/types";
+// youtrack ui
+import { CustomSelect, PopoverMenu, TOAST_TYPE, setToast } from "@youtrack/ui";
 // constants
 import { ROLE } from "@/constants/workspace";
 // helpers
 import { getFileURL } from "@/helpers/file.helper";
 // hooks
 import { useMember, useUser, useUserPermissions } from "@/hooks/store";
-// fixit web constants
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+// youtrack web constants
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 export interface RowData {
   member: IWorkspaceMember;

@@ -1,7 +1,7 @@
 // types
-import { IDefaultAnalyticsResponse, TStateGroups } from "@fixit/types";
+import { IDefaultAnalyticsResponse, TStateGroups } from "@youtrack/types";
 // constants
-import { Card } from "@fixit/ui";
+import { Card } from "@youtrack/ui";
 import { STATE_GROUPS } from "@/constants/state";
 
 type Props = {

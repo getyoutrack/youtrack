@@ -3,7 +3,7 @@
 import { Command } from "cmdk";
 import { useParams } from "next/navigation";
 // types
-import { IWorkspaceSearchResults } from "@fixit/types";
+import { IWorkspaceSearchResults } from "@youtrack/types";
 // helpers
 import { commandGroups } from "@/components/command-palette";
 // hooks

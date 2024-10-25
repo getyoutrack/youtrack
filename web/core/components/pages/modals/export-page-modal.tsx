@@ -3,10 +3,10 @@
 import { useState } from "react";
 import { PageProps, pdf } from "@react-pdf/renderer";
 import { Controller, useForm } from "react-hook-form";
-// fixit editor
-import { EditorReadOnlyRefApi, EditorRefApi } from "@fixit/editor";
-// fixit ui
-import { Button, CustomSelect, EModalPosition, EModalWidth, ModalCore, setToast, TOAST_TYPE } from "@fixit/ui";
+// youtrack editor
+import { EditorReadOnlyRefApi, EditorRefApi } from "@youtrack/editor";
+// youtrack ui
+import { Button, CustomSelect, EModalPosition, EModalWidth, ModalCore, setToast, TOAST_TYPE } from "@youtrack/ui";
 // components
 import { PDFDocument } from "@/components/editor";
 // helpers

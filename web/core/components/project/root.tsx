@@ -4,7 +4,7 @@ import { useCallback, useEffect } from "react";
 import { observer } from "mobx-react";
 // types
 import { useParams, usePathname } from "next/navigation";
-import { TProjectAppliedDisplayFilterKeys, TProjectFilters } from "@fixit/types";
+import { TProjectAppliedDisplayFilterKeys, TProjectFilters } from "@youtrack/types";
 // components
 import { PageHead } from "@/components/core";
 import { ProjectAppliedFiltersList, ProjectCardList } from "@/components/project";

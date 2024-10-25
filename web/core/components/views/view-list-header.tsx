@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import { observer } from "mobx-react";
 // icons
 import { ListFilter, Search, X } from "lucide-react";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
 // helpers
 import { cn } from "@/helpers/common.helper";
 // hooks

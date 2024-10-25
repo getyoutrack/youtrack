@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 import { observer } from "mobx-react";
 import useSWR from "swr";
 // types
-import { TOnboardingSteps, TUserProfile } from "@fixit/types";
+import { TOnboardingSteps, TUserProfile } from "@youtrack/types";
 // ui
-import { TOAST_TYPE, setToast } from "@fixit/ui";
+import { TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { LogoSpinner } from "@/components/common";
 import { InviteMembers, CreateOrJoinWorkspaces, ProfileSetup } from "@/components/onboarding";
@@ -19,7 +19,7 @@ import { EPageTypes } from "@/helpers/authentication.helper";
 import { useUser, useWorkspace, useUserProfile, useEventTracker } from "@/hooks/store";
 // wrappers
 import { AuthenticationWrapper } from "@/lib/wrappers";
-import { WorkspaceService } from "@/fixit-web/services";
+import { WorkspaceService } from "@/youtrack-web/services";
 // services
 
 enum EOnboardingSteps {

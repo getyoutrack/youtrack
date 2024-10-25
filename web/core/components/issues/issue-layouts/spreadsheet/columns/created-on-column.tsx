@@ -1,9 +1,9 @@
 import React from "react";
 import { observer } from "mobx-react";
 // types
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 // helpers
-import { Row } from "@fixit/ui";
+import { Row } from "@youtrack/ui";
 import { renderFormattedDate } from "@/helpers/date-time.helper";
 
 type Props = {

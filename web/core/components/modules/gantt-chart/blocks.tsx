@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 // hooks
 // ui
-import { Tooltip, ModuleStatusIcon } from "@fixit/ui";
+import { Tooltip, ModuleStatusIcon } from "@youtrack/ui";
 // helpers
 import { MODULE_STATUS } from "@/constants/module";
 import { renderFormattedDate } from "@/helpers/date-time.helper";

@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Tooltip } from "@fixit/ui";
+import { Tooltip } from "@youtrack/ui";
 
 type TIssueLabelPill = { name?: string; color?: string };
 

@@ -3,9 +3,9 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { Earth, Lock } from "lucide-react";
 // types
-import { IProjectView } from "@fixit/types";
+import { IProjectView } from "@youtrack/types";
 // ui
-import { Tooltip, FavoriteStar } from "@fixit/ui";
+import { Tooltip, FavoriteStar } from "@youtrack/ui";
 // components
 import { DeleteProjectViewModal, CreateUpdateProjectViewModal, ViewQuickActions } from "@/components/views";
 // constants
@@ -14,7 +14,7 @@ import { EViewAccess } from "@/constants/views";
 import { calculateTotalFilters } from "@/helpers/filter.helper";
 // hooks
 import { useMember, useProjectView, useUserPermissions } from "@/hooks/store";
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 import { ButtonAvatars } from "../dropdowns/member/avatar";
 
 type Props = {

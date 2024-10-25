@@ -4,10 +4,10 @@ import { Command } from "cmdk";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { Check } from "lucide-react";
-// fixit types
-import { TIssue } from "@fixit/types";
-// fixit ui
-import { Avatar } from "@fixit/ui";
+// youtrack types
+import { TIssue } from "@youtrack/types";
+// youtrack ui
+import { Avatar } from "@youtrack/ui";
 // constants
 import { EIssuesStoreType } from "@/constants/issue";
 // helpers

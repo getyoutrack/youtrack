@@ -1,5 +1,5 @@
-// fixit editor
-import { TFileHandler } from "@fixit/editor";
+// youtrack editor
+import { TFileHandler } from "@youtrack/editor";
 // constants
 import { MAX_FILE_SIZE } from "@/constants/common";
 // helpers

@@ -10,8 +10,8 @@ import { mutate } from "swr";
 import { AlertTriangle } from "lucide-react";
 import { Dialog, Transition } from "@headlessui/react";
 // services
-import { IUser, IImporterService } from "@fixit/types";
-import { Button, Input, TOAST_TYPE, setToast } from "@fixit/ui";
+import { IUser, IImporterService } from "@youtrack/types";
+import { Button, Input, TOAST_TYPE, setToast } from "@youtrack/ui";
 import { IMPORTER_SERVICES_LIST } from "@/constants/fetch-keys";
 import { IntegrationService } from "@/services/integrations/integration.service";
 // ui

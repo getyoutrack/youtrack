@@ -4,8 +4,8 @@ import sortBy from "lodash/sortBy";
 import { Combobox } from "@headlessui/react";
 // popper-js
 import { usePopper } from "react-popper";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
 // components
 import { DropdownButton } from "./common";
 import { DropdownOptions } from "./common/options";

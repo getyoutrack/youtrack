@@ -3,8 +3,8 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { ListFilter } from "lucide-react";
 // types
-import { cn } from "@fixit/editor";
-import { TProjectFilters } from "@fixit/types";
+import { cn } from "@youtrack/editor";
+import { TProjectFilters } from "@youtrack/types";
 // components
 import { FiltersDropdown } from "@/components/issues";
 import { ProjectFiltersSelection, ProjectOrderByDropdown } from "@/components/project";

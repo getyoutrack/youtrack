@@ -5,8 +5,8 @@ import { observer } from "mobx-react";
 import { useTheme as useNextTheme } from "next-themes";
 import { LogOut, UserCog2, Palette } from "lucide-react";
 import { Menu, Transition } from "@headlessui/react";
-// fixit ui
-import { Avatar } from "@fixit/ui";
+// youtrack ui
+import { Avatar } from "@youtrack/ui";
 // helpers
 import { API_BASE_URL, cn } from "@/helpers/common.helper";
 import { getFileURL } from "@/helpers/file.helper";

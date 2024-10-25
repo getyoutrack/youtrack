@@ -12,8 +12,8 @@ import {
 } from "@/components/estimates";
 // hooks
 import { useProject, useProjectEstimates } from "@/hooks/store";
-// fixit web components
-import { UpdateEstimateModal } from "@/fixit-web/components/estimates";
+// youtrack web components
+import { UpdateEstimateModal } from "@/youtrack-web/components/estimates";
 
 type TEstimateRoot = {
   workspaceSlug: string;
@@ -83,7 +83,7 @@ export const EstimateRoot: FC<TEstimateRoot> = observer((props) => {
                   Estimates have gone through a change, these are the estimates you had in your older versions which
                   were not in use. Read more about them&nbsp;
                   <a
-                    href={"https://docs.fixit.so/core-concepts/projects/run-project#estimate"}
+                    href={"https://docs.youtrack.so/core-concepts/projects/run-project#estimate"}
                     target="_blank"
                     className="text-custom-primary-100/80 hover:text-custom-primary-100"
                   >

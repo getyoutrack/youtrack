@@ -4,9 +4,9 @@ import React, { useState } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // types
-import type { IState } from "@fixit/types";
+import type { IState } from "@youtrack/types";
 // ui
-import { AlertModalCore, TOAST_TYPE, setToast } from "@fixit/ui";
+import { AlertModalCore, TOAST_TYPE, setToast } from "@youtrack/ui";
 // constants
 import { STATE_DELETED } from "@/constants/event-tracker";
 // hooks

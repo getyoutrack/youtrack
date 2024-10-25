@@ -6,9 +6,9 @@ import { observer } from "mobx-react";
 // icons
 import { Pencil, Trash2 } from "lucide-react";
 // types
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 // ui
-import { ContextMenu, CustomMenu, TContextMenuItem } from "@fixit/ui";
+import { ContextMenu, CustomMenu, TContextMenuItem } from "@youtrack/ui";
 // components
 import { CreateUpdateIssueModal, DeleteIssueModal } from "@/components/issues";
 // constant
@@ -17,7 +17,7 @@ import { EIssuesStoreType } from "@/constants/issue";
 import { cn } from "@/helpers/common.helper";
 // hooks
 import { useEventTracker, useIssues, useUserPermissions } from "@/hooks/store";
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 // types
 import { IQuickActionProps } from "../list/list-view-types";
 

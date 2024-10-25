@@ -4,17 +4,17 @@ import { omit } from "lodash";
 import { observer } from "mobx-react";
 import { Copy, Pencil, SquareStackIcon, Trash2 } from "lucide-react";
 // types
-import { TWorkspaceDraftIssue } from "@fixit/types";
+import { TWorkspaceDraftIssue } from "@youtrack/types";
 // ui
-import { Row, TContextMenuItem, Tooltip } from "@fixit/ui";
+import { Row, TContextMenuItem, Tooltip } from "@youtrack/ui";
 // constants
 import { EIssuesStoreType } from "@/constants/issue";
 // helper
 import { cn } from "@/helpers/common.helper";
 // hooks
 import { useAppTheme, useProject, useWorkspaceDraftIssues } from "@/hooks/store";
-// fixit-web components
-import { IdentifierText, IssueTypeIdentifier } from "@/fixit-web/components/issues";
+// youtrack-web components
+import { IdentifierText, IssueTypeIdentifier } from "@/youtrack-web/components/issues";
 // local components
 import { WorkspaceDraftIssueQuickActions } from "../issue-layouts";
 import { CreateUpdateIssueModal } from "../issue-modal";

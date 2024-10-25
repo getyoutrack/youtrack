@@ -1,5 +1,5 @@
 // ui
-import { LUCIDE_ICONS_LIST } from "@fixit/ui";
+import { LUCIDE_ICONS_LIST } from "@youtrack/ui";
 
 export const getRandomEmoji = () => {
   const emojis = [

@@ -5,4 +5,4 @@ python manage.py wait_for_db
 # Wait for migrations
 python manage.py wait_for_migrations
 # Run the processes
-celery -A fixit beat -l info
+celery -A youtrack beat -l info

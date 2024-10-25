@@ -1,6 +1,6 @@
 import { differenceInCalendarDays } from "date-fns";
 // types
-import { TStateGroups } from "@fixit/types";
+import { TStateGroups } from "@youtrack/types";
 // constants
 import { STATE_GROUPS } from "@/constants/state";
 // helpers

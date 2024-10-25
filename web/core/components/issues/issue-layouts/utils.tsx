@@ -9,7 +9,7 @@ import pull from "lodash/pull";
 import uniq from "lodash/uniq";
 import scrollIntoView from "smooth-scroll-into-view-if-needed";
 import { ContrastIcon } from "lucide-react";
-// fixit types
+// youtrack types
 import {
   GroupByColumnTypes,
   IGroupByColumn,
@@ -23,9 +23,9 @@ import {
   IProjectView,
   TGroupedIssues,
   IWorkspaceView,
-} from "@fixit/types";
-// fixit ui
-import { Avatar, CycleGroupIcon, DiceIcon, PriorityIcon, StateGroupIcon } from "@fixit/ui";
+} from "@youtrack/types";
+// youtrack ui
+import { Avatar, CycleGroupIcon, DiceIcon, PriorityIcon, StateGroupIcon } from "@youtrack/ui";
 // components
 import { Logo } from "@/components/common";
 // constants

@@ -1,5 +1,5 @@
 {
-  "name": "@fixit/types",
+  "name": "@youtrack/types",
   "version": "0.23.1",
   "private": true,
   "types": "./src/index.d.ts",

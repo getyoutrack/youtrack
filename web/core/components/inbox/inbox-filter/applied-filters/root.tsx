@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { observer } from "mobx-react";
 // components
-import { Header, EHeaderVariant } from "@fixit/ui";
+import { Header, EHeaderVariant } from "@youtrack/ui";
 import {
   InboxIssueAppliedFiltersStatus,
   InboxIssueAppliedFiltersPriority,

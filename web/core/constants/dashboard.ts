@@ -4,11 +4,11 @@ import { linearGradientDef } from "@nivo/core";
 // icons
 import { BarChart2, Briefcase, Home, Inbox, Layers, PenSquare } from "lucide-react";
 // types
-import { TIssuesListTypes, TStateGroups } from "@fixit/types";
+import { TIssuesListTypes, TStateGroups } from "@youtrack/types";
 // ui
-import { ContrastIcon, UserActivityIcon } from "@fixit/ui";
+import { ContrastIcon, UserActivityIcon } from "@youtrack/ui";
 import { Props } from "@/components/icons/types";
-import { EUserPermissions } from "@/fixit-web/constants/user-permissions";
+import { EUserPermissions } from "@/youtrack-web/constants/user-permissions";
 // assets
 import CompletedIssuesDark from "@/public/empty-state/dashboard/dark/completed-issues.svg";
 import OverdueIssuesDark from "@/public/empty-state/dashboard/dark/overdue-issues.svg";

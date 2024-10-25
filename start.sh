@@ -1,5 +1,5 @@
 #!/bin/sh
 set -x
 
-echo "Starting Fixit Frontend.."
+echo "Starting Youtrack Frontend.."
 node $1

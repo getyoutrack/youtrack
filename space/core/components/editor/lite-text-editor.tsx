@@ -1,6 +1,6 @@
 import React from "react";
 // editor
-import { EditorRefApi, ILiteTextEditor, LiteTextEditorWithRef, TNonColorEditorCommands } from "@fixit/editor";
+import { EditorRefApi, ILiteTextEditor, LiteTextEditorWithRef, TNonColorEditorCommands } from "@youtrack/editor";
 // components
 import { IssueCommentToolbar } from "@/components/editor";
 // helpers

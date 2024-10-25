@@ -1,7 +1,7 @@
 "use client";
 
 import { X } from "lucide-react";
-import { PriorityIcon } from "@fixit/ui";
+import { PriorityIcon } from "@youtrack/ui";
 
 type Props = {
   handleRemove: (val: string) => void;

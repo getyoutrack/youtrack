@@ -9,10 +9,10 @@ import {
   TWidgetStatsResponse,
   TWidgetKeys,
   TWidgetStatsRequestParams,
-} from "@fixit/types";
+} from "@youtrack/types";
 // services
 import { DashboardService } from "@/services/dashboard.service";
-// fixit web store
+// youtrack web store
 import { CoreRootStore } from "./root.store";
 
 export interface IDashboardStore {

@@ -2,14 +2,14 @@
 
 import { useEffect, useState } from "react";
 // types
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 // ui
-import { AlertModalCore, TOAST_TYPE, setToast } from "@fixit/ui";
+import { AlertModalCore, TOAST_TYPE, setToast } from "@youtrack/ui";
 // constants
 import { PROJECT_ERROR_MESSAGES } from "@/constants/project";
 // hooks
 import { useIssues, useProject, useUser, useUserPermissions } from "@/hooks/store";
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 type Props = {
   isOpen: boolean;
   handleClose: () => void;

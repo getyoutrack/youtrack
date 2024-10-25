@@ -1,5 +1,5 @@
 import { SetStateAction, useEffect, useState } from "react";
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 import { LockedComponent } from "../icons/locked-component";
 
 type Props = {

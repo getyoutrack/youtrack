@@ -1,7 +1,7 @@
 import { FC } from "react";
 import Link from "next/link";
 // types
-import { TPageNavigationTabs } from "@fixit/types";
+import { TPageNavigationTabs } from "@youtrack/types";
 // helpers
 import { cn } from "@/helpers/common.helper";
 

@@ -1,7 +1,7 @@
 import { RefObject } from "react";
 import { observer } from "mobx-react";
 // components
-import { Row, ERowVariant } from "@fixit/ui";
+import { Row, ERowVariant } from "@youtrack/ui";
 import { MultipleSelectGroupAction } from "@/components/core";
 import { ChartDataType, IBlockUpdateData, IGanttBlock } from "@/components/gantt-chart";
 // helpers

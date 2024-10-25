@@ -1,7 +1,7 @@
 import { X } from "lucide-react";
-import { TPageFilterProps } from "@fixit/types";
+import { TPageFilterProps } from "@youtrack/types";
 // components
-import { Tag } from "@fixit/ui";
+import { Tag } from "@youtrack/ui";
 import { AppliedDateFilters, AppliedMembersFilters } from "@/components/common/applied-filters";
 // helpers
 import { replaceUnderscoreIfSnakeCase } from "@/helpers/string.helper";

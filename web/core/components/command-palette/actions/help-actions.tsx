@@ -3,7 +3,7 @@ import { Command } from "cmdk";
 import { observer } from "mobx-react";
 import { FileText, GithubIcon, MessageSquare, Rocket } from "lucide-react";
 // ui
-import { DiscordIcon } from "@fixit/ui";
+import { DiscordIcon } from "@youtrack/ui";
 // hooks
 import { useCommandPalette, useTransient } from "@/hooks/store";
 
@@ -34,13 +34,13 @@ export const CommandPaletteHelpActions: React.FC<Props> = observer((props) => {
       <Command.Item
         onSelect={() => {
           closePalette();
-          window.open("https://docs.fixit.so/", "_blank");
+          window.open("https://docs.youtrack.so/", "_blank");
         }}
         className="focus:outline-none"
       >
         <div className="flex items-center gap-2 text-custom-text-200">
           <FileText className="h-3.5 w-3.5" />
-          Open Fixit documentation
+          Open Youtrack documentation
         </div>
       </Command.Item>
       <Command.Item
@@ -58,7 +58,7 @@ export const CommandPaletteHelpActions: React.FC<Props> = observer((props) => {
       <Command.Item
         onSelect={() => {
           closePalette();
-          window.open("https://github.com/meta-mart/fixit/issues/new/choose", "_blank");
+          window.open("https://github.com/getyoutrack/youtrack/issues/new/choose", "_blank");
         }}
         className="focus:outline-none"
       >

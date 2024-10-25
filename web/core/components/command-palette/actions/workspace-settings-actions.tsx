@@ -8,11 +8,11 @@ import { useParams } from "next/navigation";
 // hooks
 import { useUserPermissions } from "@/hooks/store";
 import { useAppRouter } from "@/hooks/use-app-router";
-// fixit wev constants
-import { EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
-import { WORKSPACE_SETTINGS_LINKS } from "@/fixit-web/constants/workspace";
-// fixit web helpers
-import { shouldRenderSettingLink } from "@/fixit-web/helpers/workspace.helper";
+// youtrack wev constants
+import { EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
+import { WORKSPACE_SETTINGS_LINKS } from "@/youtrack-web/constants/workspace";
+// youtrack web helpers
+import { shouldRenderSettingLink } from "@/youtrack-web/helpers/workspace.helper";
 
 type Props = {
   closePalette: () => void;

@@ -1,7 +1,7 @@
 "use client";
 import { useMemo } from "react";
-import { TIssueLink } from "@fixit/types";
-import { TOAST_TYPE, setToast } from "@fixit/ui";
+import { TIssueLink } from "@youtrack/types";
+import { TOAST_TYPE, setToast } from "@youtrack/ui";
 // hooks
 import { useIssueDetail } from "@/hooks/store";
 // types

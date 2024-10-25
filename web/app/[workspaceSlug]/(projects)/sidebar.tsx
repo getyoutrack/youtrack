@@ -1,8 +1,8 @@
 import { FC, useEffect, useRef } from "react";
 import isEmpty from "lodash/isEmpty";
 import { observer } from "mobx-react";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
 // components
 import {
   SidebarDropdown,
@@ -19,9 +19,9 @@ import { cn } from "@/helpers/common.helper";
 import { useAppTheme, useUserPermissions } from "@/hooks/store";
 import { useFavorite } from "@/hooks/store/use-favorite";
 import useSize from "@/hooks/use-window-size";
-// fixit web components
-import { SidebarAppSwitcher } from "@/fixit-web/components/sidebar";
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+// youtrack web components
+import { SidebarAppSwitcher } from "@/youtrack-web/components/sidebar";
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 export const AppSidebar: FC = observer(() => {
   // store hooks

@@ -1,7 +1,7 @@
 import { X } from "lucide-react";
-import { TModuleDisplayFilters, TModuleFilters } from "@fixit/types";
+import { TModuleDisplayFilters, TModuleFilters } from "@youtrack/types";
 // components
-import { Header, EHeaderVariant, Tag } from "@fixit/ui";
+import { Header, EHeaderVariant, Tag } from "@youtrack/ui";
 import { AppliedDateFilters, AppliedMembersFilters, AppliedStatusFilters } from "@/components/modules";
 // helpers
 import { replaceUnderscoreIfSnakeCase } from "@/helpers/string.helper";

@@ -1,10 +1,10 @@
 import { FC, useEffect, useRef } from "react";
 import { observer } from "mobx-react";
 import { UseFormRegister, UseFormSetFocus } from "react-hook-form";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
 // types
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 // components
 import {
   CalendarQuickAddIssueForm,

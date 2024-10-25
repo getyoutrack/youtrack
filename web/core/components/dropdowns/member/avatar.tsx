@@ -2,8 +2,8 @@
 
 import { observer } from "mobx-react";
 import { LucideIcon, Users } from "lucide-react";
-// fixit ui
-import { Avatar, AvatarGroup } from "@fixit/ui";
+// youtrack ui
+import { Avatar, AvatarGroup } from "@youtrack/ui";
 // helpers
 import { getFileURL } from "@/helpers/file.helper";
 // hooks

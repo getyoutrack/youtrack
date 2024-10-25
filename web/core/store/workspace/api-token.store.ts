@@ -1,7 +1,7 @@
 import { action, observable, makeObservable, runInAction } from "mobx";
 import { computedFn } from "mobx-utils";
 // types
-import { IApiToken } from "@fixit/types";
+import { IApiToken } from "@youtrack/types";
 // services
 import { APITokenService } from "@/services/api_token.service";
 // store

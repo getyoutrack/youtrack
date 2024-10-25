@@ -4,9 +4,9 @@ import { FC, useCallback } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // types
-import { IIssueDisplayFilterOptions, IIssueDisplayProperties, IIssueFilterOptions } from "@fixit/types";
+import { IIssueDisplayFilterOptions, IIssueDisplayProperties, IIssueFilterOptions } from "@youtrack/types";
 // ui
-import { Breadcrumbs, LayersIcon, Tooltip } from "@fixit/ui";
+import { Breadcrumbs, LayersIcon, Tooltip } from "@youtrack/ui";
 // components
 import { BreadcrumbLink, Logo } from "@/components/common";
 import { DisplayFiltersSelection, FiltersDropdown, FilterSelection, LayoutSelection } from "@/components/issues";

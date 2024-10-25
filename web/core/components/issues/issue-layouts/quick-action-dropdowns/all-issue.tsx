@@ -6,9 +6,9 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { Copy, ExternalLink, Link, Pencil, Trash2 } from "lucide-react";
 // types
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 // ui
-import { ArchiveIcon, ContextMenu, CustomMenu, TContextMenuItem, TOAST_TYPE, setToast } from "@fixit/ui";
+import { ArchiveIcon, ContextMenu, CustomMenu, TContextMenuItem, TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { ArchiveIssueModal, CreateUpdateIssueModal, DeleteIssueModal } from "@/components/issues";
 // constants

@@ -2,7 +2,7 @@
 
 import React from "react";
 // components
-import { Tooltip } from "@fixit/ui";
+import { Tooltip } from "@youtrack/ui";
 import { usePlatformOS } from "@/hooks/use-platform-os";
 type Props = {
   labelDetails: any[];

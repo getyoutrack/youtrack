@@ -1,5 +1,5 @@
-// fixit editor
-import { TFileHandler } from "@fixit/editor";
+// youtrack editor
+import { TFileHandler } from "@youtrack/editor";
 // helpers
 import { getBase64Image, getFileURL } from "@/helpers/file.helper";
 // services

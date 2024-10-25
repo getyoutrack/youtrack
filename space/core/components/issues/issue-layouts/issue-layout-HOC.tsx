@@ -1,5 +1,5 @@
 import { observer } from "mobx-react";
-import { TLoader } from "@fixit/types";
+import { TLoader } from "@youtrack/types";
 import { LogoSpinner } from "@/components/common";
 
 interface Props {

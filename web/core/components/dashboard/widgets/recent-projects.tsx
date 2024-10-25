@@ -4,10 +4,10 @@ import { useEffect } from "react";
 import { observer } from "mobx-react";
 import Link from "next/link";
 import { Plus } from "lucide-react";
-// fixit types
-import { TRecentProjectsWidgetResponse } from "@fixit/types";
-// fixit ui
-import { Avatar, AvatarGroup, Card } from "@fixit/ui";
+// youtrack types
+import { TRecentProjectsWidgetResponse } from "@youtrack/types";
+// youtrack ui
+import { Avatar, AvatarGroup, Card } from "@youtrack/ui";
 // components
 import { Logo } from "@/components/common";
 import { WidgetLoader, WidgetProps } from "@/components/dashboard/widgets";
@@ -17,8 +17,8 @@ import { PROJECT_BACKGROUND_COLORS } from "@/constants/dashboard";
 import { getFileURL } from "@/helpers/file.helper";
 // hooks
 import { useEventTracker, useDashboard, useProject, useCommandPalette, useUserPermissions } from "@/hooks/store";
-// fixit web constants
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+// youtrack web constants
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 const WIDGET_KEY = "recent_projects";
 

@@ -4,9 +4,9 @@ import React, { useEffect, useRef, useState } from "react";
 import { observer } from "mobx-react";
 import { useParams, usePathname } from "next/navigation";
 // types
-import type { TBaseIssue, TIssue } from "@fixit/types";
+import type { TBaseIssue, TIssue } from "@youtrack/types";
 // ui
-import { EModalPosition, EModalWidth, ModalCore, TOAST_TYPE, setToast } from "@fixit/ui";
+import { EModalPosition, EModalWidth, ModalCore, TOAST_TYPE, setToast } from "@youtrack/ui";
 import { CreateIssueToastActionItems, IssuesModalProps } from "@/components/issues";
 // constants
 import { ISSUE_CREATED, ISSUE_UPDATED } from "@/constants/event-tracker";

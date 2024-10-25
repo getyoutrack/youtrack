@@ -1,4 +1,4 @@
-import { TIssueAttachment, TIssueAttachmentUploadResponse } from "@fixit/types";
+import { TIssueAttachment, TIssueAttachmentUploadResponse } from "@youtrack/types";
 // helpers
 import { API_BASE_URL } from "@/helpers/common.helper";
 import { generateFileUploadPayload, getFileMetaDataForUpload } from "@/helpers/file.helper";

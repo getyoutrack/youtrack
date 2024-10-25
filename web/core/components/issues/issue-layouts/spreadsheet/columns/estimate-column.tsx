@@ -1,6 +1,6 @@
 import { observer } from "mobx-react";
 // types
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 // components
 import { EstimateDropdown } from "@/components/dropdowns";
 

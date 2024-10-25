@@ -1,7 +1,7 @@
 "use client";
 
 import { FC, ReactNode } from "react";
-import { Tooltip } from "@fixit/ui";
+import { Tooltip } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common.helper";
 // hooks

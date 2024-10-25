@@ -2,9 +2,9 @@
 
 import { observer } from "mobx-react";
 // types
-import { IWorkspaceIntegration } from "@fixit/types";
+import { IWorkspaceIntegration } from "@youtrack/types";
 // ui
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 // hooks
 import { useInstance } from "@/hooks/store";
 import useIntegrationPopup from "@/hooks/use-integration-popup";

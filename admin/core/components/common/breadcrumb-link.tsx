@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Tooltip } from "@fixit/ui";
+import { Tooltip } from "@youtrack/ui";
 
 type Props = {
   label?: string;

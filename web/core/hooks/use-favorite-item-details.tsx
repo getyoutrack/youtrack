@@ -1,5 +1,5 @@
-// fixit types
-import { IFavorite } from "@fixit/types";
+// youtrack types
+import { IFavorite } from "@youtrack/types";
 // components
 import {
   generateFavoriteItemLink,

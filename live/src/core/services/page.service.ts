@@ -1,5 +1,5 @@
 // types
-import { TPage } from "@fixit/types";
+import { TPage } from "@youtrack/types";
 // services
 import { API_BASE_URL, APIService } from "@/core/services/api.service.js";
 

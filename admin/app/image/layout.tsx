@@ -7,7 +7,7 @@ interface ImageLayoutProps {
 }
 
 export const metadata: Metadata = {
-  title: "Images Settings - Fixit Web",
+  title: "Images Settings - Youtrack Web",
 };
 
 export default function ImageLayout({ children }: ImageLayoutProps) {

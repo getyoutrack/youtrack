@@ -1,4 +1,4 @@
-import { EUserPermissions } from "@/fixit-web/constants/user-permissions";
+import { EUserPermissions } from "@/youtrack-web/constants/user-permissions";
 
 export const getUserRole = (role: EUserPermissions) => {
   switch (role) {

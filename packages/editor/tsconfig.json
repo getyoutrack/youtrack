@@ -10,7 +10,7 @@
     "paths": {
       "@/*": ["src/core/*"],
       "@/styles/*": ["src/styles/*"],
-      "@/fixit-editor/*": ["src/ce/*"]
+      "@/youtrack-editor/*": ["src/ce/*"]
     },
     "allowSyntheticDefaultImports": true
   },

@@ -1,9 +1,9 @@
 "use client";
 import React, { FC } from "react";
 import { MoreHorizontal, Star } from "lucide-react";
-import { IFavorite } from "@fixit/types";
+import { IFavorite } from "@youtrack/types";
 // ui
-import { CustomMenu } from "@fixit/ui";
+import { CustomMenu } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common.helper";
 

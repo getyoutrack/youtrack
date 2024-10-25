@@ -1,6 +1,6 @@
 {
   "root": true,
-  "extends": ["@fixit/eslint-config/server.js"],
+  "extends": ["@youtrack/eslint-config/server.js"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": true

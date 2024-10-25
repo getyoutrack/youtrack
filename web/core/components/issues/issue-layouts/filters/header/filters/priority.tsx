@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { observer } from "mobx-react";
 
 // ui
-import { PriorityIcon } from "@fixit/ui";
+import { PriorityIcon } from "@youtrack/ui";
 
 // components
 import { FilterHeader, FilterOption } from "@/components/issues";

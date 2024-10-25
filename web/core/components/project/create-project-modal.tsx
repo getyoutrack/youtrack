@@ -1,13 +1,13 @@
 import { useEffect, FC, useState } from "react";
-// fixit ui
-import { EModalPosition, EModalWidth, ModalCore } from "@fixit/ui";
+// youtrack ui
+import { EModalPosition, EModalWidth, ModalCore } from "@youtrack/ui";
 // helpers
 import { getAssetIdFromUrl } from "@/helpers/file.helper";
 import { checkURLValidity } from "@/helpers/string.helper";
-// fixit web components
-import { CreateProjectForm } from "@/fixit-web/components/projects/create/root";
-// fixit web types
-import { TProject } from "@/fixit-web/types/projects";
+// youtrack web components
+import { CreateProjectForm } from "@/youtrack-web/components/projects/create/root";
+// youtrack web types
+import { TProject } from "@/youtrack-web/types/projects";
 // services
 import { FileService } from "@/services/file.service";
 const fileService = new FileService();

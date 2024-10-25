@@ -1,4 +1,4 @@
-import { TCalendarLayouts } from "@fixit/types";
+import { TCalendarLayouts } from "@youtrack/types";
 
 export const MONTHS_LIST: {
   [monthNumber: number]: {

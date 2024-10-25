@@ -3,10 +3,10 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // icons
 import { ListFilter, Search, X } from "lucide-react";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
 // types
-import type { TModuleFilters } from "@fixit/types";
+import type { TModuleFilters } from "@youtrack/types";
 // components
 import { ArchiveTabsList } from "@/components/archives";
 import { FiltersDropdown } from "@/components/issues";

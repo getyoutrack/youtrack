@@ -21,10 +21,10 @@ import {
 } from "@/components/gantt-chart";
 // helpers
 import { cn } from "@/helpers/common.helper";
-// fixit web components
-import { IssueBulkOperationsRoot } from "@/fixit-web/components/issues";
-// fixit web hooks
-import { useBulkOperationStatus } from "@/fixit-web/hooks/use-bulk-operation-status";
+// youtrack web components
+import { IssueBulkOperationsRoot } from "@/youtrack-web/components/issues";
+// youtrack web hooks
+import { useBulkOperationStatus } from "@/youtrack-web/hooks/use-bulk-operation-status";
 // constants
 import { GANTT_SELECT_GROUP } from "../constants";
 // hooks
@@ -78,7 +78,7 @@ export const GanttChartMainContent: React.FC<Props> = observer((props) => {
   const ganttContainerRef = useRef<HTMLDivElement>(null);
   // chart hook
   const { currentView, currentViewData } = useGanttChart();
-  // fixit web hooks
+  // youtrack web hooks
   const isBulkOperationsEnabled = useBulkOperationStatus();
 
   // Enable Auto Scroll for Ganttlist

@@ -6,12 +6,12 @@ import { X } from "lucide-react";
 import { Dialog, Transition } from "@headlessui/react";
 // services
 // components
-import { Loader } from "@fixit/ui";
+import { Loader } from "@youtrack/ui";
 import { MarkdownRenderer } from "@/components/ui";
 // icons
 // helpers
 import { renderFormattedDate } from "@/helpers/date-time.helper";
-import { WorkspaceService } from "@/fixit-web/services";
+import { WorkspaceService } from "@/youtrack-web/services";
 
 type Props = {
   isOpen: boolean;

@@ -3,16 +3,16 @@
 import { FC } from "react";
 import { observer } from "mobx-react";
 import { MinusCircle } from "lucide-react";
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 // component
 // ui
-import { ControlLink, CustomMenu } from "@fixit/ui";
+import { ControlLink, CustomMenu } from "@youtrack/ui";
 // hooks
 import { useIssues, useProjectState } from "@/hooks/store";
 import useIssuePeekOverviewRedirection from "@/hooks/use-issue-peek-overview-redirection";
 import { usePlatformOS } from "@/hooks/use-platform-os";
-// fixit web components
-import { IssueIdentifier } from "@/fixit-web/components/issues";
+// youtrack web components
+import { IssueIdentifier } from "@/youtrack-web/components/issues";
 // types
 import { TIssueOperations } from "../root";
 import { IssueParentSiblings } from "./siblings";

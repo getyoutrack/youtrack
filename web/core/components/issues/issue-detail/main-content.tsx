@@ -17,8 +17,8 @@ import {
 import { useIssueDetail, useUser } from "@/hooks/store";
 import useReloadConfirmations from "@/hooks/use-reload-confirmation";
 import useSize from "@/hooks/use-window-size";
-// fixit web components
-import { IssueTypeSwitcher } from "@/fixit-web/components/issues";
+// youtrack web components
+import { IssueTypeSwitcher } from "@/youtrack-web/components/issues";
 // types
 import { TIssueOperations } from "./root";
 

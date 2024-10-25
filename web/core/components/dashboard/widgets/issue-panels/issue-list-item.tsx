@@ -3,16 +3,16 @@
 import isToday from "date-fns/isToday";
 import { observer } from "mobx-react";
 // types
-import { TIssue, TWidgetIssue } from "@fixit/types";
+import { TIssue, TWidgetIssue } from "@youtrack/types";
 // ui
-import { Avatar, AvatarGroup, ControlLink, PriorityIcon } from "@fixit/ui";
+import { Avatar, AvatarGroup, ControlLink, PriorityIcon } from "@youtrack/ui";
 // helpers
 import { findTotalDaysInRange, getDate, renderFormattedDate } from "@/helpers/date-time.helper";
 import { getFileURL } from "@/helpers/file.helper";
 // hooks
 import { useIssueDetail, useMember, useProject } from "@/hooks/store";
-// fixit web components
-import { IssueIdentifier } from "@/fixit-web/components/issues";
+// youtrack web components
+import { IssueIdentifier } from "@/youtrack-web/components/issues";
 
 export type IssueListItemProps = {
   issueId: string;

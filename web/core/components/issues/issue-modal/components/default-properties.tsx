@@ -5,9 +5,9 @@ import { observer } from "mobx-react";
 import { Control, Controller } from "react-hook-form";
 import { LayoutPanelTop } from "lucide-react";
 // types
-import { ISearchIssueResponse, TIssue } from "@fixit/types";
+import { ISearchIssueResponse, TIssue } from "@youtrack/types";
 // ui
-import { CustomMenu } from "@fixit/ui";
+import { CustomMenu } from "@youtrack/ui";
 // components
 import {
   CycleDropdown,
@@ -28,9 +28,9 @@ import { getTabIndex } from "@/helpers/tab-indices.helper";
 // hooks
 import { useProjectEstimates, useProject, useUserPermissions } from "@/hooks/store";
 import { usePlatformOS } from "@/hooks/use-platform-os";
-// fixit web components
-import { IssueIdentifier } from "@/fixit-web/components/issues";
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+// youtrack web components
+import { IssueIdentifier } from "@/youtrack-web/components/issues";
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 type TIssueDefaultPropertiesProps = {
   control: Control<TIssue>;

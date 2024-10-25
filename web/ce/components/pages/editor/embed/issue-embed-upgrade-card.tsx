@@ -1,5 +1,5 @@
-// fixit ui
-import { getButtonStyling } from "@fixit/ui";
+// youtrack ui
+import { getButtonStyling } from "@youtrack/ui";
 // components
 import { ProIcon } from "@/components/common";
 // helpers
@@ -18,11 +18,11 @@ export const IssueEmbedUpgradeCard: React.FC<any> = (props) => (
       <div className="flex items-center gap-4">
         <ProIcon className="flex-shrink-0 size-4" />
         <p className="text-custom-text !text-base">
-          Embed and access issues in pages seamlessly, upgrade to Fixit Pro now.
+          Embed and access issues in pages seamlessly, upgrade to Youtrack Pro now.
         </p>
       </div>
       <a
-        href="https://fixit.so/pro"
+        href="https://youtrack.so/pro"
         target="_blank"
         rel="noopener noreferrer"
         className={cn(getButtonStyling("primary", "md"), "no-underline")}

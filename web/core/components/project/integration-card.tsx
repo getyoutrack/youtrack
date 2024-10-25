@@ -4,9 +4,9 @@ import React from "react";
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import useSWR, { mutate } from "swr";
-import { IWorkspaceIntegration } from "@fixit/types";
+import { IWorkspaceIntegration } from "@youtrack/types";
 // ui
-import { TOAST_TYPE, setToast } from "@fixit/ui";
+import { TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { SelectRepository, SelectChannel } from "@/components/integration";
 // constants

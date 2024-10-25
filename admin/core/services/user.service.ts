@@ -1,5 +1,5 @@
 // types
-import type { IUser } from "@fixit/types";
+import type { IUser } from "@youtrack/types";
 // helpers
 import { API_BASE_URL } from "@/helpers/common.helper";
 // services

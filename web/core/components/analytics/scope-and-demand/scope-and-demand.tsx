@@ -2,7 +2,7 @@
 import { useParams } from "next/navigation";
 import useSWR from "swr";
 // ui
-import { Button, ContentWrapper, Loader } from "@fixit/ui";
+import { Button, ContentWrapper, Loader } from "@youtrack/ui";
 // components
 import { AnalyticsDemand, AnalyticsLeaderBoard, AnalyticsScope, AnalyticsYearWiseIssues } from "@/components/analytics";
 // fetch-keys

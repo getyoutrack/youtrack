@@ -11,8 +11,8 @@ import {
   TModuleEstimateDistribution,
   TModulePlotType,
   TStateGroups,
-} from "@fixit/types";
-import { Avatar, StateGroupIcon } from "@fixit/ui";
+} from "@youtrack/types";
+import { Avatar, StateGroupIcon } from "@youtrack/ui";
 // components
 import { SingleProgressStats } from "@/components/core";
 // helpers

@@ -1,4 +1,4 @@
-import { IProject, IProjectLite, IWorkspaceLite } from "@fixit/types";
+import { IProject, IProjectLite, IWorkspaceLite } from "@youtrack/types";
 
 export type TStateGroups =
   | "backlog"

@@ -1,6 +1,6 @@
 import { LucideIcon } from "lucide-react";
-import { cn } from "@fixit/editor";
-import { Tooltip } from "@fixit/ui";
+import { cn } from "@youtrack/editor";
+import { Tooltip } from "@youtrack/ui";
 
 type Props = {
   onChange: (value: number) => void;

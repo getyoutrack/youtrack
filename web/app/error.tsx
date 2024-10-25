@@ -1,7 +1,7 @@
 "use client";
 
 // ui
-import { Button, TOAST_TYPE, setToast } from "@fixit/ui";
+import { Button, TOAST_TYPE, setToast } from "@youtrack/ui";
 // helpers
 import { API_BASE_URL } from "@/helpers/common.helper";
 // hooks
@@ -42,10 +42,10 @@ export default function CustomErrorComponent() {
             <div className="space-y-2">
               <h3 className="text-lg font-semibold">Yikes! That doesn{"'"}t look good.</h3>
               <p className="mx-auto md:w-1/2 text-sm text-custom-text-200">
-                That crashed Fixit, pun intended. No worries, though. Our engineers have been notified. If you have more
+                That crashed Youtrack, pun intended. No worries, though. Our engineers have been notified. If you have more
                 details, please write to{" "}
-                <a href="mailto:support@fixit.so" className="text-custom-primary">
-                  support@fixit.so
+                <a href="mailto:support@youtrack.so" className="text-custom-primary">
+                  support@youtrack.so
                 </a>{" "}
                 or on our{" "}
                 <a

@@ -1,7 +1,7 @@
 "use client";
 
 // ui
-import { Loader } from "@fixit/ui";
+import { Loader } from "@youtrack/ui";
 
 export const PageContentLoader = () => (
   <div className="relative w-full h-full flex flex-col">

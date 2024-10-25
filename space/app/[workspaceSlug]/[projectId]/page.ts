@@ -1,6 +1,6 @@
 import { notFound, redirect } from "next/navigation";
 // types
-import { TProjectPublishSettings } from "@fixit/types";
+import { TProjectPublishSettings } from "@youtrack/types";
 // services
 import PublishService from "@/services/publish.service";
 

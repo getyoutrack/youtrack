@@ -1,7 +1,7 @@
 import set from "lodash/set";
 import { observable, action, makeObservable, runInAction } from "mobx";
 // types
-import { IInstance, IInstanceConfig } from "@fixit/types";
+import { IInstance, IInstanceConfig } from "@youtrack/types";
 // services
 import { InstanceService } from "@/services/instance.service";
 // store

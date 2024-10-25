@@ -1,5 +1,5 @@
 import orderBy from "lodash/orderBy";
-import { IFavorite } from "@fixit/types";
+import { IFavorite } from "@youtrack/types";
 
 export const getDestinationStateSequence = (
   favoriteMap: Record<string, IFavorite>,

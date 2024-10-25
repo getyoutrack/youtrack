@@ -24,8 +24,8 @@ import {
 } from "@/hooks/store";
 // local
 import { persistence } from "@/local-db/storage.sqlite";
-// fixit web constants
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+// youtrack web constants
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 // images
 import emptyProject from "@/public/empty-state/onboarding/dashboard-light.webp";
 

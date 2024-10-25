@@ -9,9 +9,9 @@ import { mutate } from "swr";
 // icons
 import { ArrowLeft, Check, List, Settings, Users } from "lucide-react";
 // types
-import { IJiraImporterForm } from "@fixit/types";
+import { IJiraImporterForm } from "@youtrack/types";
 // ui
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 // fetch keys
 import { IMPORTER_SERVICES_LIST } from "@/constants/fetch-keys";
 // hooks

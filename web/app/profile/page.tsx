@@ -5,7 +5,7 @@ import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
 import { ChevronDown, CircleUserRound } from "lucide-react";
 import { Disclosure, Transition } from "@headlessui/react";
-import type { IUser } from "@fixit/types";
+import type { IUser } from "@youtrack/types";
 import {
   Button,
   CustomSelect,
@@ -15,7 +15,7 @@ import {
   setPromiseToast,
   setToast,
   Tooltip,
-} from "@fixit/ui";
+} from "@youtrack/ui";
 // components
 import { DeactivateAccountModal } from "@/components/account";
 import { LogoSpinner } from "@/components/common";

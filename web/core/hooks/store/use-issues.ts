@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import merge from "lodash/merge";
 // mobx store
-import { TIssueMap } from "@fixit/types";
+import { TIssueMap } from "@youtrack/types";
 import { EIssuesStoreType } from "@/constants/issue";
 import { StoreContext } from "@/lib/store-context";
 // types

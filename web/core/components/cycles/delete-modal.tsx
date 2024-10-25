@@ -4,9 +4,9 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { useParams, useSearchParams } from "next/navigation";
 // types
-import { ICycle } from "@fixit/types";
+import { ICycle } from "@youtrack/types";
 // ui
-import { AlertModalCore, TOAST_TYPE, setToast } from "@fixit/ui";
+import { AlertModalCore, TOAST_TYPE, setToast } from "@youtrack/ui";
 // constants
 import { CYCLE_DELETED } from "@/constants/event-tracker";
 import { PROJECT_ERROR_MESSAGES } from "@/constants/project";

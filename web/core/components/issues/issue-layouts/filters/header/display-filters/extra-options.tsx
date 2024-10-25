@@ -1,6 +1,6 @@
 import React from "react";
 import { observer } from "mobx-react";
-import { IIssueDisplayFilterOptions, TIssueExtraOptions } from "@fixit/types";
+import { IIssueDisplayFilterOptions, TIssueExtraOptions } from "@youtrack/types";
 
 // components
 import { FilterOption } from "@/components/issues";

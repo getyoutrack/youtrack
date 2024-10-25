@@ -1,9 +1,9 @@
 import { observer } from "mobx-react";
 import Link from "next/link";
-// fixit types
-import { TPageVersion } from "@fixit/types";
-// fixit ui
-import { Avatar } from "@fixit/ui";
+// youtrack types
+import { TPageVersion } from "@youtrack/types";
+// youtrack ui
+import { Avatar } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common.helper";
 import { renderFormattedDate, renderFormattedTime } from "@/helpers/date-time.helper";
@@ -17,7 +17,7 @@ type Props = {
   version: TPageVersion;
 };
 
-export const FixitVersionsSidebarListItem: React.FC<Props> = observer((props) => {
+export const YoutrackVersionsSidebarListItem: React.FC<Props> = observer((props) => {
   const { href, isActive, version } = props;
   // store hooks
   const { getUserDetails } = useMember();

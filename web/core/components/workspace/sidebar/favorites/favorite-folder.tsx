@@ -9,11 +9,11 @@ import uniqBy from "lodash/uniqBy";
 import { useParams } from "next/navigation";
 import { PenSquare, Star, MoreHorizontal, ChevronRight, GripVertical } from "lucide-react";
 import { Disclosure, Transition } from "@headlessui/react";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
 // ui
-import { IFavorite } from "@fixit/types";
-import { CustomMenu, Tooltip, DropIndicator, setToast, TOAST_TYPE, FavoriteFolderIcon, DragHandle } from "@fixit/ui";
+import { IFavorite } from "@youtrack/types";
+import { CustomMenu, Tooltip, DropIndicator, setToast, TOAST_TYPE, FavoriteFolderIcon, DragHandle } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common.helper";
 // hooks

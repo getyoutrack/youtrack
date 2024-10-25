@@ -6,9 +6,9 @@ import { usePathname, useSearchParams } from "next/navigation";
 import { Controller, useForm } from "react-hook-form";
 import { Eye, Users } from "lucide-react";
 // types
-import { ICycle, TCycleGroups } from "@fixit/types";
+import { ICycle, TCycleGroups } from "@youtrack/types";
 // ui
-import { Avatar, AvatarGroup, FavoriteStar, TOAST_TYPE, Tooltip, setPromiseToast, setToast } from "@fixit/ui";
+import { Avatar, AvatarGroup, FavoriteStar, TOAST_TYPE, Tooltip, setPromiseToast, setToast } from "@youtrack/ui";
 // components
 import { CycleQuickActions } from "@/components/cycles";
 import { DateRangeDropdown } from "@/components/dropdowns";
@@ -24,8 +24,8 @@ import { generateQueryParams } from "@/helpers/router.helper";
 import { useCycle, useEventTracker, useMember, useUserPermissions } from "@/hooks/store";
 import { useAppRouter } from "@/hooks/use-app-router";
 import { usePlatformOS } from "@/hooks/use-platform-os";
-// fixit web constants
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+// youtrack web constants
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 // services
 import { CycleService } from "@/services/cycle.service";
 

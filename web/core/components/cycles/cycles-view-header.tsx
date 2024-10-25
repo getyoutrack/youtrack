@@ -2,10 +2,10 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { observer } from "mobx-react";
 // icons
 import { ListFilter, Search, X } from "lucide-react";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
 // types
-import { TCycleFilters } from "@fixit/types";
+import { TCycleFilters } from "@youtrack/types";
 // components
 import { CycleFiltersSelection } from "@/components/cycles";
 import { FiltersDropdown } from "@/components/issues";

@@ -3,7 +3,7 @@
 import { FC } from "react";
 import { observer } from "mobx-react";
 import { Inbox } from "lucide-react";
-import { Breadcrumbs, Header } from "@fixit/ui";
+import { Breadcrumbs, Header } from "@youtrack/ui";
 // components
 import { BreadcrumbLink } from "@/components/common";
 import { SidebarHamburgerToggle } from "@/components/core";

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { observer } from "mobx-react";
 // types
-import type { TIssue } from "@fixit/types";
+import type { TIssue } from "@youtrack/types";
 // ui
-import { AlertModalCore, setToast, TOAST_TYPE } from "@fixit/ui";
+import { AlertModalCore, setToast, TOAST_TYPE } from "@youtrack/ui";
 // constants
 import { PROJECT_ERROR_MESSAGES } from "@/constants/project";
 // hooks

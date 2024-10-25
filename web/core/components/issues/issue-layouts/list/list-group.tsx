@@ -5,8 +5,8 @@ import { combine } from "@atlaskit/pragmatic-drag-and-drop/combine";
 import { dropTargetForElements } from "@atlaskit/pragmatic-drag-and-drop/element/adapter";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
-import { cn } from "@fixit/editor";
-// fixit packages
+import { cn } from "@youtrack/editor";
+// youtrack packages
 import {
   IGroupByColumn,
   TIssueMap,
@@ -15,8 +15,8 @@ import {
   TIssue,
   IIssueDisplayProperties,
   TIssueKanbanFilters,
-} from "@fixit/types";
-import { Row, setToast, TOAST_TYPE } from "@fixit/ui";
+} from "@youtrack/types";
+import { Row, setToast, TOAST_TYPE } from "@youtrack/ui";
 // components
 import { ListLoaderItemRow } from "@/components/ui";
 // constants

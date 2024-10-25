@@ -1,9 +1,9 @@
 import { observer } from "mobx-react";
 import { ExternalLink, LinkIcon, Pencil, Trash2 } from "lucide-react";
-// fixit types
-import { ILinkDetails } from "@fixit/types";
-// fixit ui
-import { setToast, TOAST_TYPE, Tooltip } from "@fixit/ui";
+// youtrack types
+import { ILinkDetails } from "@youtrack/types";
+// youtrack ui
+import { setToast, TOAST_TYPE, Tooltip } from "@youtrack/ui";
 // helpers
 import { calculateTimeAgo } from "@/helpers/date-time.helper";
 import { copyTextToClipboard } from "@/helpers/string.helper";

@@ -3,9 +3,9 @@
 import React, { FC, useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
 // types
-import { IFormattedInstanceConfiguration, TInstanceEmailConfigurationKeys } from "@fixit/types";
+import { IFormattedInstanceConfiguration, TInstanceEmailConfigurationKeys } from "@youtrack/types";
 // ui
-import { Button, CustomSelect, TOAST_TYPE, setToast } from "@fixit/ui";
+import { Button, CustomSelect, TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { ControllerInput, TControllerInputFormField } from "@/components/common";
 // hooks
@@ -75,7 +75,7 @@ export const InstanceEmailForm: FC<IInstanceEmailForm> = (props) => {
       label: "Sender email address",
       description:
         "This is the email address your users will see when getting emails from this instance. You will need to verify this address.",
-      placeholder: "no-reply@projectfixit.so",
+      placeholder: "no-reply@projectyoutrack.so",
       error: Boolean(errors.EMAIL_FROM),
       required: true,
     },
@@ -86,7 +86,7 @@ export const InstanceEmailForm: FC<IInstanceEmailForm> = (props) => {
       key: "EMAIL_HOST_USER",
       type: "text",
       label: "Username",
-      placeholder: "getitdone@projectfixit.so",
+      placeholder: "getitdone@projectyoutrack.so",
       error: Boolean(errors.EMAIL_HOST_USER),
       required: false,
     },

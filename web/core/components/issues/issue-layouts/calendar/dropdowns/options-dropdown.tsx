@@ -15,8 +15,8 @@ import {
   IIssueFilterOptions,
   TCalendarLayouts,
   TIssueKanbanFilters,
-} from "@fixit/types";
-import { ToggleSwitch } from "@fixit/ui";
+} from "@youtrack/types";
+import { ToggleSwitch } from "@youtrack/ui";
 // types
 // constants
 import { CALENDAR_LAYOUTS } from "@/constants/calendar";

@@ -3,7 +3,7 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { ChevronUp, PenSquare, Search } from "lucide-react";
 // types
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 // components
 import { CreateUpdateIssueModal } from "@/components/issues";
 // constants
@@ -12,7 +12,7 @@ import { cn } from "@/helpers/common.helper";
 // hooks
 import { useAppTheme, useCommandPalette, useEventTracker, useProject, useUserPermissions } from "@/hooks/store";
 import useLocalStorage from "@/hooks/use-local-storage";
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 export const SidebarQuickActions = observer(() => {
   // states

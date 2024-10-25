@@ -2,7 +2,7 @@
 
 import { FC } from "react";
 // components
-import { Loader } from "@fixit/ui";
+import { Loader } from "@youtrack/ui";
 
 export const ProjectDetailsFormLoader: FC = () => (
   <>

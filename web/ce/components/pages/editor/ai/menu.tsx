@@ -2,17 +2,17 @@
 
 import React, { RefObject, useEffect, useRef, useState } from "react";
 import { ChevronRight, CornerDownRight, LucideIcon, RefreshCcw, Sparkles, TriangleAlert } from "lucide-react";
-// fixit editor
-import { EditorRefApi } from "@fixit/editor";
-// fixit ui
-import { Tooltip } from "@fixit/ui";
+// youtrack editor
+import { EditorRefApi } from "@youtrack/editor";
+// youtrack ui
+import { Tooltip } from "@youtrack/ui";
 // components
 import { RichTextReadOnlyEditor } from "@/components/editor";
 // helpers
 import { cn } from "@/helpers/common.helper";
-// fixit web constants
-import { AI_EDITOR_TASKS, LOADING_TEXTS } from "@/fixit-web/constants/ai";
-// fixit web services
+// youtrack web constants
+import { AI_EDITOR_TASKS, LOADING_TEXTS } from "@/youtrack-web/constants/ai";
+// youtrack web services
 import { AIService, TTaskPayload } from "@/services/ai.service";
 import { AskPiMenu } from "./ask-pi-menu";
 const aiService = new AIService();

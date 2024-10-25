@@ -1,7 +1,7 @@
 "use client";
 
 // ui
-import { Loader } from "@fixit/ui";
+import { Loader } from "@youtrack/ui";
 
 export const IssuesByPriorityWidgetLoader = () => (
   <Loader className="bg-custom-background-100 rounded-xl p-6">

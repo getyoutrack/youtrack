@@ -1,5 +1,5 @@
 // services
-import type { IIssueFiltersResponse } from "@fixit/types";
+import type { IIssueFiltersResponse } from "@youtrack/types";
 import { API_BASE_URL } from "@/helpers/common.helper";
 import { APIService } from "@/services/api.service";
 // types

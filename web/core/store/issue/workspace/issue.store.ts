@@ -7,9 +7,9 @@ import {
   TIssuesResponse,
   TLoader,
   ViewFlags,
-} from "@fixit/types";
+} from "@youtrack/types";
 // services
-import { WorkspaceService } from "@/fixit-web/services";
+import { WorkspaceService } from "@/youtrack-web/services";
 // types
 import { BaseIssuesStore, IBaseIssuesStore } from "../helpers/base-issues.store";
 import { IIssueRootStore } from "../root.store";

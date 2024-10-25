@@ -2,14 +2,14 @@
 
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
-import { TYAxisValues } from "@fixit/types";
-import { CustomSelect } from "@fixit/ui";
+import { TYAxisValues } from "@youtrack/types";
+import { CustomSelect } from "@youtrack/ui";
 // constants
 import { ANALYTICS_Y_AXIS_VALUES } from "@/constants/analytics";
 // hooks
 import { useProjectEstimates } from "@/hooks/store";
-// fixit web constants
-import { EEstimateSystem } from "@/fixit-web/constants/estimates";
+// youtrack web constants
+import { EEstimateSystem } from "@/youtrack-web/constants/estimates";
 
 type Props = {
   value: TYAxisValues;

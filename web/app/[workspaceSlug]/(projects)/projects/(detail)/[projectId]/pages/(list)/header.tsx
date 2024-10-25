@@ -4,18 +4,18 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { useParams, useRouter, useSearchParams } from "next/navigation";
 import { FileText } from "lucide-react";
-// fixit types
-import { TPage } from "@fixit/types";
-// fixit ui
-import { Breadcrumbs, Button, Header, setToast, TOAST_TYPE } from "@fixit/ui";
+// youtrack types
+import { TPage } from "@youtrack/types";
+// youtrack ui
+import { Breadcrumbs, Button, Header, setToast, TOAST_TYPE } from "@youtrack/ui";
 // helpers
 import { BreadcrumbLink, Logo } from "@/components/common";
 // constants
 import { EPageAccess } from "@/constants/page";
 // hooks
 import { useEventTracker, useProject, useProjectPages, useUserPermissions } from "@/hooks/store";
-// fixit web hooks
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+// youtrack web hooks
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 export const PagesListHeader = observer(() => {
   // states

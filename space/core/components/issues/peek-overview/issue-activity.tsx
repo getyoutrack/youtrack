@@ -4,7 +4,7 @@ import React from "react";
 import { observer } from "mobx-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 // components
 import { CommentCard, AddComment } from "@/components/issues/peek-overview";
 import { Icon } from "@/components/ui";

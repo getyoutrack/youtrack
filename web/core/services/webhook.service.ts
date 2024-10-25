@@ -1,5 +1,5 @@
 // api services
-import { IWebhook } from "@fixit/types";
+import { IWebhook } from "@youtrack/types";
 import { API_BASE_URL } from "@/helpers/common.helper";
 import { APIService } from "@/services/api.service";
 // helpers

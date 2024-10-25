@@ -2,8 +2,8 @@
 
 import { FC } from "react";
 import { observer } from "mobx-react";
-import { TIssue } from "@fixit/types";
-import { Input } from "@fixit/ui";
+import { TIssue } from "@youtrack/types";
+import { Input } from "@youtrack/ui";
 // constants
 import { ETabIndices } from "@/constants/tab-indices";
 // helpers

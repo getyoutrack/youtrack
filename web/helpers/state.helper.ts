@@ -1,5 +1,5 @@
 // types
-import { IState, IStateResponse } from "@fixit/types";
+import { IState, IStateResponse } from "@youtrack/types";
 import { STATE_GROUPS, TDraggableData } from "@/constants/state";
 
 export const orderStateGroups = (unorderedStateGroups: IStateResponse | undefined): IStateResponse | undefined => {

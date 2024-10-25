@@ -4,9 +4,9 @@ import React, { useState } from "react";
 import { useParams } from "next/navigation";
 import { mutate } from "swr";
 // types
-import { IApiToken } from "@fixit/types";
+import { IApiToken } from "@youtrack/types";
 // ui
-import { EModalPosition, EModalWidth, ModalCore, TOAST_TYPE, setToast } from "@fixit/ui";
+import { EModalPosition, EModalWidth, ModalCore, TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { CreateApiTokenForm, GeneratedTokenDetails } from "@/components/api-token";
 // fetch-keys

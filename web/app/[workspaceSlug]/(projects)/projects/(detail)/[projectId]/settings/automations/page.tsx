@@ -3,16 +3,16 @@
 import React from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
-import { IProject } from "@fixit/types";
+import { IProject } from "@youtrack/types";
 // ui
-import { TOAST_TYPE, setToast } from "@fixit/ui";
+import { TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { NotAuthorizedView } from "@/components/auth-screens";
 import { AutoArchiveAutomation, AutoCloseAutomation } from "@/components/automation";
 import { PageHead } from "@/components/core";
 // hooks
 import { useProject, useUserPermissions } from "@/hooks/store";
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 const AutomationSettingsPage = observer(() => {
   // router

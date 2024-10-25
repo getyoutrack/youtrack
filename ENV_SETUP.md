@@ -8,18 +8,18 @@ File is available in the project root folder​
 
 ```
 # Database Settings
-POSTGRES_USER="fixit"
-POSTGRES_PASSWORD="fixit"
-POSTGRES_DB="fixit"
+POSTGRES_USER="youtrack"
+POSTGRES_PASSWORD="youtrack"
+POSTGRES_DB="youtrack"
 PGDATA="/var/lib/postgresql/data"
 # Redis Settings
-REDIS_HOST="fixit-redis"
+REDIS_HOST="youtrack-redis"
 REDIS_PORT="6379"
 # AWS Settings
 AWS_REGION=""
 AWS_ACCESS_KEY_ID="access-key"
 AWS_SECRET_ACCESS_KEY="secret-key"
-AWS_S3_ENDPOINT_URL="http://fixit-minio:9000"
+AWS_S3_ENDPOINT_URL="http://youtrack-minio:9000"
 # Changing this requires change in the nginx.conf for uploads if using minio setup
 AWS_S3_BUCKET_NAME="uploads"
 # Maximum file upload limit
@@ -47,21 +47,21 @@ CORS_ALLOWED_ORIGINS="http://localhost"
 SENTRY_DSN=""
 SENTRY_ENVIRONMENT="development"
 # Database Settings
-POSTGRES_USER="fixit"
-POSTGRES_PASSWORD="fixit"
-POSTGRES_HOST="fixit-db"
-POSTGRES_DB="fixit"
+POSTGRES_USER="youtrack"
+POSTGRES_PASSWORD="youtrack"
+POSTGRES_HOST="youtrack-db"
+POSTGRES_DB="youtrack"
 POSTGRES_PORT=5432
 DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
 # Redis Settings
-REDIS_HOST="fixit-redis"
+REDIS_HOST="youtrack-redis"
 REDIS_PORT="6379"
 REDIS_URL="redis://${REDIS_HOST}:6379/"
 # AWS Settings
 AWS_REGION=""
 AWS_ACCESS_KEY_ID="access-key"
 AWS_SECRET_ACCESS_KEY="secret-key"
-AWS_S3_ENDPOINT_URL="http://fixit-minio:9000"
+AWS_S3_ENDPOINT_URL="http://youtrack-minio:9000"
 # Changing this requires change in the nginx.conf for uploads if using minio setup
 AWS_S3_BUCKET_NAME="uploads"
 # Maximum file upload limit
@@ -86,6 +86,6 @@ SECRET_KEY="gxoytl7dmnc1y37zahah820z5iq3iozu38cnfjtu3yaau9cd9z"
 ## Updates​
 
 - The naming convention for containers and images has been updated.
-- The fixit-worker image will no longer be maintained, as it has been merged with fixit-backend.
+- The youtrack-worker image will no longer be maintained, as it has been merged with youtrack-backend.
 - The Tiptap pro-extension dependency has been removed, eliminating the need for Tiptap API keys.
-- The image name for Fixit deployment has been changed to fixit-space.
+- The image name for Youtrack deployment has been changed to youtrack-space.

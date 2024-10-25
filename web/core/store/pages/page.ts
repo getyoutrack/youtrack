@@ -1,10 +1,10 @@
 import set from "lodash/set";
 import { action, computed, makeObservable, observable, reaction, runInAction } from "mobx";
 // types
-import { TDocumentPayload, TLogoProps, TPage } from "@fixit/types";
+import { TDocumentPayload, TLogoProps, TPage } from "@youtrack/types";
 // constants
 import { EPageAccess } from "@/constants/page";
-import { EUserPermissions } from "@/fixit-web/constants/user-permissions";
+import { EUserPermissions } from "@/youtrack-web/constants/user-permissions";
 // services
 import { ProjectPageService } from "@/services/page";
 // store

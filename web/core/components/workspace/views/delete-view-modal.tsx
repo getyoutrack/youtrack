@@ -4,9 +4,9 @@ import React, { useState } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // types
-import { IWorkspaceView } from "@fixit/types";
+import { IWorkspaceView } from "@youtrack/types";
 // ui
-import { AlertModalCore, TOAST_TYPE, setToast } from "@fixit/ui";
+import { AlertModalCore, TOAST_TYPE, setToast } from "@youtrack/ui";
 // constants
 import { GLOBAL_VIEW_DELETED } from "@/constants/event-tracker";
 // hooks

@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 // ui
 import { Settings } from "lucide-react";
 // icons
-import { Breadcrumbs } from "@fixit/ui";
+import { Breadcrumbs } from "@youtrack/ui";
 // components
 import { SidebarHamburgerToggle } from "@/components/admin-sidebar";
 import { BreadcrumbLink } from "@/components/common";

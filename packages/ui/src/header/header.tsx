@@ -63,6 +63,6 @@ const RightItem = (props: HeaderProps) => {
 
 Header.LeftItem = LeftItem;
 Header.RightItem = RightItem;
-Header.displayName = "fixit-ui-header";
+Header.displayName = "youtrack-ui-header";
 
 export { Header, EHeaderVariant };

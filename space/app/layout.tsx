@@ -9,17 +9,17 @@ import "@/styles/globals.css";
 import { ToastProvider } from "@/lib/toast-provider";
 
 export const metadata: Metadata = {
-  title: "Fixit Publish | Make your Fixit boards public with one-click",
-  description: "Fixit Publish is a customer feedback management tool built on top of fixit.so",
+  title: "Youtrack Publish | Make your Youtrack boards public with one-click",
+  description: "Youtrack Publish is a customer feedback management tool built on top of youtrack.so",
   openGraph: {
-    title: "Fixit Publish | Make your Fixit boards public with one-click",
-    description: "Fixit Publish is a customer feedback management tool built on top of fixit.so",
-    url: "https://sites.fixit.so/",
+    title: "Youtrack Publish | Make your Youtrack boards public with one-click",
+    description: "Youtrack Publish is a customer feedback management tool built on top of youtrack.so",
+    url: "https://sites.youtrack.so/",
   },
   keywords:
     "software development, customer feedback, software, accelerate, code management, release management, project management, issue tracking, agile, scrum, kanban, collaboration",
   twitter: {
-    site: "@fixitpowers",
+    site: "@youtrackpowers",
   },
 };
 

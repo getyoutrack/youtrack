@@ -1,9 +1,9 @@
 import { observer } from "mobx-react";
 import { Combobox } from "@headlessui/react";
 // hooks
-import { ISearchIssueResponse } from "@fixit/types";
-// fixit web hooks
-import { IssueIdentifier } from "@/fixit-web/components/issues";
+import { ISearchIssueResponse } from "@youtrack/types";
+// youtrack web hooks
+import { IssueIdentifier } from "@/youtrack-web/components/issues";
 
 interface Props {
   issue: ISearchIssueResponse;

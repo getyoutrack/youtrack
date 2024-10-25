@@ -1,6 +1,6 @@
 import { observer } from "mobx-react";
-// fixit types
-import { TPageVersion } from "@fixit/types";
+// youtrack types
+import { TPageVersion } from "@youtrack/types";
 // components
 import { PageVersionsMainContent, PageVersionsSidebarRoot, TVersionEditorProps } from "@/components/pages";
 // helpers

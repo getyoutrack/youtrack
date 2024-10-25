@@ -1,5 +1,5 @@
 // types
-import { TLogoProps } from "@fixit/types";
+import { TLogoProps } from "@youtrack/types";
 // helpers
 import { cn } from "@/helpers/common.helper";
 

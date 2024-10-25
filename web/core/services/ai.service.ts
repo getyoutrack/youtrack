@@ -1,12 +1,12 @@
 // helpers
 import { API_BASE_URL } from "@/helpers/common.helper";
-// fixit web constants
-import { AI_EDITOR_TASKS } from "@/fixit-web/constants/ai";
+// youtrack web constants
+import { AI_EDITOR_TASKS } from "@/youtrack-web/constants/ai";
 // services
 import { APIService } from "@/services/api.service";
 // types
 // FIXME:
-// import { IGptResponse } from "@fixit/types";
+// import { IGptResponse } from "@youtrack/types";
 // helpers
 
 export type TTaskPayload = {

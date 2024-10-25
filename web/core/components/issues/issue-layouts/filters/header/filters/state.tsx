@@ -3,9 +3,9 @@
 import React, { useMemo, useState } from "react";
 import sortBy from "lodash/sortBy";
 import { observer } from "mobx-react";
-import { IState } from "@fixit/types";
+import { IState } from "@youtrack/types";
 // components
-import { Loader, StateGroupIcon } from "@fixit/ui";
+import { Loader, StateGroupIcon } from "@youtrack/ui";
 import { FilterHeader, FilterOption } from "@/components/issues";
 // ui
 // types

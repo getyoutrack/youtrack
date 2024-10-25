@@ -5,7 +5,7 @@ import { useParams, usePathname } from "next/navigation";
 
 // components
 // constants
-import { Header, EHeaderVariant } from "@fixit/ui";
+import { Header, EHeaderVariant } from "@youtrack/ui";
 import { PROFILE_ADMINS_TAB, PROFILE_VIEWER_TAB } from "@/constants/profile";
 
 type Props = {

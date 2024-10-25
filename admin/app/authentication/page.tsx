@@ -3,14 +3,14 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 import useSWR from "swr";
-import { TInstanceConfigurationKeys } from "@fixit/types";
-import { Loader, ToggleSwitch, setPromiseToast } from "@fixit/ui";
+import { TInstanceConfigurationKeys } from "@youtrack/types";
+import { Loader, ToggleSwitch, setPromiseToast } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common.helper";
 // hooks
 import { useInstance } from "@/hooks/store";
-// fixit admin components
-import { AuthenticationModes } from "@/fixit-admin/components/authentication";
+// youtrack admin components
+import { AuthenticationModes } from "@/youtrack-admin/components/authentication";
 
 const InstanceAuthenticationPage = observer(() => {
   // store

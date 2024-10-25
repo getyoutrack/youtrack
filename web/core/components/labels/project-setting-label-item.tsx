@@ -2,7 +2,7 @@ import React, { Dispatch, SetStateAction, useState } from "react";
 import { useParams } from "next/navigation";
 import { X, Pencil } from "lucide-react";
 // types
-import { IIssueLabel } from "@fixit/types";
+import { IIssueLabel } from "@youtrack/types";
 // hooks
 import { useLabel } from "@/hooks/store";
 // components

@@ -1,7 +1,7 @@
 import { observer } from "mobx-react";
 import Image from "next/image";
 // types
-import { TPageNavigationTabs } from "@fixit/types";
+import { TPageNavigationTabs } from "@youtrack/types";
 // components
 import { EmptyState } from "@/components/empty-state";
 import { PageLoader } from "@/components/pages";

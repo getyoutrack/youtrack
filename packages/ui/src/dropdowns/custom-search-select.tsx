@@ -3,8 +3,8 @@ import { usePopper } from "react-popper";
 import { Combobox } from "@headlessui/react";
 import { Check, ChevronDown, Info, Search } from "lucide-react";
 import { createPortal } from "react-dom";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
 // hooks
 import { useDropdownKeyDown } from "../hooks/use-dropdown-key-down";
 // helpers

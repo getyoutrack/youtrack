@@ -6,7 +6,7 @@ import { useParams } from "next/navigation";
 // icons
 import { CalendarCheck2, CalendarClock } from "lucide-react";
 // types
-import { TIssuePriorities, TWorkspaceDraftIssue } from "@fixit/types";
+import { TIssuePriorities, TWorkspaceDraftIssue } from "@youtrack/types";
 // components
 import {
   DateDropdown,

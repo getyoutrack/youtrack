@@ -1,4 +1,4 @@
-import { TStateGroups } from "@fixit/types";
+import { TStateGroups } from "@youtrack/types";
 
 export type TDraggableData = {
   groupKey: TStateGroups;

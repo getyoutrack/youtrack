@@ -3,7 +3,7 @@ import xor from "lodash/xor";
 import { observer } from "mobx-react";
 import { useParams, usePathname } from "next/navigation";
 // types
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 // components
 import { ModuleDropdown } from "@/components/dropdowns";
 // constants

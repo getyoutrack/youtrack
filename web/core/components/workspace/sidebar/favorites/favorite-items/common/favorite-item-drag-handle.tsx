@@ -2,7 +2,7 @@
 import React, { FC } from "react";
 import { observer } from "mobx-react";
 // ui
-import { DragHandle, Tooltip } from "@fixit/ui";
+import { DragHandle, Tooltip } from "@youtrack/ui";
 // helper
 import { cn } from "@/helpers/common.helper";
 // hooks

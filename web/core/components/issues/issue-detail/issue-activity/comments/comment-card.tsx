@@ -4,10 +4,10 @@ import { FC, useEffect, useRef, useState } from "react";
 import { observer } from "mobx-react";
 import { useForm } from "react-hook-form";
 import { Check, Globe2, Lock, Pencil, Trash2, X } from "lucide-react";
-import { EditorReadOnlyRefApi, EditorRefApi } from "@fixit/editor";
-import { TIssueComment } from "@fixit/types";
+import { EditorReadOnlyRefApi, EditorRefApi } from "@youtrack/editor";
+import { TIssueComment } from "@youtrack/types";
 // ui
-import { CustomMenu } from "@fixit/ui";
+import { CustomMenu } from "@youtrack/ui";
 // components
 import { LiteTextEditor, LiteTextReadOnlyEditor } from "@/components/editor";
 // constants

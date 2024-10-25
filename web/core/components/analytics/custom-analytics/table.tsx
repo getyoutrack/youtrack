@@ -1,8 +1,8 @@
 "use client";
 
 import { BarDatum } from "@nivo/bar";
-import { IAnalyticsParams, IAnalyticsResponse, TIssuePriorities } from "@fixit/types";
-import { PriorityIcon, Tooltip } from "@fixit/ui";
+import { IAnalyticsParams, IAnalyticsResponse, TIssuePriorities } from "@youtrack/types";
+import { PriorityIcon, Tooltip } from "@youtrack/ui";
 // helpers
 import { ANALYTICS_X_AXIS_VALUES, ANALYTICS_Y_AXIS_VALUES } from "@/constants/analytics";
 import { generateBarColor, generateDisplayName, renderChartDynamicLabel } from "@/helpers/analytics.helper";

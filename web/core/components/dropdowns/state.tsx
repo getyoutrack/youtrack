@@ -7,7 +7,7 @@ import { usePopper } from "react-popper";
 import { Check, ChevronDown, Search } from "lucide-react";
 import { Combobox } from "@headlessui/react";
 // ui
-import { ComboDropDown, Spinner, StateGroupIcon } from "@fixit/ui";
+import { ComboDropDown, Spinner, StateGroupIcon } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common.helper";
 // hooks

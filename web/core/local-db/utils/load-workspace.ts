@@ -1,6 +1,6 @@
-import { IEstimate, IEstimatePoint, IWorkspaceMember } from "@fixit/types";
+import { IEstimate, IEstimatePoint, IWorkspaceMember } from "@youtrack/types";
 import { API_BASE_URL } from "@/helpers/common.helper";
-import { EstimateService } from "@/fixit-web/services/project/estimate.service";
+import { EstimateService } from "@/youtrack-web/services/project/estimate.service";
 import { CycleService } from "@/services/cycle.service";
 import { IssueLabelService } from "@/services/issue/issue_label.service";
 import { ModuleService } from "@/services/module.service";

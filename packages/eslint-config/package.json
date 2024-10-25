@@ -1,5 +1,5 @@
 {
-  "name": "@fixit/eslint-config",
+  "name": "@youtrack/eslint-config",
   "private": true,
   "version": "0.23.1",
   "files": [

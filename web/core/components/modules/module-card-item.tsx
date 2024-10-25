@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useParams, usePathname, useSearchParams } from "next/navigation";
 import { Info, SquareUser } from "lucide-react";
 // ui
-import { IModule } from "@fixit/types";
+import { IModule } from "@youtrack/types";
 import {
   Card,
   FavoriteStar,
@@ -16,7 +16,7 @@ import {
   Tooltip,
   setPromiseToast,
   setToast,
-} from "@fixit/ui";
+} from "@youtrack/ui";
 // components
 import { DateRangeDropdown } from "@/components/dropdowns";
 import { ButtonAvatars } from "@/components/dropdowns/member/avatar";
@@ -33,8 +33,8 @@ import { generateQueryParams } from "@/helpers/router.helper";
 import { useEventTracker, useMember, useModule, useUserPermissions } from "@/hooks/store";
 import { useAppRouter } from "@/hooks/use-app-router";
 import { usePlatformOS } from "@/hooks/use-platform-os";
-// fixit web constants
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+// youtrack web constants
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 type Props = {
   moduleId: string;

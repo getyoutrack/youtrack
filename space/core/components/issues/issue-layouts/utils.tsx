@@ -9,9 +9,9 @@ import {
   TCycleGroups,
   IIssueDisplayProperties,
   TGroupedIssues,
-} from "@fixit/types";
+} from "@youtrack/types";
 // ui
-import { Avatar, CycleGroupIcon, DiceIcon, PriorityIcon, StateGroupIcon } from "@fixit/ui";
+import { Avatar, CycleGroupIcon, DiceIcon, PriorityIcon, StateGroupIcon } from "@youtrack/ui";
 // components
 // constants
 import { ISSUE_PRIORITIES } from "@/constants/issue";

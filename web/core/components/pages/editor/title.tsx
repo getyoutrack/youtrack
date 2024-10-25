@@ -3,9 +3,9 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 // editor
-import { EditorRefApi } from "@fixit/editor";
+import { EditorRefApi } from "@youtrack/editor";
 // ui
-import { TextArea } from "@fixit/ui";
+import { TextArea } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common.helper";
 // hooks

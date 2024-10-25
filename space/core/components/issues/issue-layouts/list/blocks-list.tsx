@@ -1,6 +1,6 @@
 import { FC, MutableRefObject } from "react";
 // types
-import { IIssueDisplayProperties } from "@fixit/types";
+import { IIssueDisplayProperties } from "@youtrack/types";
 import { IssueBlock } from "./block";
 
 interface Props {

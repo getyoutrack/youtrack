@@ -1,7 +1,7 @@
 import { MutableRefObject } from "react";
 import { observer } from "mobx-react";
 //types
-import { IIssueDisplayProperties } from "@fixit/types";
+import { IIssueDisplayProperties } from "@youtrack/types";
 // components
 import { KanbanIssueBlock } from "./block";
 

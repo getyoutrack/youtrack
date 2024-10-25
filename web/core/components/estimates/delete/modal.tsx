@@ -3,7 +3,7 @@
 import { FC, useState } from "react";
 import { observer } from "mobx-react";
 // ui
-import { Button, EModalPosition, EModalWidth, ModalCore, TOAST_TYPE, setToast } from "@fixit/ui";
+import { Button, EModalPosition, EModalWidth, ModalCore, TOAST_TYPE, setToast } from "@youtrack/ui";
 // hooks
 import { useEstimate, useProject, useProjectEstimates } from "@/hooks/store";
 

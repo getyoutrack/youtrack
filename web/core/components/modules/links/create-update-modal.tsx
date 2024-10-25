@@ -2,10 +2,10 @@
 
 import { FC, useEffect } from "react";
 import { Controller, useForm } from "react-hook-form";
-// fixit types
-import type { ILinkDetails, ModuleLink } from "@fixit/types";
-// fixit ui
-import { Button, Input, ModalCore, setToast, TOAST_TYPE } from "@fixit/ui";
+// youtrack types
+import type { ILinkDetails, ModuleLink } from "@youtrack/types";
+// youtrack ui
+import { Button, Input, ModalCore, setToast, TOAST_TYPE } from "@youtrack/ui";
 // helpers
 import { checkURLValidity } from "@/helpers/string.helper";
 

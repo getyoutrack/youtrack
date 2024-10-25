@@ -9,7 +9,7 @@ import {
   TIssueOrderByOptions,
   TIssuePriorities,
   TIssueGroupingFilters,
-} from "@fixit/types";
+} from "@youtrack/types";
 
 export const DRAG_ALLOWED_GROUPS: TIssueGroupByOptions[] = [
   "state",

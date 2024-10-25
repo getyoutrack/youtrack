@@ -1,6 +1,6 @@
 import React from "react";
 // editor
-import { EditorReadOnlyRefApi, ILiteTextReadOnlyEditor, LiteTextReadOnlyEditorWithRef } from "@fixit/editor";
+import { EditorReadOnlyRefApi, ILiteTextReadOnlyEditor, LiteTextReadOnlyEditorWithRef } from "@youtrack/editor";
 // helpers
 import { cn } from "@/helpers/common.helper";
 import { getReadOnlyEditorFileHandlers } from "@/helpers/editor.helper";

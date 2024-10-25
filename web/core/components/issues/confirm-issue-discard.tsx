@@ -5,7 +5,7 @@ import React, { useState } from "react";
 // headless ui
 import { Dialog, Transition } from "@headlessui/react";
 // ui
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 
 type Props = {
   isOpen: boolean;

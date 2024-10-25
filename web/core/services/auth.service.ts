@@ -1,5 +1,5 @@
 // types
-import { ICsrfTokenData, IEmailCheckData, IEmailCheckResponse } from "@fixit/types";
+import { ICsrfTokenData, IEmailCheckData, IEmailCheckResponse } from "@youtrack/types";
 // helpers
 import { API_BASE_URL } from "@/helpers/common.helper";
 // services

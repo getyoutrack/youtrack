@@ -1,6 +1,6 @@
 import { FC, MutableRefObject } from "react";
 // components
-import { TIssue, IIssueDisplayProperties, TIssueMap, TGroupedIssues } from "@fixit/types";
+import { TIssue, IIssueDisplayProperties, TIssueMap, TGroupedIssues } from "@youtrack/types";
 import { IssueBlockRoot } from "@/components/issues/issue-layouts/list";
 // hooks
 import { TSelectionHelper } from "@/hooks/use-multiple-select";

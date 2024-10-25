@@ -2,12 +2,12 @@ import { useState } from "react";
 import Link from "next/link";
 import useSWR from "swr";
 import { TriangleAlert } from "lucide-react";
-// fixit types
-import { TPageVersion } from "@fixit/types";
-// fixit ui
-import { Button, Loader } from "@fixit/ui";
+// youtrack types
+import { TPageVersion } from "@youtrack/types";
+// youtrack ui
+import { Button, Loader } from "@youtrack/ui";
 // components
-import { FixitVersionsSidebarListItem } from "@/components/pages";
+import { YoutrackVersionsSidebarListItem } from "@/components/pages";
 // helpers
 import { cn } from "@/helpers/common.helper";
 // hooks
@@ -78,7 +78,7 @@ export const PageVersionsSidebarList: React.FC<Props> = (props) => {
         </div>
       ) : versionsList ? (
         versionsList.map((version) => (
-          <FixitVersionsSidebarListItem
+          <YoutrackVersionsSidebarListItem
             key={version.id}
             href={getVersionLink(version.id)}
             isActive={activeVersion === version.id}

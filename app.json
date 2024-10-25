@@ -1,13 +1,13 @@
 {
-  "name": "Fixit",
-  "description": "Fixit helps you track your issues, epics, and product roadmaps.",
-  "repository": "http://github.com/meta-mart/fixit",
+  "name": "Youtrack",
+  "description": "Youtrack helps you track your issues, epics, and product roadmaps.",
+  "repository": "http://github.com/getyoutrack/youtrack",
   "logo": "https://avatars.githubusercontent.com/u/115727700?s=200&v=4",
-  "website": "https://fixit.so/",
+  "website": "https://youtrack.so/",
   "success_url": "/",
   "stack": "heroku-22",
   "keywords": [
-    "fixit",
+    "youtrack",
     "project management",
     "django",
     "next"
@@ -66,7 +66,7 @@
       "value": ""
     },
     "WEB_URL": {
-      "description": "Web URL for Fixit this will be used for redirections in the emails",
+      "description": "Web URL for Youtrack this will be used for redirections in the emails",
       "value": ""
     },
     "GITHUB_CLIENT_SECRET": {

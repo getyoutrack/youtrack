@@ -1,5 +1,5 @@
 {
-  "name": "@fixit/typescript-config",
+  "name": "@youtrack/typescript-config",
   "version": "0.23.1",
   "private": true,
   "files": [

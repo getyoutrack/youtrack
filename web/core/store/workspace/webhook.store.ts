@@ -2,7 +2,7 @@
 import { action, observable, makeObservable, computed, runInAction } from "mobx";
 import { computedFn } from "mobx-utils";
 // types
-import { IWebhook } from "@fixit/types";
+import { IWebhook } from "@youtrack/types";
 // services
 import { WebhookService } from "@/services/webhook.service";
 // store

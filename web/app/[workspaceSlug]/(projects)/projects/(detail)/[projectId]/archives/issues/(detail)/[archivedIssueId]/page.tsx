@@ -4,7 +4,7 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import useSWR from "swr";
 // ui
-import { Loader } from "@fixit/ui";
+import { Loader } from "@youtrack/ui";
 // components
 import { PageHead } from "@/components/core";
 import { IssueDetailRoot } from "@/components/issues";

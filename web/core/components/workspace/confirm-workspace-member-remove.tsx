@@ -5,7 +5,7 @@ import { observer } from "mobx-react";
 import { AlertTriangle } from "lucide-react";
 import { Dialog, Transition } from "@headlessui/react";
 // ui
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 // hooks
 import { useUser } from "@/hooks/store";
 

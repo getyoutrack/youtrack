@@ -5,7 +5,7 @@ import { observer } from "mobx-react";
 import { ChevronDown } from "lucide-react";
 import { Menu, Transition } from "@headlessui/react";
 // ui
-import { Avatar } from "@fixit/ui";
+import { Avatar } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common.helper";
 import { getFileURL } from "@/helpers/file.helper";

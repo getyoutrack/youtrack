@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useParams } from "next/navigation";
-import { IWorkspaceMember } from "@fixit/types";
+import { IWorkspaceMember } from "@youtrack/types";
 import { AccountTypeColumn, NameColumn } from "@/components/project/settings/member-columns";
 import { useUser, useUserPermissions } from "@/hooks/store";
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 export interface RowData {
   member: IWorkspaceMember;

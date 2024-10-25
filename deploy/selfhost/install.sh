@@ -2,19 +2,19 @@
 
 BRANCH=${BRANCH:-master}
 SCRIPT_DIR=$PWD
-SERVICE_FOLDER=fixit-app
-FIXIT_INSTALL_DIR=$PWD/$SERVICE_FOLDER
+SERVICE_FOLDER=youtrack-app
+YOUTRACK_INSTALL_DIR=$PWD/$SERVICE_FOLDER
 export APP_RELEASE="stable"
-export DOCKERHUB_USER=meta-mart
+export DOCKERHUB_USER=getyoutrack
 export PULL_POLICY=${PULL_POLICY:-if_not_present}
 
 CPU_ARCH=$(uname -m)
 OS_NAME=$(uname)
 UPPER_CPU_ARCH=$(tr '[:lower:]' '[:upper:]' <<< "$CPU_ARCH")
 
-mkdir -p $FIXIT_INSTALL_DIR/archive
-DOCKER_FILE_PATH=$FIXIT_INSTALL_DIR/docker-compose.yaml
-DOCKER_ENV_PATH=$FIXIT_INSTALL_DIR/fixit.env
+mkdir -p $YOUTRACK_INSTALL_DIR/archive
+DOCKER_FILE_PATH=$YOUTRACK_INSTALL_DIR/docker-compose.yaml
+DOCKER_ENV_PATH=$YOUTRACK_INSTALL_DIR/youtrack.env
 
 SED_PREFIX=()
 if [ "$OS_NAME" == "Darwin" ]; then
@@ -70,7 +70,7 @@ function initialize(){
         return 1
     fi
 
-    local IMAGE_NAME=meta-mart/fixit-proxy
+    local IMAGE_NAME=getyoutrack/youtrack-proxy
     local IMAGE_TAG=${APP_RELEASE}
     docker manifest inspect "${IMAGE_NAME}:${IMAGE_TAG}" | grep -q "\"architecture\": \"${CPU_ARCH}\"" &
     local pid=$!
@@ -81,7 +81,7 @@ function initialize(){
     wait "$pid"
 
     if [ $? -eq 0 ]; then
-        echo "Fixit supports ${CPU_ARCH}" >&2
+        echo "Youtrack supports ${CPU_ARCH}" >&2
         echo "available"
         return 0
     else
@@ -150,10 +150,10 @@ function updateCustomVariables(){
 
 function syncEnvFile(){
     echo "Syncing environment variables..." >&2
-    if [ -f "$FIXIT_INSTALL_DIR/fixit.env.bak" ]; then
+    if [ -f "$YOUTRACK_INSTALL_DIR/youtrack.env.bak" ]; then
         updateCustomVariables
         
-        # READ keys of fixit.env and update the values from fixit.env.bak
+        # READ keys of youtrack.env and update the values from youtrack.env.bak
         while IFS= read -r line
         do
             # ignore is the line is empty or starts with #
@@ -161,7 +161,7 @@ function syncEnvFile(){
                 continue
             fi
             key=$(echo "$line" | cut -d'=' -f1)
-            value=$(getEnvValue "$key" "$FIXIT_INSTALL_DIR/fixit.env.bak")
+            value=$(getEnvValue "$key" "$YOUTRACK_INSTALL_DIR/youtrack.env.bak")
             if [ -n "$value" ]; then
                 updateEnvFile "$key" "$value" "$DOCKER_ENV_PATH"
             fi
@@ -173,21 +173,21 @@ function syncEnvFile(){
 function buildYourOwnImage(){
     echo "Building images locally..."
 
-    export DOCKERHUB_USER="myfixit"
+    export DOCKERHUB_USER="myyoutrack"
     export APP_RELEASE="local"
     export PULL_POLICY="never"
     CUSTOM_BUILD="true"
 
-    # checkout the code to ~/tmp/fixit folder and build the images
-    local FIXIT_TEMP_CODE_DIR=~/tmp/fixit
-    rm -rf $FIXIT_TEMP_CODE_DIR
-    mkdir -p $FIXIT_TEMP_CODE_DIR
-    REPO=https://github.com/meta-mart/fixit.git
-    git clone "$REPO" "$FIXIT_TEMP_CODE_DIR"  --branch "$BRANCH" --single-branch --depth 1
+    # checkout the code to ~/tmp/youtrack folder and build the images
+    local YOUTRACK_TEMP_CODE_DIR=~/tmp/youtrack
+    rm -rf $YOUTRACK_TEMP_CODE_DIR
+    mkdir -p $YOUTRACK_TEMP_CODE_DIR
+    REPO=https://github.com/getyoutrack/youtrack.git
+    git clone "$REPO" "$YOUTRACK_TEMP_CODE_DIR"  --branch "$BRANCH" --single-branch --depth 1
 
-    cp "$FIXIT_TEMP_CODE_DIR/deploy/selfhost/build.yml" "$FIXIT_TEMP_CODE_DIR/build.yml"
+    cp "$YOUTRACK_TEMP_CODE_DIR/deploy/selfhost/build.yml" "$YOUTRACK_TEMP_CODE_DIR/build.yml"
 
-    cd "$FIXIT_TEMP_CODE_DIR" || exit
+    cd "$YOUTRACK_TEMP_CODE_DIR" || exit
 
     /bin/bash -c "$COMPOSE_CMD -f build.yml build --no-cache"  >&2
     if [ $? -ne 0 ]; then
@@ -201,7 +201,7 @@ function buildYourOwnImage(){
 }
 
 function install() {
-    echo "Begin Installing Fixit"
+    echo "Begin Installing Youtrack"
     echo ""
 
     local build_image=$(initialize)
@@ -227,26 +227,26 @@ function download() {
     local LOCAL_BUILD=$1
     cd $SCRIPT_DIR
     TS=$(date +%s)
-    if [ -f "$FIXIT_INSTALL_DIR/docker-compose.yaml" ]
+    if [ -f "$YOUTRACK_INSTALL_DIR/docker-compose.yaml" ]
     then
-        mv $FIXIT_INSTALL_DIR/docker-compose.yaml $FIXIT_INSTALL_DIR/archive/$TS.docker-compose.yaml
+        mv $YOUTRACK_INSTALL_DIR/docker-compose.yaml $YOUTRACK_INSTALL_DIR/archive/$TS.docker-compose.yaml
     fi
 
-    curl -H 'Cache-Control: no-cache, no-store' -s -o $FIXIT_INSTALL_DIR/docker-compose.yaml  https://raw.githubusercontent.com/meta-mart/fixit/$BRANCH/deploy/selfhost/docker-compose.yml?$(date +%s)
-    curl -H 'Cache-Control: no-cache, no-store' -s -o $FIXIT_INSTALL_DIR/variables-upgrade.env https://raw.githubusercontent.com/meta-mart/fixit/$BRANCH/deploy/selfhost/variables.env?$(date +%s)
+    curl -H 'Cache-Control: no-cache, no-store' -s -o $YOUTRACK_INSTALL_DIR/docker-compose.yaml  https://raw.githubusercontent.com/getyoutrack/youtrack/$BRANCH/deploy/selfhost/docker-compose.yml?$(date +%s)
+    curl -H 'Cache-Control: no-cache, no-store' -s -o $YOUTRACK_INSTALL_DIR/variables-upgrade.env https://raw.githubusercontent.com/getyoutrack/youtrack/$BRANCH/deploy/selfhost/variables.env?$(date +%s)
 
     if [ -f "$DOCKER_ENV_PATH" ];
     then
-        cp "$DOCKER_ENV_PATH" "$FIXIT_INSTALL_DIR/archive/$TS.env"
-        cp "$DOCKER_ENV_PATH" "$FIXIT_INSTALL_DIR/fixit.env.bak"
+        cp "$DOCKER_ENV_PATH" "$YOUTRACK_INSTALL_DIR/archive/$TS.env"
+        cp "$DOCKER_ENV_PATH" "$YOUTRACK_INSTALL_DIR/youtrack.env.bak"
     fi
 
-    mv $FIXIT_INSTALL_DIR/variables-upgrade.env $DOCKER_ENV_PATH
+    mv $YOUTRACK_INSTALL_DIR/variables-upgrade.env $DOCKER_ENV_PATH
 
     syncEnvFile
 
     if [ "$LOCAL_BUILD" == "true" ]; then
-        export DOCKERHUB_USER="myfixit"
+        export DOCKERHUB_USER="myyoutrack"
         export APP_RELEASE="local"
         export PULL_POLICY="never"
         CUSTOM_BUILD="true"
@@ -272,9 +272,9 @@ function download() {
     fi
     
     echo ""
-    echo "Most recent version of Fixit is now available for you to use"
+    echo "Most recent version of Youtrack is now available for you to use"
     echo ""
-    echo "In case of 'Upgrade', please check the 'fixit.env 'file for any new variables and update them accordingly"
+    echo "In case of 'Upgrade', please check the 'youtrack.env 'file for any new variables and update them accordingly"
     echo ""
 }
 function startServices() {
@@ -299,7 +299,7 @@ function startServices() {
     if [ -n "$migrator_container_id" ]; then
         local migrator_exit_code=$(docker inspect --format='{{.State.ExitCode}}' $migrator_container_id)
         if [ $migrator_exit_code -ne 0 ]; then
-            echo "Fixit Server failed to start ❌"
+            echo "Youtrack Server failed to start ❌"
             # stopServices
             echo
             echo "Please check the logs for the 'migrator' service and resolve the issue(s)."
@@ -321,7 +321,7 @@ function startServices() {
     printf "\r\033[K"
     echo "   API Service started successfully ✅"
     source "${DOCKER_ENV_PATH}"
-    echo "   Fixit Server started successfully ✅"
+    echo "   Youtrack Server started successfully ✅"
     echo ""
     echo "   You can access the application at $WEB_URL"
     echo ""
@@ -394,9 +394,9 @@ function viewLogs(){
                 5) viewSpecificLogs "beat-worker";;
                 6) viewSpecificLogs "migrator";;
                 7) viewSpecificLogs "proxy";;
-                8) viewSpecificLogs "fixit-redis";;
-                9) viewSpecificLogs "fixit-db";;
-                10) viewSpecificLogs "fixit-minio";;
+                8) viewSpecificLogs "youtrack-redis";;
+                9) viewSpecificLogs "youtrack-db";;
+                10) viewSpecificLogs "youtrack-minio";;
                 0) askForAction;;
                 *) echo "INVALID SERVICE NAME SUPPLIED";;
             esac
@@ -412,9 +412,9 @@ function viewLogs(){
             beat-worker) viewSpecificLogs "beat-worker";;
             migrator) viewSpecificLogs "migrator";;
             proxy) viewSpecificLogs "proxy";;
-            redis) viewSpecificLogs "fixit-redis";;
-            postgres) viewSpecificLogs "fixit-db";;
-            minio) viewSpecificLogs "fixit-minio";;
+            redis) viewSpecificLogs "youtrack-redis";;
+            postgres) viewSpecificLogs "youtrack-db";;
+            minio) viewSpecificLogs "youtrack-minio";;
             *) echo "INVALID SERVICE NAME SUPPLIED";;
         esac
     else
@@ -426,7 +426,7 @@ function backupSingleVolume() {
     selectedVolume=$2
     # Backup data from Docker volume to the backup folder
     # docker run --rm -v "$selectedVolume":/source -v "$backupFolder":/backup busybox sh -c 'cp -r /source/* /backup/'
-    local tobereplaced="fixit-app_"
+    local tobereplaced="youtrack-app_"
     local replacewith=""
 
     local svcName="${selectedVolume//$tobereplaced/$replacewith}"
@@ -439,7 +439,7 @@ function backupSingleVolume() {
 }
 function backupData() {
     local datetime=$(date +"%Y%m%d-%H%M")
-    local BACKUP_FOLDER=$FIXIT_INSTALL_DIR/backup/$datetime
+    local BACKUP_FOLDER=$YOUTRACK_INSTALL_DIR/backup/$datetime
     mkdir -p "$BACKUP_FOLDER"
 
     volumes=$(docker volume ls -f "name=$SERVICE_FOLDER" --format "{{.Name}}" | grep -E "_pgdata|_redisdata|_uploads")
@@ -544,7 +544,7 @@ if [ -f "$DOCKER_ENV_PATH" ]; then
     CUSTOM_BUILD=$(getEnvValue "CUSTOM_BUILD" "$DOCKER_ENV_PATH")
 
     if [ -z "$DOCKERHUB_USER" ]; then
-        DOCKERHUB_USER=meta-mart
+        DOCKERHUB_USER=getyoutrack
         updateEnvFile "DOCKERHUB_USER" "$DOCKERHUB_USER" "$DOCKER_ENV_PATH"
     fi
 

@@ -3,9 +3,9 @@
 import React, { useEffect, useState } from "react";
 import { mutate } from "swr";
 // types
-import type { CycleDateCheckData, ICycle, TCycleTabOptions } from "@fixit/types";
+import type { CycleDateCheckData, ICycle, TCycleTabOptions } from "@youtrack/types";
 // ui
-import { EModalPosition, EModalWidth, ModalCore, TOAST_TYPE, setToast } from "@fixit/ui";
+import { EModalPosition, EModalWidth, ModalCore, TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { CycleForm } from "@/components/cycles";
 // constants

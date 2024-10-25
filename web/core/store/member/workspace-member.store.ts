@@ -3,11 +3,11 @@ import sortBy from "lodash/sortBy";
 import { action, computed, makeObservable, observable, runInAction } from "mobx";
 import { computedFn } from "mobx-utils";
 // types
-import { IWorkspaceBulkInviteFormData, IWorkspaceMember, IWorkspaceMemberInvitation } from "@fixit/types";
-// fixit-web constants
-import { EUserPermissions } from "@/fixit-web/constants/user-permissions";
+import { IWorkspaceBulkInviteFormData, IWorkspaceMember, IWorkspaceMemberInvitation } from "@youtrack/types";
+// youtrack-web constants
+import { EUserPermissions } from "@/youtrack-web/constants/user-permissions";
 // services
-import { WorkspaceService } from "@/fixit-web/services";
+import { WorkspaceService } from "@/youtrack-web/services";
 // types
 import { IRouterStore } from "@/store/router.store";
 import { IUserStore } from "@/store/user";

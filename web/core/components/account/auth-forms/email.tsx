@@ -5,9 +5,9 @@ import { observer } from "mobx-react";
 // icons
 import { CircleAlert, XCircle } from "lucide-react";
 // types
-import { IEmailCheckData } from "@fixit/types";
+import { IEmailCheckData } from "@youtrack/types";
 // ui
-import { Button, Input, Spinner } from "@fixit/ui";
+import { Button, Input, Spinner } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common.helper";
 import { checkEmailValidity } from "@/helpers/string.helper";

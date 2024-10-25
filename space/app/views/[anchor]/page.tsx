@@ -4,8 +4,8 @@ import { observer } from "mobx-react";
 import { useSearchParams } from "next/navigation";
 // hooks
 import { usePublish } from "@/hooks/store";
-// fixit-web
-import { ViewLayoutsRoot } from "@/fixit-web/components/issue-layouts/root";
+// youtrack-web
+import { ViewLayoutsRoot } from "@/youtrack-web/components/issue-layouts/root";
 
 type Props = {
   params: {

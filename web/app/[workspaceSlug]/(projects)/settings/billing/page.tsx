@@ -6,9 +6,9 @@ import { NotAuthorizedView } from "@/components/auth-screens";
 import { PageHead } from "@/components/core";
 // hooks
 import { useUserPermissions, useWorkspace } from "@/hooks/store";
-// fixit web components
-import { BillingRoot } from "@/fixit-web/components/workspace";
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+// youtrack web components
+import { BillingRoot } from "@/youtrack-web/components/workspace";
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 const BillingSettingsPage = observer(() => {
   // store hooks

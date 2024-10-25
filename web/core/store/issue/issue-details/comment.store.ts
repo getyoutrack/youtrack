@@ -5,7 +5,7 @@ import uniq from "lodash/uniq";
 import update from "lodash/update";
 import { action, makeObservable, observable, runInAction } from "mobx";
 // services
-import { TIssueComment, TIssueCommentMap, TIssueCommentIdMap } from "@fixit/types";
+import { TIssueComment, TIssueCommentMap, TIssueCommentIdMap } from "@youtrack/types";
 import { IssueCommentService } from "@/services/issue";
 // types
 import { IIssueDetail } from "./root.store";

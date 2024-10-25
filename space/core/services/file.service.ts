@@ -1,5 +1,5 @@
-// fixit types
-import { TFileEntityInfo, TFileSignedURLResponse } from "@fixit/types";
+// youtrack types
+import { TFileEntityInfo, TFileSignedURLResponse } from "@youtrack/types";
 // helpers
 import { API_BASE_URL } from "@/helpers/common.helper";
 import { generateFileUploadPayload, getAssetIdFromUrl, getFileMetaDataForUpload } from "@/helpers/file.helper";

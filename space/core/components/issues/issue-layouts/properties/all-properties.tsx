@@ -3,9 +3,9 @@
 import { observer } from "mobx-react";
 import { Layers, Link, Paperclip } from "lucide-react";
 // types
-import { cn } from "@fixit/editor";
-import { IIssueDisplayProperties } from "@fixit/types";
-import { Tooltip } from "@fixit/ui";
+import { cn } from "@youtrack/editor";
+import { IIssueDisplayProperties } from "@youtrack/types";
+import { Tooltip } from "@youtrack/ui";
 // ui
 // components
 import {

@@ -2,13 +2,13 @@ import { set } from "lodash";
 import { observable, action, makeObservable, runInAction, computed } from "mobx";
 import { computedFn } from "mobx-utils";
 // types
-import { IProjectView, TPublishViewDetails, TPublishViewSettings, TViewFilters } from "@fixit/types";
+import { IProjectView, TPublishViewDetails, TPublishViewSettings, TViewFilters } from "@youtrack/types";
 // constants
 import { EViewAccess } from "@/constants/views";
 // helpers
 import { getValidatedViewFilters, getViewName, orderViews, shouldFilterView } from "@/helpers/project-views.helpers";
 // services
-import { ViewService } from "@/fixit-web/services";
+import { ViewService } from "@/youtrack-web/services";
 // store
 import { CoreRootStore } from "./root.store";
 

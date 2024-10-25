@@ -4,8 +4,8 @@ import { observer } from "mobx-react";
 // icons
 import { LucideIcon, Users } from "lucide-react";
 // ui
-import { cn } from "@fixit/editor";
-import { Avatar, AvatarGroup } from "@fixit/ui";
+import { cn } from "@youtrack/editor";
+import { Avatar, AvatarGroup } from "@youtrack/ui";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 //

@@ -1,6 +1,6 @@
 "use client";
 
-import { Input } from "@fixit/ui";
+import { Input } from "@youtrack/ui";
 
 type Props = {
   value: string;

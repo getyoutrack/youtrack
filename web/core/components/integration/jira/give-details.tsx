@@ -5,10 +5,10 @@ import { observer } from "mobx-react";
 import Link from "next/link";
 import { useFormContext, Controller } from "react-hook-form";
 import { Plus } from "lucide-react";
-import { IJiraImporterForm } from "@fixit/types";
+import { IJiraImporterForm } from "@youtrack/types";
 // hooks
 // components
-import { CustomSelect, Input } from "@fixit/ui";
+import { CustomSelect, Input } from "@youtrack/ui";
 // helpers
 import { checkEmailValidity } from "@/helpers/string.helper";
 import { useCommandPalette, useEventTracker, useProject } from "@/hooks/store";

@@ -7,9 +7,9 @@ import { CalendarCheck } from "lucide-react";
 // headless ui
 import { Tab } from "@headlessui/react";
 // types
-import { ICycle, IIssueFilterOptions } from "@fixit/types";
+import { ICycle, IIssueFilterOptions } from "@youtrack/types";
 // ui
-import { Tooltip, Loader, PriorityIcon, Avatar } from "@fixit/ui";
+import { Tooltip, Loader, PriorityIcon, Avatar } from "@youtrack/ui";
 // components
 import { SingleProgressStats } from "@/components/core";
 import { StateDropdown } from "@/components/dropdowns";
@@ -25,8 +25,8 @@ import { getFileURL } from "@/helpers/file.helper";
 import { useIssueDetail, useIssues } from "@/hooks/store";
 import { useIntersectionObserver } from "@/hooks/use-intersection-observer";
 import useLocalStorage from "@/hooks/use-local-storage";
-// fixit web components
-import { IssueIdentifier } from "@/fixit-web/components/issues";
+// youtrack web components
+import { IssueIdentifier } from "@/youtrack-web/components/issues";
 // store
 import { ActiveCycleIssueDetails } from "@/store/issue/cycle";
 

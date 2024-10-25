@@ -1,9 +1,9 @@
 // editor
-import { TEmbedConfig } from "@fixit/editor";
+import { TEmbedConfig } from "@youtrack/editor";
 // types
-import { TPageEmbedType } from "@fixit/types";
-// fixit web components
-import { IssueEmbedUpgradeCard } from "@/fixit-web/components/pages";
+import { TPageEmbedType } from "@youtrack/types";
+// youtrack web components
+import { IssueEmbedUpgradeCard } from "@/youtrack-web/components/pages";
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const useIssueEmbed = (workspaceSlug: string, projectId: string, queryType: TPageEmbedType = "issue") => {

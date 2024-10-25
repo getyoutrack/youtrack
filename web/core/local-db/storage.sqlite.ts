@@ -1,9 +1,9 @@
 import { getActiveSpan, startSpan } from "@sentry/nextjs";
 import * as Comlink from "comlink";
 import set from "lodash/set";
-// fixit
-import { EIssueGroupBYServerToProperty } from "@fixit/constants";
-import { TIssue } from "@fixit/types";
+// youtrack
+import { EIssueGroupBYServerToProperty } from "@youtrack/constants";
+import { TIssue } from "@youtrack/types";
 // lib
 import { rootStore } from "@/lib/store-context";
 // services
@@ -31,7 +31,7 @@ type TDBStatus = "initializing" | "ready" | "error" | undefined;
 export class Storage {
   db: any;
   status: TDBStatus = undefined;
-  dbName = "fixit";
+  dbName = "youtrack";
   projectStatus: Record<string, TProjectStatus> = {};
   workspaceSlug: string = "";
 

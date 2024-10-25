@@ -3,16 +3,16 @@ import unset from "lodash/unset";
 import { action, makeObservable, observable, runInAction } from "mobx";
 import { computedFn } from "mobx-utils";
 // types
-import { IProjectMember, IUserProjectsRole, IWorkspaceMemberMe } from "@fixit/types";
-// fixit web types
+import { IProjectMember, IUserProjectsRole, IWorkspaceMemberMe } from "@youtrack/types";
+// youtrack web types
 import {
   EUserPermissions,
   EUserPermissionsLevel,
   TUserPermissions,
   TUserPermissionsLevel,
-} from "@/fixit-web/constants/user-permissions";
-// fixit web services
-import { WorkspaceService } from "@/fixit-web/services/workspace.service";
+} from "@/youtrack-web/constants/user-permissions";
+// youtrack web services
+import { WorkspaceService } from "@/youtrack-web/services/workspace.service";
 // services
 import projectMemberService from "@/services/project/project-member.service";
 import userService from "@/services/user.service";

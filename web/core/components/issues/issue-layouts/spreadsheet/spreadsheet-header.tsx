@@ -1,9 +1,9 @@
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // ui
-import { IIssueDisplayFilterOptions, IIssueDisplayProperties } from "@fixit/types";
+import { IIssueDisplayFilterOptions, IIssueDisplayProperties } from "@youtrack/types";
 // components
-import { Row } from "@fixit/ui";
+import { Row } from "@youtrack/ui";
 import { MultipleSelectGroupAction } from "@/components/core";
 import { SpreadsheetHeaderColumn } from "@/components/issues/issue-layouts";
 // constants

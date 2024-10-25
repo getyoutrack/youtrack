@@ -3,20 +3,20 @@
 import { FC, useMemo, useState } from "react";
 import { observer } from "mobx-react";
 // types
-import { TFileSignedURLResponse, TIssueComment } from "@fixit/types";
-import { EFileAssetType } from "@fixit/types/src/enums";
+import { TFileSignedURLResponse, TIssueComment } from "@youtrack/types";
+import { EFileAssetType } from "@youtrack/types/src/enums";
 // ui
-import { TOAST_TYPE, setToast } from "@fixit/ui";
+import { TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { IssueCommentCreate } from "@/components/issues";
 import { IssueActivityCommentRoot } from "@/components/issues/issue-detail";
 // hooks
 import { useIssueDetail, useProject, useUserPermissions } from "@/hooks/store";
-// fixit web components
-import { ActivityFilterRoot, IssueActivityWorklogCreateButton } from "@/fixit-web/components/issues/worklog";
-// fixit web constants
-import { TActivityFilters, defaultActivityFilters } from "@/fixit-web/constants/issues";
-import { EUserPermissions } from "@/fixit-web/constants/user-permissions";
+// youtrack web components
+import { ActivityFilterRoot, IssueActivityWorklogCreateButton } from "@/youtrack-web/components/issues/worklog";
+// youtrack web constants
+import { TActivityFilters, defaultActivityFilters } from "@/youtrack-web/constants/issues";
+import { EUserPermissions } from "@/youtrack-web/constants/user-permissions";
 // services
 import { FileService } from "@/services/file.service";
 const fileService = new FileService();

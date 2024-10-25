@@ -3,7 +3,7 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import useSWR from "swr";
 // types
-import { TCycleFilters } from "@fixit/types";
+import { TCycleFilters } from "@youtrack/types";
 // components
 import { ArchivedCyclesView, CycleAppliedFiltersList } from "@/components/cycles";
 import { EmptyState } from "@/components/empty-state";

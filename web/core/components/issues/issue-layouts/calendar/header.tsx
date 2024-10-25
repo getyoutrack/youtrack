@@ -7,8 +7,8 @@ import {
   IIssueDisplayProperties,
   IIssueFilterOptions,
   TIssueKanbanFilters,
-} from "@fixit/types";
-import { Row } from "@fixit/ui";
+} from "@youtrack/types";
+import { Row } from "@youtrack/ui";
 import { CalendarMonthsDropdown, CalendarOptionsDropdown } from "@/components/issues";
 // icons
 import { EIssueFilterType } from "@/constants/issue";

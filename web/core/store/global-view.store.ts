@@ -4,12 +4,12 @@ import isEqual from "lodash/isEqual";
 import set from "lodash/set";
 import { observable, action, makeObservable, runInAction, computed } from "mobx";
 import { computedFn } from "mobx-utils";
-import { IIssueFilterOptions, IWorkspaceView } from "@fixit/types";
+import { IIssueFilterOptions, IWorkspaceView } from "@youtrack/types";
 // constants
 import { EIssueFilterType } from "@/constants/issue";
 import { EViewAccess } from "@/constants/views";
 // services
-import { WorkspaceService } from "@/fixit-web/services";
+import { WorkspaceService } from "@/youtrack-web/services";
 // store
 import { CoreRootStore } from "./root.store";
 

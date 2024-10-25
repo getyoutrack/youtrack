@@ -2,9 +2,9 @@
 
 import { Fragment, MutableRefObject, forwardRef, useRef, useState } from "react";
 import { observer } from "mobx-react";
-import { cn } from "@fixit/editor";
-// fixit
-import { IGroupByColumn, TIssueGroupByOptions, IIssueDisplayProperties, TPaginationData, TLoader } from "@fixit/types";
+import { cn } from "@youtrack/editor";
+// youtrack
+import { IGroupByColumn, TIssueGroupByOptions, IIssueDisplayProperties, TPaginationData, TLoader } from "@youtrack/types";
 // hooks
 import { useIntersectionObserver } from "@/hooks/use-intersection-observer";
 //

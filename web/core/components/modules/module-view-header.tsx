@@ -6,13 +6,13 @@ import { useParams } from "next/navigation";
 // icons
 import { ListFilter, Search, X } from "lucide-react";
 // editor
-import { cn } from "@fixit/editor";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
+import { cn } from "@youtrack/editor";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
 // types
-import { TModuleFilters } from "@fixit/types";
+import { TModuleFilters } from "@youtrack/types";
 // ui
-import { Tooltip } from "@fixit/ui";
+import { Tooltip } from "@youtrack/ui";
 // components
 import { FiltersDropdown } from "@/components/issues";
 import { ModuleFiltersSelection, ModuleOrderByDropdown } from "@/components/modules/dropdowns";

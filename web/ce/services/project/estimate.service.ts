@@ -1,7 +1,7 @@
 /* eslint-disable no-useless-catch */
 
 // types
-import { IEstimate, IEstimateFormData, IEstimatePoint } from "@fixit/types";
+import { IEstimate, IEstimateFormData, IEstimatePoint } from "@youtrack/types";
 // helpers
 import { API_BASE_URL } from "@/helpers/common.helper";
 // services

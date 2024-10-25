@@ -5,10 +5,10 @@ import { observer } from "mobx-react";
 import { useDropzone } from "react-dropzone";
 import { UserCircle2 } from "lucide-react";
 import { Transition, Dialog } from "@headlessui/react";
-// fixit types
-import { EFileAssetType } from "@fixit/types/src/enums";
+// youtrack types
+import { EFileAssetType } from "@youtrack/types/src/enums";
 // hooks
-import { Button, TOAST_TYPE, setToast } from "@fixit/ui";
+import { Button, TOAST_TYPE, setToast } from "@youtrack/ui";
 // constants
 import { MAX_STATIC_FILE_SIZE } from "@/constants/common";
 // helpers

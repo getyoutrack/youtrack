@@ -1,5 +1,5 @@
 // types
-import { IIssueDisplayProperties } from "@fixit/types";
+import { IIssueDisplayProperties } from "@youtrack/types";
 
 export type TShouldRenderDisplayProperty = {
   workspaceSlug: string;

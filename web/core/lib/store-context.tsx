@@ -1,8 +1,8 @@
 "use client";
 
 import { ReactElement, createContext } from "react";
-// fixit web store
-import { RootStore } from "@/fixit-web/store/root.store";
+// youtrack web store
+import { RootStore } from "@/youtrack-web/store/root.store";
 
 export let rootStore = new RootStore();
 

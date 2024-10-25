@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { observer } from "mobx-react";
-import { TIssueRelationTypes } from "@fixit/types";
+import { TIssueRelationTypes } from "@youtrack/types";
 // hooks
 import { issueRelationObject } from "@/components/issues/issue-detail/relation-select";
 import { useIssueDetail } from "@/hooks/store";

@@ -1,6 +1,6 @@
 import { Kanban, List } from "lucide-react";
 // types
-import { TIssuePriorities } from "@fixit/types";
+import { TIssuePriorities } from "@youtrack/types";
 import { TIssueLayout, TIssueFilterKeys, TIssueFilterPriorityObject } from "@/types/issue";
 
 // issue filters

@@ -5,8 +5,8 @@ import { useParams } from "next/navigation";
 
 // ui
 import { UserCircle2 } from "lucide-react";
-import { IUserProfileData } from "@fixit/types";
-import { CreateIcon, LayerStackIcon, Loader, Card, ECardSpacing, ECardDirection } from "@fixit/ui";
+import { IUserProfileData } from "@youtrack/types";
+import { CreateIcon, LayerStackIcon, Loader, Card, ECardSpacing, ECardDirection } from "@youtrack/ui";
 // types
 
 type Props = {

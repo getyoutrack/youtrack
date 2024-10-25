@@ -1,7 +1,7 @@
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
-//fixit
-import { cn } from "@fixit/editor";
+//youtrack
+import { cn } from "@youtrack/editor";
 // components
 import { IssueEmojiReactions, IssueVotes } from "@/components/issues/reactions";
 // hooks

@@ -4,7 +4,7 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { Layers } from "lucide-react";
 // ui
-import { Breadcrumbs, Button, Header } from "@fixit/ui";
+import { Breadcrumbs, Button, Header } from "@youtrack/ui";
 // components
 import { BreadcrumbLink, Logo } from "@/components/common";
 import { ViewListHeader } from "@/components/views";

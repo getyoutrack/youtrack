@@ -1,5 +1,5 @@
-// fixit editor
-import { TEditorFontSize, TEditorFontStyle } from "@fixit/editor";
+// youtrack editor
+import { TEditorFontSize, TEditorFontStyle } from "@youtrack/editor";
 // hooks
 import useLocalStorage from "@/hooks/use-local-storage";
 

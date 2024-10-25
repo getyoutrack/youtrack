@@ -7,7 +7,7 @@ import {
   IFormattedInstanceConfiguration,
   IInstanceInfo,
   IInstanceConfig,
-} from "@fixit/types";
+} from "@youtrack/types";
 // helpers
 import { EInstanceStatus, TInstanceStatus } from "@/helpers/instance.helper";
 // services

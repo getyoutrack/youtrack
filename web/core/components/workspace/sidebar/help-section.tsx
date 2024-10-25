@@ -5,16 +5,16 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { FileText, HelpCircle, MessagesSquare, MoveLeft, User } from "lucide-react";
 // ui
-import { CustomMenu, ToggleSwitch, Tooltip } from "@fixit/ui";
+import { CustomMenu, ToggleSwitch, Tooltip } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common.helper";
 // hooks
 import { useAppTheme, useCommandPalette, useInstance, useTransient, useUserSettings } from "@/hooks/store";
 import { usePlatformOS } from "@/hooks/use-platform-os";
-// fixit web components
-import { FixitVersionNumber, ProductUpdates, ProductUpdatesModal } from "@/fixit-web/components/global";
-import { WorkspaceEditionBadge } from "@/fixit-web/components/workspace";
-import { ENABLE_LOCAL_DB_CACHE } from "@/fixit-web/constants/issues";
+// youtrack web components
+import { YoutrackVersionNumber, ProductUpdates, ProductUpdatesModal } from "@/youtrack-web/components/global";
+import { WorkspaceEditionBadge } from "@/youtrack-web/components/workspace";
+import { ENABLE_LOCAL_DB_CACHE } from "@/youtrack-web/constants/issues";
 
 export interface WorkspaceHelpSectionProps {
   setSidebarActive?: React.Dispatch<React.SetStateAction<boolean>>;
@@ -78,7 +78,7 @@ export const SidebarHelpSection: React.FC<WorkspaceHelpSectionProps> = observer(
           >
             <CustomMenu.MenuItem>
               <a
-                href="https://go.fixit.so/p-docs"
+                href="https://go.youtrack.so/p-docs"
                 target="_blank"
                 className="flex items-center justify- gap-x-2 rounded text-xs hover:bg-custom-background-80"
               >
@@ -100,7 +100,7 @@ export const SidebarHelpSection: React.FC<WorkspaceHelpSectionProps> = observer(
             )}
             <CustomMenu.MenuItem>
               <a
-                href="mailto:sales@fixit.so"
+                href="mailto:sales@youtrack.so"
                 target="_blank"
                 className="flex items-center justify- gap-x-2 rounded text-xs hover:bg-custom-background-80"
               >
@@ -138,7 +138,7 @@ export const SidebarHelpSection: React.FC<WorkspaceHelpSectionProps> = observer(
             <ProductUpdates setIsChangeLogOpen={setIsChangeLogOpen} />
             <CustomMenu.MenuItem>
               <a
-                href="https://go.fixit.so/p-discord"
+                href="https://go.youtrack.so/p-discord"
                 target="_blank"
                 className="flex items-center justify- gap-x-2 rounded text-xs hover:bg-custom-background-80"
               >
@@ -146,7 +146,7 @@ export const SidebarHelpSection: React.FC<WorkspaceHelpSectionProps> = observer(
               </a>
             </CustomMenu.MenuItem>
             <div className="px-1 pt-2 mt-1 text-xs text-custom-text-200 border-t border-custom-border-200">
-              <FixitVersionNumber />
+              <YoutrackVersionNumber />
             </div>
           </CustomMenu>
         </div>

@@ -1,5 +1,5 @@
-// fixit types
-import { TFileSignedURLResponse, TIssueComment } from "@fixit/types";
+// youtrack types
+import { TFileSignedURLResponse, TIssueComment } from "@youtrack/types";
 // helpers
 import { API_BASE_URL } from "@/helpers/common.helper";
 import { generateFileUploadPayload, getFileMetaDataForUpload } from "@/helpers/file.helper";

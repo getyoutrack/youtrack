@@ -3,8 +3,8 @@
 import { FC } from "react";
 import { observer } from "mobx-react";
 import { X } from "lucide-react";
-import { TIssuePriorities } from "@fixit/types";
-import { PriorityIcon, Tag } from "@fixit/ui";
+import { TIssuePriorities } from "@youtrack/types";
+import { PriorityIcon, Tag } from "@youtrack/ui";
 // constants
 import { ISSUE_PRIORITIES } from "@/constants/issue";
 // hooks

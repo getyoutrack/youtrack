@@ -4,7 +4,7 @@ import React from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // ui
-import { Loader } from "@fixit/ui";
+import { Loader } from "@youtrack/ui";
 // components
 import { CycleAnalyticsProgress, CycleSidebarHeader, CycleSidebarDetails } from "@/components/cycles";
 // hooks

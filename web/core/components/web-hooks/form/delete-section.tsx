@@ -2,7 +2,7 @@
 
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { Disclosure, Transition } from "@headlessui/react";
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 
 type Props = {
   openDeleteModal: () => void;

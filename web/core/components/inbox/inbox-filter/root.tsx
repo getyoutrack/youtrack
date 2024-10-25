@@ -1,8 +1,8 @@
 import { FC } from "react";
 import { ChevronDown, ListFilter } from "lucide-react";
 // components
-import { cn } from "@fixit/editor";
-import { getButtonStyling } from "@fixit/ui";
+import { cn } from "@youtrack/editor";
+import { getButtonStyling } from "@youtrack/ui";
 import { InboxIssueFilterSelection, InboxIssueOrderByDropdown } from "@/components/inbox/inbox-filter";
 import { FiltersDropdown } from "@/components/issues";
 import useSize from "@/hooks/use-window-size";

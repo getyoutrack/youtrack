@@ -2,8 +2,8 @@ import { useEffect, useRef } from "react";
 import { combine } from "@atlaskit/pragmatic-drag-and-drop/combine";
 import { autoScrollForElements } from "@atlaskit/pragmatic-drag-and-drop-auto-scroll/element";
 import { observer } from "mobx-react";
-// fixit constants
-import { ALL_ISSUES } from "@fixit/constants";
+// youtrack constants
+import { ALL_ISSUES } from "@youtrack/constants";
 // types
 import {
   GroupByColumnTypes,
@@ -15,17 +15,17 @@ import {
   TIssueOrderByOptions,
   IGroupByColumn,
   TIssueKanbanFilters,
-} from "@fixit/types";
+} from "@youtrack/types";
 // components
 import { MultipleSelectGroup } from "@/components/core";
 
 // hooks
 import { useCycle, useLabel, useMember, useModule, useProject, useProjectState } from "@/hooks/store";
 import { useIssueStoreType } from "@/hooks/use-issue-layout-store";
-// fixit web components
-import { IssueBulkOperationsRoot } from "@/fixit-web/components/issues";
-// fixit web hooks
-import { useBulkOperationStatus } from "@/fixit-web/hooks/use-bulk-operation-status";
+// youtrack web components
+import { IssueBulkOperationsRoot } from "@/youtrack-web/components/issues";
+// youtrack web hooks
+import { useBulkOperationStatus } from "@/youtrack-web/hooks/use-bulk-operation-status";
 // utils
 import { getGroupByColumns, isWorkspaceLevel, GroupDropLocation, isSubGrouped } from "../utils";
 import { ListGroup } from "./list-group";
@@ -82,7 +82,7 @@ export const List: React.FC<IList> = observer((props) => {
   const projectState = useProjectState();
   const cycle = useCycle();
   const projectModule = useModule();
-  // fixit web hooks
+  // youtrack web hooks
   const isBulkOperationsEnabled = useBulkOperationStatus();
 
   const containerRef = useRef<HTMLDivElement | null>(null);

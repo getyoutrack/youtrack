@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { observer } from "mobx-react";
 // types
-import { TPageNavigationTabs } from "@fixit/types";
+import { TPageNavigationTabs } from "@youtrack/types";
 // components
 import { ListLayout } from "@/components/core/list";
 // hooks

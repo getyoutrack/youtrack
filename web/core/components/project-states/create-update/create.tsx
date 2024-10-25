@@ -2,8 +2,8 @@
 
 import { FC, useState } from "react";
 import { observer } from "mobx-react";
-import { IState, TStateGroups } from "@fixit/types";
-import { TOAST_TYPE, setToast } from "@fixit/ui";
+import { IState, TStateGroups } from "@youtrack/types";
+import { TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { StateForm } from "@/components/project-states";
 // constants

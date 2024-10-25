@@ -1,7 +1,7 @@
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // types
-import { TWidgetKeys } from "@fixit/types";
+import { TWidgetKeys } from "@youtrack/types";
 // components
 import {
   AssignedIssuesWidget,

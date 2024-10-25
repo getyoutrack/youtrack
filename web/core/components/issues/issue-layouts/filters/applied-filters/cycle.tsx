@@ -2,9 +2,9 @@
 
 import { observer } from "mobx-react";
 import { X } from "lucide-react";
-import { TCycleGroups } from "@fixit/types";
+import { TCycleGroups } from "@youtrack/types";
 // hooks
-import { CycleGroupIcon } from "@fixit/ui";
+import { CycleGroupIcon } from "@youtrack/ui";
 import { useCycle } from "@/hooks/store";
 // ui
 // types

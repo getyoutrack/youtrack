@@ -1,8 +1,8 @@
 "use client";
 
 import { ReactNode, createContext } from "react";
-// fixit admin store
-import { RootStore } from "@/fixit-admin/store/root.store";
+// youtrack admin store
+import { RootStore } from "@/youtrack-admin/store/root.store";
 
 let rootStore = new RootStore();
 

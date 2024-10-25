@@ -2,8 +2,8 @@
 
 import { ReactNode, createContext } from "react";
 import { ThemeProvider } from "next-themes";
-// fixit web store
-import { RootStore } from "@/fixit-web/store/root.store";
+// youtrack web store
+import { RootStore } from "@/youtrack-web/store/root.store";
 
 let rootStore = new RootStore();
 

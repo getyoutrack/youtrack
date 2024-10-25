@@ -4,7 +4,7 @@ import React from "react";
 import { observer } from "mobx-react";
 import { Control, Controller } from "react-hook-form";
 // types
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 // components
 import { ProjectDropdown } from "@/components/dropdowns";
 // constants

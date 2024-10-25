@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 // ui
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 // layouts
 import DefaultLayout from "@/layouts/default-layout";
 

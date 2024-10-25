@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 
 // types
-import { TCycleLayoutOptions, TCycleTabOptions } from "@fixit/types";
+import { TCycleLayoutOptions, TCycleTabOptions } from "@youtrack/types";
 
 export const CYCLE_TABS_LIST: {
   key: TCycleTabOptions;

@@ -2,9 +2,9 @@
 
 import { FC, useMemo } from "react";
 import { observer } from "mobx-react";
-import { IIssueLabel, TIssue } from "@fixit/types";
+import { IIssueLabel, TIssue } from "@youtrack/types";
 // components
-import { TOAST_TYPE, setToast } from "@fixit/ui";
+import { TOAST_TYPE, setToast } from "@youtrack/ui";
 // hooks
 import { useIssueDetail, useLabel, useProjectInbox, useUserPermissions } from "@/hooks/store";
 // ui

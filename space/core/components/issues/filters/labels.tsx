@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Loader } from "@fixit/ui";
+import { Loader } from "@youtrack/ui";
 // components
 import { FilterHeader, FilterOption } from "@/components/issues/filters/helpers";
 // types

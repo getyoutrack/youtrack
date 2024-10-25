@@ -1,9 +1,9 @@
 "use client";
 import { FC, Fragment } from "react";
 import { observer } from "mobx-react";
-// fixit ui
-import { TCycleEstimateType } from "@fixit/types";
-import { Loader } from "@fixit/ui";
+// youtrack ui
+import { TCycleEstimateType } from "@youtrack/types";
+import { Loader } from "@youtrack/ui";
 // components
 import ProgressChart from "@/components/core/sidebar/progress-chart";
 import { EstimateTypeDropdown, validateCycleSnapshot } from "@/components/cycles";

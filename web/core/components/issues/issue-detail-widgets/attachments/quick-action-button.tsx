@@ -4,12 +4,12 @@ import React, { FC, useCallback, useState } from "react";
 import { observer } from "mobx-react";
 import { FileRejection, useDropzone } from "react-dropzone";
 import { Plus } from "lucide-react";
-// fixit ui
-import { TOAST_TYPE, setToast } from "@fixit/ui";
+// youtrack ui
+import { TOAST_TYPE, setToast } from "@youtrack/ui";
 // hooks
 import { useIssueDetail } from "@/hooks/store";
-// fixit web hooks
-import { useFileSize } from "@/fixit-web/hooks/use-file-size";
+// youtrack web hooks
+import { useFileSize } from "@/youtrack-web/hooks/use-file-size";
 
 import { useAttachmentOperations } from "./helper";
 

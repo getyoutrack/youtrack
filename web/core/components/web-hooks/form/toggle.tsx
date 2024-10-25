@@ -1,9 +1,9 @@
 "use client";
 
 import { Control, Controller } from "react-hook-form";
-import { IWebhook } from "@fixit/types";
+import { IWebhook } from "@youtrack/types";
 // ui
-import { ToggleSwitch } from "@fixit/ui";
+import { ToggleSwitch } from "@youtrack/ui";
 // types
 
 interface IWebHookToggle {

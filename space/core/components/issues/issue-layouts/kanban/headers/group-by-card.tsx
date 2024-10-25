@@ -4,7 +4,7 @@ import React, { FC } from "react";
 import { observer } from "mobx-react";
 import { Circle } from "lucide-react";
 // types
-import { TIssueGroupByOptions } from "@fixit/types";
+import { TIssueGroupByOptions } from "@youtrack/types";
 
 interface IHeaderGroupByCard {
   groupBy: TIssueGroupByOptions | undefined;

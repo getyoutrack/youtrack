@@ -2,9 +2,9 @@
 
 import { X } from "lucide-react";
 // types
-import { TProjectAppliedDisplayFilterKeys, TProjectFilters } from "@fixit/types";
+import { TProjectAppliedDisplayFilterKeys, TProjectFilters } from "@youtrack/types";
 // ui
-import { EHeaderVariant, Header, Tag, Tooltip } from "@fixit/ui";
+import { EHeaderVariant, Header, Tag, Tooltip } from "@youtrack/ui";
 // components
 import {
   AppliedAccessFilters,

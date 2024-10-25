@@ -10,7 +10,7 @@ import {
   TIssueGroupByOptions,
   TPaginationData,
   TLoader,
-} from "@fixit/types";
+} from "@youtrack/types";
 // helpers
 import { cn } from "@/helpers/common.helper";
 // hooks

@@ -1,5 +1,5 @@
 // ui
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 // constants
 import { MARKETING_PRICING_PAGE_LINK } from "@/constants/common";
 

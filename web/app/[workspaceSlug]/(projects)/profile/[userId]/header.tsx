@@ -6,15 +6,15 @@ import { observer } from "mobx-react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { ChevronDown, PanelRight } from "lucide-react";
-import { IUserProfileProjectSegregation } from "@fixit/types";
-import { Breadcrumbs, Header, CustomMenu, UserActivityIcon } from "@fixit/ui";
+import { IUserProfileProjectSegregation } from "@youtrack/types";
+import { Breadcrumbs, Header, CustomMenu, UserActivityIcon } from "@youtrack/ui";
 import { BreadcrumbLink } from "@/components/common";
 // components
 import { ProfileIssuesFilter } from "@/components/profile";
 import { PROFILE_ADMINS_TAB, PROFILE_VIEWER_TAB } from "@/constants/profile";
 import { cn } from "@/helpers/common.helper";
 import { useAppTheme, useUser, useUserPermissions } from "@/hooks/store";
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 type TUserProfileHeader = {
   userProjectsData: IUserProfileProjectSegregation | undefined;

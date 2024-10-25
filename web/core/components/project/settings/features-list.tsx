@@ -2,14 +2,14 @@
 
 import { FC } from "react";
 import { observer } from "mobx-react";
-import { IProject } from "@fixit/types";
-import { ToggleSwitch, Tooltip, setPromiseToast } from "@fixit/ui";
+import { IProject } from "@youtrack/types";
+import { ToggleSwitch, Tooltip, setPromiseToast } from "@youtrack/ui";
 // hooks
 import { useEventTracker, useProject, useUser } from "@/hooks/store";
-// fixit web components
-import { UpgradeBadge } from "@/fixit-web/components/workspace";
-// fixit web constants
-import { PROJECT_FEATURES_LIST } from "@/fixit-web/constants/project/settings";
+// youtrack web components
+import { UpgradeBadge } from "@/youtrack-web/components/workspace";
+// youtrack web constants
+import { PROJECT_FEATURES_LIST } from "@/youtrack-web/constants/project/settings";
 
 type Props = {
   workspaceSlug: string;

@@ -2,11 +2,11 @@
 
 import { observer } from "mobx-react";
 // ui
-import { Breadcrumbs, ContrastIcon, Header } from "@fixit/ui";
+import { Breadcrumbs, ContrastIcon, Header } from "@youtrack/ui";
 // components
 import { BreadcrumbLink } from "@/components/common";
-// fixit web components
-import { UpgradeBadge } from "@/fixit-web/components/workspace";
+// youtrack web components
+import { UpgradeBadge } from "@/youtrack-web/components/workspace";
 
 export const WorkspaceActiveCycleHeader = observer(() => (
   <Header>

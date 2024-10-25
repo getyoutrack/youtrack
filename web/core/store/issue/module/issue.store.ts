@@ -7,7 +7,7 @@ import {
   IssuePaginationOptions,
   TIssuesResponse,
   TBulkOperationsPayload,
-} from "@fixit/types";
+} from "@youtrack/types";
 // helpers
 import { getDistributionPathsPostUpdate } from "@/helpers/distribution-update.helper";
 import { BaseIssuesStore, IBaseIssuesStore } from "../helpers/base-issues.store";

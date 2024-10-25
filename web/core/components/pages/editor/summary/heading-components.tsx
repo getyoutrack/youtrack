@@ -1,5 +1,5 @@
 // document editor
-import { IMarking } from "@fixit/editor";
+import { IMarking } from "@youtrack/editor";
 
 type HeadingProps = {
   marking: IMarking;

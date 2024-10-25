@@ -1,8 +1,8 @@
 import { HocuspocusProvider } from "@hocuspocus/provider";
 import { Extensions } from "@tiptap/core";
 import { SlashCommands } from "@/extensions";
-// fixit editor types
-import { TIssueEmbedConfig } from "@/fixit-editor/types";
+// youtrack editor types
+import { TIssueEmbedConfig } from "@/youtrack-editor/types";
 // types
 import { TExtensions, TUserDetails } from "@/types";
 

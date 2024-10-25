@@ -9,9 +9,9 @@ import useSWR, { mutate } from "swr";
 // icons
 import { RefreshCw } from "lucide-react";
 // types
-import { IImporterService } from "@fixit/types";
+import { IImporterService } from "@youtrack/types";
 // ui
-import { Button } from "@fixit/ui";
+import { Button } from "@youtrack/ui";
 // components
 import { EmptyState } from "@/components/empty-state";
 import { DeleteImportModal, GithubImporterRoot, JiraImporterRoot, SingleImport } from "@/components/integration";
@@ -66,11 +66,11 @@ const IntegrationGuide = observer(() => {
                 <div className="text-lg font-medium">Relocation Guide</div>
                 <div className="text-sm">
                   You can now transfer all the issues that you{"'"}ve created in other tracking
-                  services. This tool will guide you to relocate the issue to Fixit.
+                  services. This tool will guide you to relocate the issue to Youtrack.
                 </div>
               </div>
               <a
-                href="https://docs.fixit.so/importers/github"
+                href="https://docs.youtrack.so/importers/github"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -2,7 +2,7 @@
 
 import { observer } from "mobx-react";
 import useSWR from "swr";
-import { Loader } from "@fixit/ui";
+import { Loader } from "@youtrack/ui";
 // hooks
 import { useInstance } from "@/hooks/store";
 // local

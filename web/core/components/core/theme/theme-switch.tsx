@@ -2,7 +2,7 @@
 
 import { FC } from "react";
 // constants
-import { CustomSelect } from "@fixit/ui";
+import { CustomSelect } from "@youtrack/ui";
 import { THEME_OPTIONS, I_THEME_OPTION } from "@/constants/themes";
 // ui
 

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 import { Search, X } from "lucide-react";
-import { TViewFilterProps, TViewFilters } from "@fixit/types";
+import { TViewFilterProps, TViewFilters } from "@youtrack/types";
 // components
 import { FilterCreatedBy, FilterCreatedDate } from "@/components/common/filters";
 import { FilterOption } from "@/components/issues";
@@ -9,8 +9,8 @@ import { FilterOption } from "@/components/issues";
 import { EViewAccess } from "@/constants/views";
 // hooks
 import { usePlatformOS } from "@/hooks/use-platform-os";
-// fixit web components
-import { FilterByAccess } from "@/fixit-web/components/views/filters/access-filter";
+// youtrack web components
+import { FilterByAccess } from "@/youtrack-web/components/views/filters/access-filter";
 
 type Props = {
   filters: TViewFilters;

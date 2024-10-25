@@ -1,7 +1,7 @@
 "use client";
 
 // helpers
-import { Tooltip } from "@fixit/ui";
+import { Tooltip } from "@youtrack/ui";
 import { cn } from "@/helpers/common.helper";
 // types
 import { usePlatformOS } from "@/hooks/use-platform-os";

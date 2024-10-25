@@ -4,12 +4,12 @@ import { Dispatch, MouseEvent, MutableRefObject, SetStateAction, useRef, useStat
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { ChevronRight, MoreHorizontal } from "lucide-react";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
 // types
-import { IIssueDisplayProperties, TIssue } from "@fixit/types";
+import { IIssueDisplayProperties, TIssue } from "@youtrack/types";
 // ui
-import { ControlLink, Row, Tooltip } from "@fixit/ui";
+import { ControlLink, Row, Tooltip } from "@youtrack/ui";
 // components
 import { MultipleSelectEntityAction } from "@/components/core";
 import RenderIfVisible from "@/components/core/render-if-visible-HOC";
@@ -22,8 +22,8 @@ import { useIssueDetail, useIssues, useProject } from "@/hooks/store";
 import useIssuePeekOverviewRedirection from "@/hooks/use-issue-peek-overview-redirection";
 import { TSelectionHelper } from "@/hooks/use-multiple-select";
 import { usePlatformOS } from "@/hooks/use-platform-os";
-// fixit web components
-import { IssueIdentifier } from "@/fixit-web/components/issues";
+// youtrack web components
+import { IssueIdentifier } from "@/youtrack-web/components/issues";
 // local components
 import { TRenderQuickActions } from "../list/list-view-types";
 import { isIssueNew } from "../utils";

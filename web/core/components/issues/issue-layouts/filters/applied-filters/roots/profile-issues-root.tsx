@@ -1,6 +1,6 @@
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
-import { IIssueFilterOptions } from "@fixit/types";
+import { IIssueFilterOptions } from "@youtrack/types";
 // hooks
 // components
 import { AppliedFiltersList } from "@/components/issues";

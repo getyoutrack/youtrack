@@ -4,9 +4,9 @@ import { useEffect, useState, FC } from "react";
 import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
 import { Pencil } from "lucide-react";
-import { IWorkspace } from "@fixit/types";
+import { IWorkspace } from "@youtrack/types";
 // ui
-import { Button, CustomSelect, Input, TOAST_TYPE, setToast } from "@fixit/ui";
+import { Button, CustomSelect, Input, TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { LogoSpinner } from "@/components/common";
 import { WorkspaceImageUploadModal } from "@/components/core";
@@ -18,9 +18,9 @@ import { getFileURL } from "@/helpers/file.helper";
 import { copyUrlToClipboard } from "@/helpers/string.helper";
 // hooks
 import { useEventTracker, useUserPermissions, useWorkspace } from "@/hooks/store";
-// fixit web components
-import { DeleteWorkspaceSection } from "@/fixit-web/components/workspace";
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+// youtrack web components
+import { DeleteWorkspaceSection } from "@/youtrack-web/components/workspace";
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 
 const defaultValues: Partial<IWorkspace> = {
   name: "",

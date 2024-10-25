@@ -1,5 +1,5 @@
 // components
-import { IUserPriorityDistribution } from "@fixit/types";
+import { IUserPriorityDistribution } from "@youtrack/types";
 import { IssuesByPriorityGraph } from "@/components/graphs";
 import { ProfileEmptyState } from "@/components/ui";
 // assets

@@ -3,9 +3,9 @@
 import { FC } from "react";
 import { observer } from "mobx-react";
 // types
-import { IProjectView } from "@fixit/types";
+import { IProjectView } from "@youtrack/types";
 // ui
-import { EModalPosition, EModalWidth, ModalCore, TOAST_TYPE, setToast } from "@fixit/ui";
+import { EModalPosition, EModalWidth, ModalCore, TOAST_TYPE, setToast } from "@youtrack/ui";
 // components
 import { ProjectViewForm } from "@/components/views";
 // hooks

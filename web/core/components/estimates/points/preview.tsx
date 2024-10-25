@@ -1,13 +1,13 @@
 import { FC, useEffect, useRef, useState } from "react";
 import { observer } from "mobx-react";
 import { GripVertical, Pencil, Trash2 } from "lucide-react";
-import { TEstimatePointsObject, TEstimateSystemKeys, TEstimateTypeErrorObject } from "@fixit/types";
+import { TEstimatePointsObject, TEstimateSystemKeys, TEstimateTypeErrorObject } from "@youtrack/types";
 // components
 import { EstimatePointUpdate } from "@/components/estimates/points";
-// fixit web components
-import { EstimatePointDelete } from "@/fixit-web/components/estimates";
-// fixit web constants
-import { estimateCount } from "@/fixit-web/constants/estimates";
+// youtrack web components
+import { EstimatePointDelete } from "@/youtrack-web/components/estimates";
+// youtrack web constants
+import { estimateCount } from "@/youtrack-web/constants/estimates";
 
 type TEstimatePointItemPreview = {
   workspaceSlug: string;

@@ -19,7 +19,7 @@ import {
   Underline,
 } from "lucide-react";
 // editor
-import { TEditorCommands } from "@fixit/editor";
+import { TEditorCommands } from "@youtrack/editor";
 
 type TEditorTypes = "lite" | "document";
 

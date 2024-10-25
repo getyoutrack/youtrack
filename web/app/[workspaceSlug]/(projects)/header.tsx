@@ -7,7 +7,7 @@ import { Home } from "lucide-react";
 import githubBlackImage from "/public/logos/github-black.png";
 import githubWhiteImage from "/public/logos/github-white.png";
 // ui
-import { Breadcrumbs, Header } from "@fixit/ui";
+import { Breadcrumbs, Header } from "@youtrack/ui";
 // components
 import { BreadcrumbLink } from "@/components/common";
 // constants
@@ -41,7 +41,7 @@ export const WorkspaceDashboardHeader = () => {
               })
             }
             className="flex flex-shrink-0 items-center gap-1.5 rounded bg-custom-background-80 px-3 py-1.5"
-            href="https://github.com/meta-mart/fixit"
+            href="https://github.com/getyoutrack/youtrack"
             target="_blank"
             rel="noopener noreferrer"
           >

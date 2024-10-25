@@ -1,5 +1,5 @@
-// fixit ui
-import { Card } from "@fixit/ui";
+// youtrack ui
+import { Card } from "@youtrack/ui";
 // components
 import { ProfileEmptyState } from "@/components/ui";
 // helpers

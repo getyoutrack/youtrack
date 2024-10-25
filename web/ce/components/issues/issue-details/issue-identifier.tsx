@@ -1,9 +1,9 @@
 import { FC } from "react";
 import { observer } from "mobx-react";
 // types
-import { IIssueDisplayProperties } from "@fixit/types";
+import { IIssueDisplayProperties } from "@youtrack/types";
 // ui
-import { setToast, TOAST_TYPE, Tooltip } from "@fixit/ui";
+import { setToast, TOAST_TYPE, Tooltip } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common.helper";
 // hooks

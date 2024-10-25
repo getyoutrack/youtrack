@@ -3,7 +3,7 @@ import update from "lodash/update";
 import { action, makeObservable, observable, runInAction } from "mobx";
 import { computedFn } from "mobx-utils";
 // types
-import { TIssue } from "@fixit/types";
+import { TIssue } from "@youtrack/types";
 // helpers
 import { getCurrentDateTimeInISO } from "@/helpers/date-time.helper";
 // services

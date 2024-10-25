@@ -1,5 +1,5 @@
 // types
-import { TDocumentPayload, TPage } from "@fixit/types";
+import { TDocumentPayload, TPage } from "@youtrack/types";
 // helpers
 import { API_BASE_URL } from "@/helpers/common.helper";
 // services

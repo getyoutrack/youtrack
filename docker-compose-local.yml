@@ -1,5 +1,5 @@
 services:
-  fixit-redis:
+  youtrack-redis:
     image: valkey/valkey:7.2.5-alpine
     restart: unless-stopped
     networks:
@@ -7,7 +7,7 @@ services:
     volumes:
       - redisdata:/data
 
-  fixit-mq:
+  youtrack-mq:
     image: rabbitmq:3.13.6-management-alpine
     restart: unless-stopped
     networks:
@@ -21,7 +21,7 @@ services:
       RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASSWORD}
       RABBITMQ_DEFAULT_VHOST: ${RABBITMQ_VHOST}
 
-  fixit-minio:
+  youtrack-minio:
     image: minio/minio
     restart: unless-stopped
     networks:
@@ -35,7 +35,7 @@ services:
       MINIO_ROOT_USER: ${AWS_ACCESS_KEY_ID}
       MINIO_ROOT_PASSWORD: ${AWS_SECRET_ACCESS_KEY}
 
-  fixit-db:
+  youtrack-db:
     image: postgres:15.7-alpine
     restart: unless-stopped
     networks:
@@ -120,8 +120,8 @@ services:
     env_file:
       - ./apiserver/.env
     depends_on:
-      - fixit-db
-      - fixit-redis
+      - youtrack-db
+      - youtrack-redis
 
   worker:
     build:
@@ -139,8 +139,8 @@ services:
       - ./apiserver/.env
     depends_on:
       - api
-      - fixit-db
-      - fixit-redis
+      - youtrack-db
+      - youtrack-redis
 
   beat-worker:
     build:
@@ -158,8 +158,8 @@ services:
       - ./apiserver/.env
     depends_on:
       - api
-      - fixit-db
-      - fixit-redis
+      - youtrack-db
+      - youtrack-redis
 
   migrator:
     build:
@@ -172,12 +172,12 @@ services:
       - dev_env
     volumes:
       - ./apiserver:/code
-    command: ./bin/docker-entrypoint-migrator.sh --settings=fixit.settings.local
+    command: ./bin/docker-entrypoint-migrator.sh --settings=youtrack.settings.local
     env_file:
       - ./apiserver/.env
     depends_on:
-      - fixit-db
-      - fixit-redis
+      - youtrack-db
+      - youtrack-redis
 
   proxy:
     build:

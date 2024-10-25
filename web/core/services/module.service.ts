@@ -1,5 +1,5 @@
 // types
-import type { IModule, ILinkDetails, ModuleLink, TIssuesResponse } from "@fixit/types";
+import type { IModule, ILinkDetails, ModuleLink, TIssuesResponse } from "@youtrack/types";
 // services
 import { API_BASE_URL } from "@/helpers/common.helper";
 import { APIService } from "@/services/api.service";

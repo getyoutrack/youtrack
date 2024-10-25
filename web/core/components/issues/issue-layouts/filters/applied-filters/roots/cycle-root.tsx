@@ -1,8 +1,8 @@
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
-import { IIssueFilterOptions } from "@fixit/types";
+import { IIssueFilterOptions } from "@youtrack/types";
 // hooks
-import { Header, EHeaderVariant } from "@fixit/ui";
+import { Header, EHeaderVariant } from "@youtrack/ui";
 import { AppliedFiltersList, SaveFilterView } from "@/components/issues";
 import { EIssueFilterType, EIssuesStoreType } from "@/constants/issue";
 import { useIssues, useLabel, useProjectState } from "@/hooks/store";

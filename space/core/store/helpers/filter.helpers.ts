@@ -1,5 +1,5 @@
-import { EIssueGroupByToServerOptions, EServerGroupByToFilterOptions } from "@fixit/constants";
-import { IssuePaginationOptions, TIssueParams } from "@fixit/types";
+import { EIssueGroupByToServerOptions, EServerGroupByToFilterOptions } from "@youtrack/constants";
+import { IssuePaginationOptions, TIssueParams } from "@youtrack/types";
 
 /**
  * This Method is used to construct the url params along with paginated values

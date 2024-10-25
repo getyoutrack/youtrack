@@ -2,9 +2,9 @@
 
 import { observer } from "mobx-react";
 // editor
-import { EditorReadOnlyRefApi, EditorRefApi } from "@fixit/editor";
+import { EditorReadOnlyRefApi, EditorRefApi } from "@youtrack/editor";
 // ui
-import { ArchiveIcon, FavoriteStar, setToast, TOAST_TYPE, Tooltip } from "@fixit/ui";
+import { ArchiveIcon, FavoriteStar, setToast, TOAST_TYPE, Tooltip } from "@youtrack/ui";
 // components
 import { LockedComponent } from "@/components/icons/locked-component";
 import { PageInfoPopover, PageOptionsDropdown } from "@/components/pages";

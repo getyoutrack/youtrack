@@ -1,8 +1,8 @@
 import { useCallback, useEffect } from "react";
-// fixit editor
-import { EditorRefApi } from "@fixit/editor";
-// fixit types
-import { TDocumentPayload } from "@fixit/types";
+// youtrack editor
+import { EditorRefApi } from "@youtrack/editor";
+// youtrack types
+import { TDocumentPayload } from "@youtrack/types";
 // hooks
 import useAutoSave from "@/hooks/use-auto-save";
 

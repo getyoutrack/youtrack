@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { CircleCheck, XCircle } from "lucide-react";
-import { Button, Input, Spinner } from "@fixit/ui";
+import { Button, Input, Spinner } from "@youtrack/ui";
 // constants
 import { CODE_VERIFIED } from "@/constants/event-tracker";
 // helpers

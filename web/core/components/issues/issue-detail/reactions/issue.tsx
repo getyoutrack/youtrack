@@ -2,10 +2,10 @@
 
 import { FC, useMemo } from "react";
 import { observer } from "mobx-react";
-import { IUser } from "@fixit/types";
+import { IUser } from "@youtrack/types";
 // hooks
 // ui
-import { TOAST_TYPE, Tooltip, setToast } from "@fixit/ui";
+import { TOAST_TYPE, Tooltip, setToast } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common.helper";
 import { renderEmoji } from "@/helpers/emoji.helper";

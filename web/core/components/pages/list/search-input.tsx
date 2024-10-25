@@ -1,7 +1,7 @@
 import { FC, useState, useRef, useEffect } from "react";
 import { Search, X } from "lucide-react";
-// fixit helpers
-import { useOutsideClickDetector } from "@fixit/helpers";
+// youtrack helpers
+import { useOutsideClickDetector } from "@youtrack/helpers";
 // helpers
 import { cn } from "@/helpers/common.helper";
 

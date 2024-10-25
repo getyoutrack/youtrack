@@ -3,9 +3,9 @@
 import { FC } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { IWebhook } from "@fixit/types";
+import { IWebhook } from "@youtrack/types";
 // hooks
-import { ToggleSwitch } from "@fixit/ui";
+import { ToggleSwitch } from "@youtrack/ui";
 import { useWebhook } from "@/hooks/store";
 // ui
 // types

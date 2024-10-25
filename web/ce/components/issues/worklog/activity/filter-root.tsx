@@ -3,8 +3,8 @@
 import { FC } from "react";
 // components
 import { ActivityFilter } from "@/components/issues";
-// fixit web constants
-import { TActivityFilters, ACTIVITY_FILTER_TYPE_OPTIONS, TActivityFilterOption } from "@/fixit-web/constants/issues";
+// youtrack web constants
+import { TActivityFilters, ACTIVITY_FILTER_TYPE_OPTIONS, TActivityFilterOption } from "@/youtrack-web/constants/issues";
 
 export type TActivityFilterRoot = {
   selectedFilters: TActivityFilters[];

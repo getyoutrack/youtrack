@@ -2,8 +2,8 @@ import { FC } from "react";
 // types
 import { CircleX } from "lucide-react";
 // services
-import { EModalWidth, ModalCore } from "@fixit/ui";
-// fixit web components
+import { EModalWidth, ModalCore } from "@youtrack/ui";
+// youtrack web components
 import { cn } from "@/helpers/common.helper";
 // local components
 import { OnePlanUpgrade } from "./one-plan-upgrade";
@@ -15,7 +15,7 @@ const PRO_PLAN_FEATURES = [
   "Workflow manager",
   "Automations",
   "Popular integrations",
-  "Fixit AI",
+  "Youtrack AI",
 ];
 
 const ONE_PLAN_FEATURES = [
@@ -86,7 +86,7 @@ export const PaidPlanUpgradeModal: FC<PaidPlanUpgradeModalProps> = (props) => {
               verticalFeatureList
               extraFeatures={
                 <p className="pt-1.5 text-center text-xs text-custom-primary-200 font-semibold underline">
-                  <a href="https://fixit.so/pro" target="_blank">
+                  <a href="https://youtrack.so/pro" target="_blank">
                     See full features list
                   </a>
                 </p>
@@ -99,7 +99,7 @@ export const PaidPlanUpgradeModal: FC<PaidPlanUpgradeModalProps> = (props) => {
               verticalFeatureList
               extraFeatures={
                 <p className="pt-1.5 text-center text-xs text-custom-primary-200 font-semibold underline">
-                  <a href="https://fixit.so/one" target="_blank">
+                  <a href="https://youtrack.so/one" target="_blank">
                     See full features list
                   </a>
                 </p>

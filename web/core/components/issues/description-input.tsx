@@ -5,10 +5,10 @@ import debounce from "lodash/debounce";
 import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
 // types
-import { TIssue } from "@fixit/types";
-import { EFileAssetType } from "@fixit/types/src/enums";
+import { TIssue } from "@youtrack/types";
+import { EFileAssetType } from "@youtrack/types/src/enums";
 // ui
-import { Loader } from "@fixit/ui";
+import { Loader } from "@youtrack/ui";
 // components
 import { RichTextEditor, RichTextReadOnlyEditor } from "@/components/editor";
 import { TIssueOperations } from "@/components/issues/issue-detail";

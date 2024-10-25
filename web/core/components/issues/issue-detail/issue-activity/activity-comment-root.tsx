@@ -2,11 +2,11 @@ import { FC } from "react";
 import { observer } from "mobx-react";
 // hooks
 import { useIssueDetail } from "@/hooks/store";
-// fixit web components
-import { IssueAdditionalPropertiesActivity } from "@/fixit-web/components/issues";
-import { IssueActivityWorklog } from "@/fixit-web/components/issues/worklog/activity/root";
-// fixit web constants
-import { TActivityFilters, filterActivityOnSelectedFilters } from "@/fixit-web/constants/issues";
+// youtrack web components
+import { IssueAdditionalPropertiesActivity } from "@/youtrack-web/components/issues";
+import { IssueActivityWorklog } from "@/youtrack-web/components/issues/worklog/activity/root";
+// youtrack web constants
+import { TActivityFilters, filterActivityOnSelectedFilters } from "@/youtrack-web/constants/issues";
 // components
 import { IssueActivityItem } from "./activity/activity-list";
 import { IssueCommentCard } from "./comments/comment-card";

@@ -4,9 +4,9 @@ import React, { useState } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // types
-import { IProjectView } from "@fixit/types";
+import { IProjectView } from "@youtrack/types";
 // ui
-import { AlertModalCore, TOAST_TYPE, setToast } from "@fixit/ui";
+import { AlertModalCore, TOAST_TYPE, setToast } from "@youtrack/ui";
 // hooks
 import { useProjectView } from "@/hooks/store";
 

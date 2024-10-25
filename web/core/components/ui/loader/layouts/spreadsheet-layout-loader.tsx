@@ -1,4 +1,4 @@
-import { Row } from "@fixit/ui";
+import { Row } from "@youtrack/ui";
 import { getRandomLength } from "../utils";
 
 export const SpreadsheetIssueRowLoader = (props: { columnCount: number }) => (

@@ -1,4 +1,4 @@
-import { IJiraMetadata, IJiraResponse, IJiraImporterForm } from "@fixit/types";
+import { IJiraMetadata, IJiraResponse, IJiraImporterForm } from "@youtrack/types";
 import { API_BASE_URL } from "@/helpers/common.helper";
 import { APIService } from "@/services/api.service";
 // types

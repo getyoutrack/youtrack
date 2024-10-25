@@ -1,5 +1,5 @@
 {
-  "name": "@fixit/helpers",
+  "name": "@youtrack/helpers",
   "version": "0.23.1",
   "description": "Helper functions shared across multiple apps internally",
   "private": true,

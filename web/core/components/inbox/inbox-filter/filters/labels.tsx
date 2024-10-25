@@ -2,8 +2,8 @@
 
 import { FC, useState } from "react";
 import { observer } from "mobx-react";
-import { IIssueLabel } from "@fixit/types";
-import { Loader } from "@fixit/ui";
+import { IIssueLabel } from "@youtrack/types";
+import { Loader } from "@youtrack/ui";
 // components
 import { FilterHeader, FilterOption } from "@/components/issues";
 // hooks

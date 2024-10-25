@@ -5,7 +5,7 @@ import { Command } from "cmdk";
 import { observer } from "mobx-react";
 import { useTheme } from "next-themes";
 import { Settings } from "lucide-react";
-import { TOAST_TYPE, setToast } from "@fixit/ui";
+import { TOAST_TYPE, setToast } from "@youtrack/ui";
 // constants
 import { THEME_OPTIONS } from "@/constants/themes";
 // hooks

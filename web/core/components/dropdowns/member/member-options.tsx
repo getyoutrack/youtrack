@@ -8,8 +8,8 @@ import { createPortal } from "react-dom";
 import { usePopper } from "react-popper";
 import { Check, Search } from "lucide-react";
 import { Combobox } from "@headlessui/react";
-// fixit ui
-import { Avatar } from "@fixit/ui";
+// youtrack ui
+import { Avatar } from "@youtrack/ui";
 // helpers
 import { cn } from "@/helpers/common.helper";
 import { getFileURL } from "@/helpers/file.helper";

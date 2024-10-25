@@ -14,9 +14,9 @@ import type {
   TIssueKanbanFilters,
   TIssueMap,
   TPaginationData,
-} from "@fixit/types";
+} from "@youtrack/types";
 // ui
-import { Spinner } from "@fixit/ui";
+import { Spinner } from "@youtrack/ui";
 // components
 import { CalendarHeader, CalendarIssueBlocks, CalendarWeekDays, CalendarWeekHeader } from "@/components/issues";
 // constants
@@ -28,7 +28,7 @@ import { renderFormattedPayloadDate } from "@/helpers/date-time.helper";
 // hooks
 import { useIssues, useUserPermissions } from "@/hooks/store";
 import useSize from "@/hooks/use-window-size";
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 // store
 import { ICycleIssuesFilter } from "@/store/issue/cycle";
 import { ICalendarStore } from "@/store/issue/issue_calendar_view.store";

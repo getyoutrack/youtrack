@@ -7,8 +7,8 @@ import { NotAuthorizedView } from "@/components/auth-screens";
 import { AppHeader } from "@/components/core";
 // hooks
 import { useUserPermissions } from "@/hooks/store";
-// fixit web constants
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
+// youtrack web constants
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
 // local components
 import { WorkspaceSettingHeader } from "./header";
 import { MobileWorkspaceSettingsTabs } from "./mobile-header-tabs";

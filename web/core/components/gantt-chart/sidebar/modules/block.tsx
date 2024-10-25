@@ -1,6 +1,6 @@
 import { observer } from "mobx-react";
 // hooks
-import { Row } from "@fixit/ui";
+import { Row } from "@youtrack/ui";
 import { BLOCK_HEIGHT } from "@/components/gantt-chart/constants";
 import { useGanttChart } from "@/components/gantt-chart/hooks";
 // components

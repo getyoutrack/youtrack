@@ -3,9 +3,9 @@
 import React, { useState } from "react";
 import { useParams } from "next/navigation";
 // types
-import { IWebhook, IWorkspace, TWebhookEventTypes } from "@fixit/types";
+import { IWebhook, IWorkspace, TWebhookEventTypes } from "@youtrack/types";
 // ui
-import { EModalPosition, EModalWidth, ModalCore, TOAST_TYPE, setToast } from "@fixit/ui";
+import { EModalPosition, EModalWidth, ModalCore, TOAST_TYPE, setToast } from "@youtrack/ui";
 // helpers
 import { csvDownload } from "@/helpers/download.helper";
 // components

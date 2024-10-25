@@ -4,7 +4,7 @@ import { FC } from "react";
 // hooks
 // ui
 import { Pencil, Trash2, LinkIcon, ExternalLink } from "lucide-react";
-import { Tooltip, TOAST_TYPE, setToast } from "@fixit/ui";
+import { Tooltip, TOAST_TYPE, setToast } from "@youtrack/ui";
 // icons
 // types
 // helpers

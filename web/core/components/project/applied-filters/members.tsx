@@ -3,7 +3,7 @@
 import { observer } from "mobx-react";
 import { X } from "lucide-react";
 // ui
-import { Avatar } from "@fixit/ui";
+import { Avatar } from "@youtrack/ui";
 // helpers
 import { getFileURL } from "@/helpers/file.helper";
 // types

@@ -3,7 +3,7 @@
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // ui
-import { Tooltip, ControlLink } from "@fixit/ui";
+import { Tooltip, ControlLink } from "@youtrack/ui";
 // helpers
 import { renderFormattedDate } from "@/helpers/date-time.helper";
 // hooks
@@ -11,8 +11,8 @@ import { useIssueDetail, useIssues, useProjectState } from "@/hooks/store";
 import { useIssueStoreType } from "@/hooks/use-issue-layout-store";
 import useIssuePeekOverviewRedirection from "@/hooks/use-issue-peek-overview-redirection";
 import { usePlatformOS } from "@/hooks/use-platform-os";
-// fixit web components
-import { IssueIdentifier } from "@/fixit-web/components/issues";
+// youtrack web components
+import { IssueIdentifier } from "@/youtrack-web/components/issues";
 // local types
 import { GanttStoreType } from "./base-gantt-root";
 

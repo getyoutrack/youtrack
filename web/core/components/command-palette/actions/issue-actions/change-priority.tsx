@@ -4,9 +4,9 @@ import { Command } from "cmdk";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { Check } from "lucide-react";
-import { TIssue, TIssuePriorities } from "@fixit/types";
+import { TIssue, TIssuePriorities } from "@youtrack/types";
 // mobx store
-import { PriorityIcon } from "@fixit/ui";
+import { PriorityIcon } from "@youtrack/ui";
 import { EIssuesStoreType, ISSUE_PRIORITIES } from "@/constants/issue";
 import { useIssues } from "@/hooks/store";
 // ui

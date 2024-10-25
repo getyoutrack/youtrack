@@ -8,7 +8,7 @@ import { useParams, usePathname } from "next/navigation";
 import { Briefcase, ChevronRight, Plus } from "lucide-react";
 import { Disclosure, Transition } from "@headlessui/react";
 // ui
-import { TOAST_TYPE, Tooltip, setToast } from "@fixit/ui";
+import { TOAST_TYPE, Tooltip, setToast } from "@youtrack/ui";
 // components
 import { CreateProjectModal } from "@/components/project";
 import { SidebarProjectsListItem } from "@/components/workspace";
@@ -18,10 +18,10 @@ import { orderJoinedProjects } from "@/helpers/project.helper";
 import { copyUrlToClipboard } from "@/helpers/string.helper";
 // hooks
 import { useAppTheme, useCommandPalette, useEventTracker, useProject, useUserPermissions } from "@/hooks/store";
-// fixit web constants
-import { EUserPermissions, EUserPermissionsLevel } from "@/fixit-web/constants/user-permissions";
-// fixit web types
-import { TProject } from "@/fixit-web/types";
+// youtrack web constants
+import { EUserPermissions, EUserPermissionsLevel } from "@/youtrack-web/constants/user-permissions";
+// youtrack web types
+import { TProject } from "@/youtrack-web/types";
 
 export const SidebarProjectsList: FC = observer(() => {
   // get local storage data for isFavoriteProjectsListOpen and isAllProjectsListOpen

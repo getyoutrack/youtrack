@@ -6,9 +6,9 @@ import { useParams } from "next/navigation";
 import { TwitterPicker } from "react-color";
 import { Controller, SubmitHandler, useForm } from "react-hook-form";
 import { Popover, Transition } from "@headlessui/react";
-import { IIssueLabel } from "@fixit/types";
+import { IIssueLabel } from "@youtrack/types";
 // ui
-import { Button, Input, TOAST_TYPE, setToast } from "@fixit/ui";
+import { Button, Input, TOAST_TYPE, setToast } from "@youtrack/ui";
 // constants
 import { getRandomLabelColor, LABEL_COLOR_OPTIONS } from "@/constants/label";
 // hooks

@@ -1,6 +1,6 @@
 // ui
-import { IUserProfileData, IUserStateDistribution } from "@fixit/types";
-import { Card } from "@fixit/ui";
+import { IUserProfileData, IUserStateDistribution } from "@youtrack/types";
+import { Card } from "@youtrack/ui";
 import { ProfileEmptyState, PieGraph } from "@/components/ui";
 
 // image

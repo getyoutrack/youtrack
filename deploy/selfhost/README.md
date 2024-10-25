@@ -377,16 +377,14 @@ When you want to restore the previously backed-up data, follow the instructions 
    As an example, for a backup folder `/opt/youtrack-selfhost/youtrack-app/backup/20240722-0914`, expect the response below:
 
    ```bash
-   --------------------------------------------
-    ____  _                          ///////// 
-   |  _ \| | __ _ _ __   ___         ///////// 
-   | |_) | |/ _` | '_ \ / _ \   /////    ///// 
-   |  __/| | (_| | | | |  __/   /////    ///// 
-   |_|   |_|\__,_|_| |_|\___|        ////      
-                                    ////      
-   --------------------------------------------
-   Project management tool from the future
-   --------------------------------------------
+   --------------------------------------------------------------------
+   ██╗   ██╗ ██████╗ ██╗   ██╗████████╗██████╗  █████╗  ██████╗██╗  ██╗
+   ╚██╗ ██╔╝██╔═══██╗██║   ██║╚══██╔══╝██╔══██╗██╔══██╗██╔════╝██║ ██╔╝
+   ╚████╔╝ ██║   ██║██║   ██║   ██║   ██████╔╝███████║██║     █████╔╝
+   ╚██╔╝  ██║   ██║██║   ██║   ██║   ██╔══██╗██╔══██║██║     ██╔═██╗
+   ██║   ╚██████╔╝╚██████╔╝   ██║   ██║  ██║██║  ██║╚██████╗██║  ██╗
+   ╚═╝    ╚═════╝  ╚═════╝    ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
+   --------------------------------------------------------------------
    Found /opt/youtrack-selfhost/youtrack-app/backup/20240722-0914/pgdata.tar.gz
    .....Restoring youtrack-app_pgdata
    .....Successfully restored volume youtrack-app_pgdata from pgdata.tar.gz
@@ -455,29 +453,3 @@ Given below list of REDIS volumes, identify the prefix of source and destination
 youtrack-app_redisdata
 v0132_redisdata
 
-Provide the Source Volume Prefix :
-```
-
-**Open another terminal window**, and run the mentioned 3 command. This may be different for users who have changed the volume names in their previous setup (v0.13.2)
-
-For every command you must see 2 records something like shown in above example of `redisdata`
-
-To move forward, you would need PREFIX of old setup and new setup. As per above example, `v0132` is the prefix of v0.13.2 and `youtrack-app` is the prefix of v0.14.0 setup
-
-**Back to original terminal window**, _Provide the Source Volume Prefix_ and hit ENTER.
-
-Now you will be prompted to _Provide Destination Volume Prefix_. Provide the value and hit ENTER
-
-```
-Provide the Source Volume Prefix : v0132
-Provide the Destination Volume Prefix : youtrack-app
-```
-
-In case the suffixes are wrong or the mentioned volumes are not found, you will receive the error shown below. The image below displays an error for source volumes.
-
-![Migrate Error](images/migrate-error.png)
-
-In case of successful migration, it will be a silent exit without error.
-
-Now its time to restart v0.14.0 setup.
-</details>
